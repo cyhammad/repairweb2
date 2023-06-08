@@ -13,7 +13,7 @@ const Header = () => {
         <span className="hidden md:block">:</span>
         <div className="flex items-center">
           <PhoneIcon className="h-4 w-4 mr-1" />
-          +91 9876543210
+          0097176543210
         </div>
       </Link>
       <div className="bg-primary flex justify-center text-black font-raleway">
