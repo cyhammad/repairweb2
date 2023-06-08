@@ -99,10 +99,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* PARALLAX IMAGE */}
+      {/* STATS */}
       <div className="hero bg-primary">
-        <div className="flex justify-between items-center py-5 w-full max-w-6xl gap-10">
-          <div className="stats shadow">
+        <div className="flex flex-wrap px-2 md:px-10 justify-between items-center py-5 w-full max-w-6xl gap-1">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px]">
             <div className="stat place-items-center">
               <div className="stat-figure text-secondary">
                 <svg
@@ -124,7 +124,7 @@ export default function Home() {
               <div className="stat-desc">years of field experience</div>
             </div>
           </div>
-          <div className="stats shadow">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px]">
             <div className="stat place-items-center">
               <div className="stat-figure text-primary">
                 <svg
@@ -146,7 +146,7 @@ export default function Home() {
               <div className="stat-desc">clients satisfied by service</div>
             </div>
           </div>
-          <div className="stats shadow">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px]">
             <div className="stat place-items-center">
               <div className="stat-figure text-secondary">
                 <svg
@@ -168,7 +168,7 @@ export default function Home() {
               <div className="stat-desc">provided by our techs</div>
             </div>
           </div>
-          <div className="stats shadow">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px]">
             <div className="stat place-items-center">
               <div className="stat-figure text-secondary">
                 <svg
