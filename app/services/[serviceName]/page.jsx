@@ -6,7 +6,7 @@ const WashingMachinePage = ({ params }) => {
   };
   return (
     <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row">
+      <div className="flex justify-center items-center max-w-[80rem] gap-4 p-4 flex-col lg:flex-row bg-red-500">
         <img
           src="/images/washing-machine.jpg"
           className="max-w-sm rounded-lg shadow-2xl"

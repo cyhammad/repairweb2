@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header>
+    <header className="z-50">
       <Link
         href="#"
         className="flex items-center justify-between md:justify-center gap-2 px-3 py-3 bg-info-content text-white text-sm"
@@ -16,7 +16,7 @@ const Header = () => {
           0523722012
         </div>
       </Link>
-      <div className="bg-primary flex justify-center text-black font-raleway">
+      <div className="bg-primary flex justify-center text-black font-raleway z-50">
         <div className="navbar max-w-7xl">
           <div className="navbar-start">
             <div className="dropdown m-0">
@@ -45,27 +45,27 @@ const Header = () => {
                 </li>
                 <li>
                   <summary>Services</summary>
-                  <ul className="p-2">
+                  <ul className="p-2 z-50">
                     <li>
                       <Link href="/services/washing-machine">Washing Machine Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Refrigerator Repair</Link>
+                      <Link href="/services/refrigerator">Refrigerator Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Dishwasher Repair</Link>
+                      <Link href="/services/dishwasher">Dishwasher Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">TV Repair</Link>
+                      <Link href="/services/television">TV Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Dryer Repair</Link>
+                      <Link href="/services/dryer">Dryer Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Stove / Cooker Repair</Link>
+                      <Link href="/services/stove-cooker">Stove / Cooker Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Gas Oven Repair</Link>
+                      <Link href="/services/gas-oven">Gas Oven Repair</Link>
                     </li>
                   </ul>
                 </li>
@@ -99,22 +99,22 @@ const Header = () => {
                       <Link href="/services/washing-machine">Washing Machine Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Refrigerator Repair</Link>
+                      <Link href="/services/refrigerator">Refrigerator Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Dishwasher Repair</Link>
+                      <Link href="/services/dishwasher">Dishwasher Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">TV Repair</Link>
+                      <Link href="/services/television">TV Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Dryer Repair</Link>
+                      <Link href="/services/dryer">Dryer Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Stove / Cooker Repair</Link>
+                      <Link href="/services/stove-cooker">Stove / Cooker Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services">Gas Oven Repair</Link>
+                      <Link href="/services/gas-oven">Gas Oven Repair</Link>
                     </li>
                   </ul>
                 </details>
