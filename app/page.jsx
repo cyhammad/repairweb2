@@ -7,8 +7,8 @@ import {
 } from "@heroicons/react/24/outline";
 
 import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-import Service from "@/components/Service";
-import CallButton from "@/components/buttons/CallButton";
+import Service from "../components/Service";
+import CallButton from "../components/buttons/CallButton";
 
 export default function Home() {
   return (
