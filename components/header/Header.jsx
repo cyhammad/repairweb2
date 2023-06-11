@@ -13,7 +13,7 @@ const Header = () => {
         <span className="hidden md:block">:</span>
         <div className="flex items-center">
           <PhoneIcon className="h-4 w-4 mr-1" />
-          0097176543210
+          0523722012
         </div>
       </Link>
       <div className="bg-primary flex justify-center text-black font-raleway">
@@ -41,86 +41,86 @@ const Header = () => {
                 className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box z-50"
               >
                 <li>
-                  <a>Home</a>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <a>Services</a>
+                  <summary>Services</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Washing Machine Repair</a>
+                      <Link href="/services/washing-machine">Washing Machine Repair</Link>
                     </li>
                     <li>
-                      <a>Refrigerator Repair</a>
+                      <Link href="/services">Refrigerator Repair</Link>
                     </li>
                     <li>
-                      <a>Dishwasher Repair</a>
+                      <Link href="/services">Dishwasher Repair</Link>
                     </li>
                     <li>
-                      <a>TV Repair</a>
+                      <Link href="/services">TV Repair</Link>
                     </li>
                     <li>
-                      <a>Dryer Repair</a>
+                      <Link href="/services">Dryer Repair</Link>
                     </li>
                     <li>
-                      <a>Stove / Cooker Repair</a>
+                      <Link href="/services">Stove / Cooker Repair</Link>
                     </li>
                     <li>
-                      <a>Gas & Electric Oven Repair</a>
+                      <Link href="/services">Gas Oven Repair</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a>Contact Us</a>
+                  <Link href="/contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-lg hidden">
+            <Link href="/" className="btn btn-ghost normal-case text-lg hidden">
               <WrenchScrewdriverIcon className="h-6 w-6 text-black" />
-              Best Appliances Repair
-            </a>
-            <a className="btn btn-ghost normal-case text-lg px-1">
+              Quick Appliances Repairs
+            </Link>
+            <Link href="/" className="btn btn-ghost normal-case text-lg px-1">
               <WrenchScrewdriverIcon className="h-6 w-6 text-black" />
-              Best Appliances Repair
-            </a>
+              Quick Appliances Repairs
+            </Link>
           </div>
           <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a>About Us</a>
+                <Link href="/about">About Us</Link>
               </li>
               <li tabIndex={0}>
                 <details>
                   <summary>Services</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Washing Machine Repair</a>
+                      <Link href="/services/washing-machine">Washing Machine Repair</Link>
                     </li>
                     <li>
-                      <a>Refrigerator Repair</a>
+                      <Link href="/services">Refrigerator Repair</Link>
                     </li>
                     <li>
-                      <a>Dishwasher Repair</a>
+                      <Link href="/services">Dishwasher Repair</Link>
                     </li>
                     <li>
-                      <a>TV Repair</a>
+                      <Link href="/services">TV Repair</Link>
                     </li>
                     <li>
-                      <a>Dryer Repair</a>
+                      <Link href="/services">Dryer Repair</Link>
                     </li>
                     <li>
-                      <a>Stove / Cooker Repair</a>
+                      <Link href="/services">Stove / Cooker Repair</Link>
                     </li>
                     <li>
-                      <a>Gas & Electric Oven Repair</a>
+                      <Link href="/services">Gas Oven Repair</Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a>Contact Us</a>
+                <Link href="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

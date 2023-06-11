@@ -1,3 +1,5 @@
+"use client";
+
 import Slider from "@/components/slider/Slider";
 import StatsBar from "@/components/stats/StatsBar";
 import Image from "next/image";
@@ -7,6 +9,8 @@ import {
 } from "@heroicons/react/24/outline";
 
 import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import Service from "@/components/Service";
+import CallButton from "@/components/buttons/CallButton";
 
 export default function Home() {
   return (
@@ -27,7 +31,7 @@ export default function Home() {
                 When it comes to repairing your home appliances, you need a
                 technician you can trust to deliver exceptional service.
               </p>
-              <button className="btn btn-primary">Explore More</button>
+              <CallButton dark />
             </div>
           </div>
         </div>
@@ -87,7 +91,7 @@ export default function Home() {
                 <div className="p-4 bg-primary rounded-full">
                   <PhoneIcon className="h-6 w-6 text-white" />
                 </div>
-                <div className="text-lg font-bold">+9713562225555</div>
+                <div className="text-lg font-bold">0523722012</div>
               </div>
               <div className="flex items-center gap-2">
                 <div className="p-4 bg-primary rounded-full">
@@ -101,7 +105,7 @@ export default function Home() {
       </div>
       {/* STATS */}
       <div className="hero bg-primary">
-        <div className="flex flex-wrap px-2 md:px-10 justify-between items-center py-5 w-full max-w-6xl gap-1">
+        <div className="flex flex-wrap px-2 md:px-10 justify-center lg:justify-between items-center py-5 w-full max-w-6xl gap-1">
           <div className="stats shadow w-full max-w-[280px] md:w-[250px]">
             <div className="stat place-items-center">
               <div className="stat-figure text-secondary">
@@ -192,7 +196,23 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* HERO SECTION 3 */}
+      {/* SERVICES SECTION */}
+      <div className="hero min-h-screen bg-info-content text-white">
+        <div className="hero-content text-center w-full h-full">
+          <div className="pb-10">
+            <h1 className="text-5xl font-bold my-12">SERVICES</h1>
+            <div className="flex flex-wrap gap-y-2 items-center justify-center">
+              <Service dark name="Washing Machine Repair" imageUrl="/images/washing-machine-repair.png" description="Delivering top-tier, professional solutions that guarantee the optimal performance of your washing machine." />
+              <Service name="Refrigerator Repair" imageUrl="/images/fridge-repair.png" description="Whether it's a noisy compressor, a torn gasket, or a sealed door issue causing your refrigerator not to freeze properly, we can fix it all." />
+              <Service dark name="Stove/Cooker Repair" imageUrl="/images/stovetech.png" description="We offer fast and efficient repairs for all types of stoves and cookers. We only use high quality replacement parts for long lasting." />
+              <Service name="Television Repair" imageUrl="/images/tv-repair.png" description="Our professional TV repair service provides expert diagnostics and precise repairs ensuring optimal functionality." />
+              <Service dark name="Dishwasher/Dryer Repair" imageUrl="/images/dishwasher.png" description="We resolve common issues such as leaks, poor cleaning and unusual noises to ensure a spotless and efficient cleaning." />
+              <Service name="Gas Oven Repair" imageUrl="/images/cooker-repair.png" description="Issues like temperature inconsistencies, ignition problems, gas leaks are resolved by our professionals." />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* HERO SECTION 4 */}
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse">
           <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">

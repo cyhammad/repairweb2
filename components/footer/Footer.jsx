@@ -1,13 +1,14 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer className="footer footer-center p-10 bg-info-content text-base-100 rounded">
       <div className="grid grid-flow-col gap-4">
-        <a className="link link-hover">Home</a>
-        <a className="link link-hover">About Us</a>
-        <a className="link link-hover">Services</a>
-        <a className="link link-hover">Contact Us</a>
+        <Link href="/" className="link link-hover">Home</Link>
+        <Link href="/about" className="link link-hover">About Us</Link>
+        <Link href="/services" className="link link-hover">Services</Link>
+        <Link href="/contact" className="link link-hover">Contact Us</Link>
       </div>
       <div>
         <div className="grid grid-flow-col gap-4">
@@ -47,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p>Copyright © 2023 - All right reserved by Best Appliances Repair Ltd</p>
+        <p>Copyright © 2023 - All right reserved by Quick Appliances Repair Ltd</p>
       </div>
     </footer>
   );
