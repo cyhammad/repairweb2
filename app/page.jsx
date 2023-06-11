@@ -1,7 +1,5 @@
 "use client";
 
-import Slider from "@/components/slider/Slider";
-import StatsBar from "@/components/stats/StatsBar";
 import Image from "next/image";
 import {
   CheckBadgeIcon,
