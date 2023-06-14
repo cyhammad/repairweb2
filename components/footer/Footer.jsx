@@ -4,7 +4,7 @@ import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
 
 const Footer = () => {
   return (
-    <footer className="footer surface:h-[550px] lg:h-[300px]  p-10 bg-info-content text-base-content  ">
+    <footer className="footer surface:h-[550px] lg:h-[300px] justify-center gap-x-44 p-10 bg-info-content text-base-content  ">
   <div className="text-white ml-[-10px] sm-0 ">
   <Link href="/" className="btn btn-ghost normal-case sm:text-sm md:text-lg px-1 ">
               <WrenchScrewdriverIcon className=" sm:w-12 sm:h-12 h-5 w-5 text-primary hover:text-white" />
@@ -32,13 +32,7 @@ Quick Appliances Repair is a company specializing in appliance repair and mainte
     <a className="link link-hover hover:text-primary">Dishwasher/Dryer Repair</a>
     <a className="link link-hover hover:text-primary">Gas Oven Repair</a>
   </div> 
-  <div className="text-white ">
-    <span className="footer-title text-primary text-lg opacity-100">Site Links</span> 
-    <a className="link link-hover hover:text-primary">About us</a> 
-    <a className="link link-hover hover:text-primary">Contact</a> 
-    <a className="link link-hover hover:text-primary">Call Us</a> 
-    <a className="link link-hover hover:text-primary">Services</a>
-  </div> 
+
   <div className="text-white ">
     <span className="footer-title  text-primary opacity-100 text-lg">Contact Us</span> 
     <a className="link link-hover text-primary font-bold ">Address :</a>
