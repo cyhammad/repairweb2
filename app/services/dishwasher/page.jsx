@@ -19,28 +19,28 @@ const dishWahser= ({ params }) => {
     <main>
       <div
         className="hero min-h-[90vh] "
-        style={{ backgroundImage: "url('/images/washing.jpg')" }}
+        style={{ backgroundImage: "url('/images/dishwasher.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
             <div className="w-[200px] ml-[-100px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Washing Machine Repair{" "}
+                Dishwasher Repair{" "}
                 <span className="text-primary"> Dubai</span> and{" "}
                 <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-                Are you in need of washing machine repair services in Dubai or
+                Are you in need of Dishwasher repair services in Dubai or
                 Abu Dhabi? Look no further than Quick Appliances Repair
                 Appliances Repair.
               </p>
-              <li className="text-md">Fully Automatic Washing Machine</li>
-              <li className="text-md">Semi-Automatic Washing Machines</li>
-              <li className="text-md">Top Loading Washing Machines</li>
-              <li className="text-md">Front Loading Washing Machines</li>
-              <li className="text-md">Compact Washing Machines</li>
-              <li className="text-md">Combination Units</li>
+              <ul class="list-disc">
+              <li className="text-md ">Expert dishwasher repair services for all major brands and models.</li>
+              <li className="text-md">Highly skilled and experienced technicians trained in diagnosing and fixing dishwasher issues.</li>
+              <li className="text-md">Repairs for a wide range of dishwasher malfunctions, including leaks, clogs, poor drainage, and electrical issues.</li>
+              <li className="text-md">Transparent pricing with upfront estimates and no hidden charges.</li>
+              </ul>
               <div className="ml-[50px] md:ml-0">
                 <CallButton dark />
               </div>
@@ -54,32 +54,32 @@ const dishWahser= ({ params }) => {
           <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
             <div className="max-w-xs flex justify-end items-end">
               <img
-                src="/images/washing-hero-1.jpg"
+                src="/images/dishwasher_1.jpg"
                 className="max-w-[5.5rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[8.5rem] xl:max-w-[14rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-start items-end">
               <img
-                src="/images/washing-hero-2.jpg"
-                className="max-w-[6.5rem] sm:max-w-[9rem] md:max-w-[13rem] lg:max-w-[11rem] xl:max-w-[18rem] shadow-2xl"
+                src="/images/dishwasher_2.jpg"
+                className="max-w-[6rem] sm:max-w-[8rem] md:max-w-[11rem] lg:max-w-[11rem] xl:max-w-[15rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-end items-start">
               <img
-                src="/images/washing-hero-3.jpg"
-                className="max-w-[4rem] sm:max-w-[5.5rem] md:max-w-[7rem] lg:max-w-[6rem] xl:max-w-[10rem] shadow-2xl"
+                src="/images/dishwasher_3.jpg"
+                className="max-w-[10rem] sm:max-w-[6rem] md:max-w-[10rem] lg:max-w-[10rem] xl:max-w-[10rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-start items-start">
               <img
-                src="/images/washing-hero-4.jpg"
+                src="/images/dishwasher_4.jpg"
                 className="max-w-[5rem] sm:max-w-[7rem] md:max-w-[9.5rem] lg:max-w-[7.5rem] xl:max-w-[13rem] shadow-2xl"
               />
             </div>
           </div>
           <div>
             <h1 className="mb-5 mt-0 text-xl md:text-5xl font-bold">
-              Washing Machine Repair{" "}
+              Dishwasher Repair{" "}
               <span className="text-warning"> Dubai</span> and{" "}
               <span className="text-warning">Abu Dhabi</span>
             </h1>
