@@ -74,11 +74,11 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <Link href="/" className="btn btn-ghost normal-case text-lg hidden">
+            <Link href="/" className="btn btn-ghost normal-case sm:text-lg hidden">
               <WrenchScrewdriverIcon className="h-6 w-6 text-black" />
               Quick Appliances Repairs
             </Link>
-            <Link href="/" className="btn btn-ghost normal-case text-lg px-1">
+            <Link href="/" className="btn btn-ghost normal-case sm:text-lg px-1">
               <WrenchScrewdriverIcon className="h-6 w-6 text-black" />
               Quick Appliances Repairs
             </Link>

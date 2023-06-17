@@ -35,7 +35,7 @@ export default function Home() {
         </div>
       </div>
       {/* HERO SECTION 2 */}
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
             <div className="max-w-xs flex justify-end items-end">
@@ -195,11 +195,11 @@ export default function Home() {
         </div>
       </div>
       {/* SERVICES SECTION */}
-      <div className="hero min-h-screen bg-info-content text-white">
+      <div className="hero min-h-screen bg-base-100 text-info-content">
         <div className="hero-content text-center w-full h-full">
-          <div className="pb-10">
-            <h1 className="text-5xl font-bold my-12">SERVICES</h1>
-            <div className="flex flex-wrap gap-y-2 items-center justify-center">
+          <div className="pb-10 flex flex-col items-center">
+            <h1 className="text-4xl font-bold my-12 max-w-lg">We Provide Professional Repair Services</h1>
+            <div className="flex flex-wrap gap-5 items-center justify-center">
               <Service dark name="Washing Machine Repair" imageUrl="/images/washing-machine-repair.png" description="Delivering top-tier, professional solutions that guarantee the optimal performance of your washing machine." />
               <Service name="Refrigerator Repair" imageUrl="/images/fridge-repair.png" description="Whether it's a noisy compressor, a torn gasket, or a sealed door issue causing your refrigerator not to freeze properly, we can fix it all." />
               <Service dark name="Stove/Cooker Repair" imageUrl="/images/stovetech.png" description="We offer fast and efficient repairs for all types of stoves and cookers. We only use high quality replacement parts for long lasting." />
@@ -211,7 +211,7 @@ export default function Home() {
         </div>
       </div>
       {/* HERO SECTION 4 */}
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse">
           <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
             <div className="max-w-xs flex justify-end items-end">
