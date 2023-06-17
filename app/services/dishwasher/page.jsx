@@ -1,4 +1,3 @@
-
 "use client";
 import React from "react";
 import Image from "next/image";
@@ -11,7 +10,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import Service from "../../../components/Service";
 import CallButton from "../../../components/buttons/CallButton";
 
-const dishWahser= ({ params }) => {
+const dishwasher_Page = ({ params }) => {
   const unslugify = slug => {
     return slug.split("-").join(" ");
   };
@@ -24,22 +23,31 @@ const dishWahser= ({ params }) => {
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
-            <div className="w-[200px] ml-[-100px] md:ml-0 md:w-[650px] ">
+            <div className="w-[200px] ml-[30px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Dishwasher Repair{" "}
-                <span className="text-primary"> Dubai</span> and{" "}
-                <span className="text-primary">Abu Dhabi</span>
+                Dishwasher Repair <span className="text-primary">
+                  {" "}Dubai
+                </span>{" "}
+                and <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-                Are you in need of Dishwasher repair services in Dubai or
-                Abu Dhabi? Look no further than Quick Appliances Repair
-                Appliances Repair.
+                Are you in need of Dishwasher Repair services in Dubai or Abu
+                Dhabi? Look no further than Quick Appliances Repair.
               </p>
               <ul class="list-disc">
-              <li className="text-md ">Expert dishwasher repair services for all major brands and models.</li>
-              <li className="text-md">Highly skilled and experienced technicians trained in diagnosing and fixing dishwasher issues.</li>
-              <li className="text-md">Repairs for a wide range of dishwasher malfunctions, including leaks, clogs, poor drainage, and electrical issues.</li>
-              <li className="text-md">Transparent pricing with upfront estimates and no hidden charges.</li>
+                <li className="text-md ">
+                  {" "}Expert Dishwasher Repair services for a wide range of
+                  brands and models.
+                </li>
+                <li className="text-md">
+                  Thorough inspection and troubleshooting to identify the root
+                  cause of problems such as poor cleaning, leaks, strange
+                  noises, or failure to start.
+                </li>
+                <li className="text-md">
+                  Efficient handling of common problems like clogged filters,
+                  damaged seals, or malfunctioning sensors.
+                </li>
               </ul>
               <div className="ml-[50px] md:ml-0">
                 <CallButton dark />
@@ -49,83 +57,212 @@ const dishWahser= ({ params }) => {
         </div>
       </div>
 
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
-            <div className="max-w-xs flex justify-end items-end">
-              <img
-                src="/images/dishwasher_1.jpg"
-                className="max-w-[5.5rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[8.5rem] xl:max-w-[14rem] shadow-2xl"
-              />
-            </div>
-            <div className="max-w-xs flex justify-start items-end">
-              <img
-                src="/images/dishwasher_2.jpg"
-                className="max-w-[6rem] sm:max-w-[8rem] md:max-w-[11rem] lg:max-w-[11rem] xl:max-w-[15rem] shadow-2xl"
-              />
-            </div>
-            <div className="max-w-xs flex justify-end items-start">
-              <img
-                src="/images/dishwasher_3.jpg"
-                className="max-w-[10rem] sm:max-w-[6rem] md:max-w-[10rem] lg:max-w-[10rem] xl:max-w-[10rem] shadow-2xl"
-              />
-            </div>
-            <div className="max-w-xs flex justify-start items-start">
-              <img
-                src="/images/dishwasher_4.jpg"
-                className="max-w-[5rem] sm:max-w-[7rem] md:max-w-[9.5rem] lg:max-w-[7.5rem] xl:max-w-[13rem] shadow-2xl"
-              />
+      <div className="w-full bg-white h-fit md:h-[800px] flex flex-col md:flex-row ">
+        <div className="w-[300px] md:w-[450px]  ml-[35px] sm:ml-[40px] h-[300px] mt-[30px] sm:mt-[40px] mb-[40px] md:h-[700px] bg-base-200 flex-col justify-center align-middle md:flex-row">
+          <div className="md:w-[350px] w-[300px] h-[50px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Washing Machine Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4 "
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
           </div>
-          <div>
-            <h1 className="mb-5 mt-0 text-xl md:text-5xl font-bold">
-              Dishwasher Repair{" "}
-              <span className="text-warning"> Dubai</span> and{" "}
-              <span className="text-warning">Abu Dhabi</span>
-            </h1>
-            <div className="flex gap-10 pt-5 flex-col sm:flex-row">
-              <div className="flex items-center gap-1">
-                <WrenchScrewdriverIcon className="h-10 w-10 text-primary" />
-                <div className="text-lg font-bold">Expert Technician</div>
-              </div>
-              <div className="flex items-center gap-1">
-                <CheckBadgeIcon className="h-12 w-12 text-primary" />
-                <div className="text-lg font-bold">Best Service Quality</div>
-              </div>
+          <div className="md:w-[350px] w-[300px] h-[50px]  md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px] mt-[10px] hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Refrigerator Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
-            <p className="py-6 max-w-xl">
-              Our exceptional services are the reason why we are highly regarded
-              in terms of timeliness, dedication, and pricing options. Our
-              skilled technicians possess extensive expertise in various aspects
-              of washing machine maintenance, including assembly, disassembly,
-              cleaning, pulley repairs, valve replacements, timer replacements,
-              water leak repairs, switch repairs, water pump servicing, and
-              general annual maintenance contracts for washing machines. If you
-              require assistance with any home maintenance or home appliance
-              issues in <span className="text-warning"> Dubai</span> and{" "}
-              <span className="text-warning">Abu Dhabi</span>, please don't
-              hesitate to contact us or call us at the following numbers:
-            </p>
-            <div className="divider" />
-            <div className="flex gap-10 flex-col sm:flex-row">
-              <div className="flex items-center gap-2">
-                <div className="p-4 bg-primary rounded-full">
-                  <PhoneIcon className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-lg font-bold">0523722012</div>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="p-4 bg-primary rounded-full">
-                  <EnvelopeIcon className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-lg font-bold">info@example.com</div>
-              </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Dishwasher Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Smart LED TV Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Dryer Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Stove/ Cooker Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px]  mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px]  flex flex-row justify-evenly  ">
+              <a href="#" className="cursor-pointer ">
+                <p className="md:mt-5 mt-3 text-left font-extrabold">Gas Oven Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
           </div>
         </div>
+        <div className="md:w-full md:mr-[20px] mr-5 w-[300px] ml-[30px]  sm:ml-[40px] h-fit mt-[95px] sm:mt-[40px] mb-[40px] md:h-fit bg-white flex flex-col">
+          <h1 className=" text-xl md:text-2xl"> Dishwasher Repair</h1>
+          <div className="w-full flex md:flex-row flex-col ">
+            <div className="w-[300px] bh-red-800 ml-[2px] mt-[2px] md:mt-5 md:ml-[5px] flex justify-end items-start">
+              <img className="w-full" src="/images/dishwasher_1.jpg" />
+            </div>
+            <div className="md:w-full text-md text-justify mt-[15px] mx-2">
+              <p>
+                {" "}Our dishwasher repair services are meticulously designed to
+                tackle a broad spectrum of issues that may impact your
+                appliance. With our team of highly skilled technicians, we
+                specialize in diagnosing and resolving various problems that can
+                arise. Through thorough inspection and troubleshooting, we
+                diligently identify the root causes of issues such as poor
+                cleaning performance, leaks, unusual noises, or failure to
+                start.
+              </p>
+            </div>
+          </div>
+          <div className="bg-white w-[300px] md:w-[830px] text-justify h-fit mt-[10px] ml-[8px]">
+            <p>
+              {" "}Our expertise extends to the repair and replacement of faulty
+              components, including pumps, motors, valves, spray arms, and
+              control panels. We efficiently handle common problems like clogged
+              filters, damaged seals, or malfunctioning sensors, ensuring the
+              optimal functioning of your dishwasher.With our prompt and
+              reliable service, we aim to minimize any inconvenience and
+              downtime you may experience. You can rely on us to provide
+              transparent pricing without any hidden costs, and we use
+              high-quality replacement parts to guarantee long-lasting
+              repairs.Furthermore, we offer cleaning and maintenance services to
+              optimize the performance of your dishwasher while preventing
+              future breakdowns. Our friendly and professional customer service
+              team is always ready to address your questions and concerns,
+              providing you with a satisfactory experience.At the core of our
+              dishwasher repair service is a commitment to customer
+              satisfaction. We strive to deliver effective solutions that
+              restore your dishwasher to its optimal functionality, ensuring
+              efficient and hassle-free dishwashing experiences.At our
+              dishwasher repair service, we are dedicated to providing
+              comprehensive solutions for all your dishwasher issues. Our team
+              of highly skilled technicians possesses extensive knowledge and
+              experience in diagnosing and resolving a wide range of problems
+              that may affect your appliance.
+              <br />
+              <br />
+              If you have any problem regarding any type of home maintenance or
+              home appliances in Dubai and Abu Dhabi, please contact us or call
+              at <br />
+              <span className="text-md font-bold">055-6 300 904</span>
+            </p>
+          </div>
+          <CallButton dark />
+        </div>
       </div>
-    
-    
+
       <div className="hero bg-info-content flex flex-col align-middle justify-center text-warning  md:h-[400px]">
         <div className=" mb-20 md:mb-0 md:mt-10 flex flex-col justify-center text-center align-middle">
           <div className="text-3xl mt-10 sm:mt-0 md:text-5xl font-extrabold ">
@@ -211,4 +348,4 @@ const dishWahser= ({ params }) => {
   );
 };
 
-export default dishWahser;
+export default dishwasher_Page;

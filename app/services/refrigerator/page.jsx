@@ -1,4 +1,3 @@
-
 "use client";
 import React from "react";
 import Image from "next/image";
@@ -11,7 +10,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import Service from "../../../components/Service";
 import CallButton from "../../../components/buttons/CallButton";
 
-const Refrigerator_Page = ({ params }) => {
+const refrigerator_Page = ({ params }) => {
   const unslugify = slug => {
     return slug.split("-").join(" ");
   };
@@ -19,25 +18,37 @@ const Refrigerator_Page = ({ params }) => {
     <main>
       <div
         className="hero min-h-[90vh] "
-        style={{ backgroundImage: "url('/images/refrigerator-hero-1.jpg')" }}
+        style={{ backgroundImage: "url('/images/refri-1.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
-            <div className="w-[200px] ml-[-100px] md:ml-0 md:w-[650px] ">
+            <div className="w-[200px] ml-[30px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Refrigerator Repair{" "}
-                <span className="text-primary"> Dubai</span> and{" "}
-                <span className="text-primary">Abu Dhabi</span>
+                Refrigerator Repair <span className="text-primary">
+                  {" "}Dubai
+                </span>{" "}
+                and <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-              Are you in need of Refrigerator repair services in Dubai or Abu Dhabi? Look no further than Quick Appliances Repair.
+                Are you in need of Refrigerator Repair services in Dubai or Abu
+                Dhabi? Look no further than Quick Appliances Repair.
               </p>
               <ul class="list-disc">
-              <li className="text-md "> Single door, double door, triple door, top freezer, bottom freezer, french door, side by side,  or any other variation.</li>
-              <li className="text-md">Our expertise lies in repairing all major brands of refrigerators, including Samsung, LG,Bosch, Siemens.</li>
-              <li className="text-md">Simply give us a call to reserve an appointment to fix your refrigerator back to normal condition.</li>
-              <li className="text-md">All Refrigerator Repairing Services are Available</li>
+                <li className="text-md ">
+                  {" "}Expert Refrigerator Repair services for a wide range of
+                  brands and models.
+                </li>
+                <li className="text-md">
+                  Thorough inspection and troubleshooting to identify the root
+                  cause of problems such as inadequate cooling, unusual noises,
+                  leaks, or faulty ice makers.
+                </li>
+                <li className="text-md">
+                  Repair and replacement of faulty components including
+                  compressors, condensers, thermostats, fans, and defrost
+                  systems.
+                </li>
               </ul>
               <div className="ml-[50px] md:ml-0">
                 <CallButton dark />
@@ -47,83 +58,222 @@ const Refrigerator_Page = ({ params }) => {
         </div>
       </div>
 
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
-            <div className="max-w-xs flex justify-end items-end">
-              <img
-                src="/images/refri-1.jpg"
-                className="max-w-[5.5rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[8.5rem] xl:max-w-[14rem] shadow-2xl"
-              />
-            </div>
-            <div className="max-w-xs flex justify-start items-end">
-              <img
-                src="/images/reri-2.jpg"
-                className="max-w-[6.5rem] sm:max-w-[9rem] md:max-w-[13rem] lg:max-w-[11rem] xl:max-w-[18rem] shadow-2xl"
-              />
-            </div>
-            <div className="max-w-xs flex justify-end items-start">
-              <img
-                src="/images/refr-3.jpg"
-                className="max-w-[4rem] sm:max-w-[5.5rem] md:max-w-[7rem] lg:max-w-[6rem] xl:max-w-[10rem] shadow-2xl"
-              />
-            </div>
-            <div className="max-w-xs flex justify-start items-start">
-              <img
-                src="/images/refri-4.jpg"
-                className="max-w-[5rem] sm:max-w-[7rem] md:max-w-[9.5rem] lg:max-w-[7.5rem] xl:max-w-[13rem] shadow-2xl"
-              />
+      <div className="w-full bg-white h-fit md:h-[800px] flex flex-col md:flex-row ">
+        <div className="w-[300px] md:w-[450px]  ml-[35px] sm:ml-[40px] h-[300px] mt-[30px] sm:mt-[40px] mb-[40px] md:h-[700px] bg-base-200 flex-col justify-center align-middle md:flex-row">
+          <div className="md:w-[350px] w-[300px] h-[50px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Washing Machine Repair
+                </p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
           </div>
-          <div>
-            <h1 className="mb-5 mt-0 text-xl md:text-5xl font-bold">
-          Refrigerator Repair{" "}
-              <span className="text-warning"> Dubai</span> and{" "}
-              <span className="text-warning">Abu Dhabi</span>
-            </h1>
-            <div className="flex gap-10 pt-5 flex-col sm:flex-row">
-              <div className="flex items-center gap-1">
-                <WrenchScrewdriverIcon className="h-10 w-10 text-primary" />
-                <div className="text-lg font-bold">Expert Technician</div>
-              </div>
-              <div className="flex items-center gap-1">
-                <CheckBadgeIcon className="h-12 w-12 text-primary" />
-                <div className="text-lg font-bold">Best Service Quality</div>
-              </div>
+          <div className="md:w-[350px] w-[300px] h-[50px]  md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px] mt-[10px] hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Refrigerator Repair
+                </p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
-            <p className="py-6 max-w-xl">
-              Our exceptional services are the reason why we are highly regarded
-              in terms of timeliness, dedication, and pricing options. Our
-              skilled technicians possess extensive expertise in various aspects
-              of washing machine maintenance, including assembly, disassembly,
-              cleaning, pulley repairs, valve replacements, timer replacements,
-              water leak repairs, switch repairs, water pump servicing, and
-              general annual maintenance contracts for washing machines. If you
-              require assistance with any home maintenance or home appliance
-              issues in <span className="text-warning"> Dubai</span> and{" "}
-              <span className="text-warning">Abu Dhabi</span>, please don't
-              hesitate to contact us or call us at the following numbers:
-            </p>
-            <div className="divider" />
-            <div className="flex gap-10 flex-col sm:flex-row">
-              <div className="flex items-center gap-2">
-                <div className="p-4 bg-primary rounded-full">
-                  <PhoneIcon className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-lg font-bold">0523722012</div>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="p-4 bg-primary rounded-full">
-                  <EnvelopeIcon className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-lg font-bold">info@example.com</div>
-              </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Dishwasher Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Smart LED TV Repair
+                </p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Dryer Repair</p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Stove/ Cooker Repair
+                </p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="md:w-[350px] w-[300px] h-[50px]  mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px]  flex flex-row justify-evenly  ">
+              <a href="#" className="cursor-pointer ">
+                <p className="md:mt-5 mt-3 text-left font-extrabold">
+                  Gas Oven Repair
+                </p>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 md:mt-6 mt-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
           </div>
         </div>
+        <div className="md:w-full md:mr-[20px] mr-5 w-[300px] ml-[30px]  sm:ml-[40px] h-fit mt-[95px] sm:mt-[40px] mb-[40px] md:h-fit bg-white flex flex-col">
+          <h1 className=" text-xl md:text-2xl"> Refrigerator Repair</h1>
+          <div className="w-full flex md:flex-row flex-col ">
+            <div className="w-[300px] bh-red-800 ml-[2px] mt-[2px] md:mt-5 md:ml-[5px] flex justify-end items-start">
+              <img className="w-full" src="/images/refrigerator-hero-1.jpg" />
+            </div>
+            <div className="md:w-full text-md text-justify mt-[15px] mx-2">
+              <p>
+                {" "}Our refrigerator repair services are designed to address a
+                wide range of issues and ensure the optimal performance of your
+                appliance. Our team of skilled technicians specializes in
+                diagnosing and fixing various refrigerator problems, utilizing
+                their expertise to provide effective solutions.When you choose
+                our services.This meticulous approach allows us to identify the
+                root cause of issues such as inadequate cooling, unusual noises,
+                leaks, or faulty ice makers.
+              </p>
+            </div>
+          </div>
+          <div className="bg-white w-[300px] md:w-[830px] text-justify h-fit mt-[10px] ml-[8px]">
+            <p>
+              {" "}We are equipped to repair and replace faulty components
+              including compressors, condensers, thermostats, fans, and defrost
+              systems. Whether it involves unclogging vents, fixing
+              malfunctioning seals, or addressing defective temperature
+              controls, our skilled technicians can handle it all.We understand
+              the urgency of refrigerator repairs to prevent food spoilage and
+              inconvenience. That's why we provide prompt and reliable service
+              to minimize downtime. Our goal is to restore your refrigerator's
+              functionality as quickly as possible.In addition to repairs, we
+              offer cleaning and maintenance services to optimize the
+              performance of your refrigerator and prevent future breakdowns.
+              Regular maintenance can extend the lifespan of your appliance and
+              help it run at its best.We pride ourselves on providing
+              transparent pricing with no hidden costs. Our friendly and
+              professional customer service team is available to address any
+              questions or concerns you may have throughout the repair process.
+              Your satisfaction is our priority, and we strive to deliver
+              effective solutions that meet your needs.Trust our experienced
+              technicians to handle your refrigerator repair needs. We are
+              committed to customer satisfaction and delivering reliable and
+              efficient repairs.Schedule a service with us today and let us
+              restore the functionality of your refrigerator, ensuring the
+              freshness and preservation of your food.
+              <br />
+              <br />
+              If you have any problem regarding any type of home maintenance or
+              home appliances in Dubai and Abu Dhabi, please contact us or call
+              at <br />
+              <span className="text-md font-bold">055-6 300 904</span>
+            </p>
+          </div>
+          <CallButton dark />
+        </div>
       </div>
-    
-    
+
       <div className="hero bg-info-content flex flex-col align-middle justify-center text-warning  md:h-[400px]">
         <div className=" mb-20 md:mb-0 md:mt-10 flex flex-col justify-center text-center align-middle">
           <div className="text-3xl mt-10 sm:mt-0 md:text-5xl font-extrabold ">
@@ -209,4 +359,4 @@ const Refrigerator_Page = ({ params }) => {
   );
 };
 
-export default Refrigerator_Page;
+export default refrigerator_Page;
