@@ -10,7 +10,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import Service from "../../../components/Service";
 import CallButton from "../../../components/buttons/CallButton";
 
-const tv_Page = ({ params }) => {
+const StovePage = ({ params }) => {
   const unslugify = slug => {
     return slug.split("-").join(" ");
   };
@@ -18,36 +18,33 @@ const tv_Page = ({ params }) => {
     <main>
       <div
         className="hero min-h-[90vh] "
-        style={{ backgroundImage: "url('/images/television.jpg')" }}
+        style={{ backgroundImage: "url('/images/stove.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
             <div className="w-[200px] ml-[30px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Smart LED TV Repair <span className="text-primary">
-                  {" "}Dubai
-                </span>{" "}
-                and <span className="text-primary">Abu Dhabi</span>
+                Stove /Cooker Repair{" "}
+                <span className="text-primary"> Dubai</span> and{" "}
+                <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-                Are you in need of Smart LED TV Repair services in Dubai or Abu
+                Are you in need of Stove /Cooker Repair services in Dubai or Abu
                 Dhabi? Look no further than Quick Appliances Repair.
               </p>
               <ul class="list-disc">
                 <li className="text-md ">
-                  {" "}Expert Smart LED TV Repair services for a wide range of
-                  brands and models.
+                  {" "}Expert Stove /Cooker services for a wide range of brands
+                  and models.
                 </li>
                 <li className="text-md">
-                  Our technicians can efficiently identify the root causes of
-                  issues such as display abnormalities, audio problems,
-                  connectivity issues, or software glitches
+                  Skilled technicians with specialized knowledge in diagnosing
+                  and fixing gas oven issues.
                 </li>
                 <li className="text-md">
-                  Whether it's addressing pixel defects, sound distortion, or
-                  malfunctioning control panels, we are committed to restoring
-                  the optimal performance of your smart LED TV.
+                  Repair and replacement of faulty components such as heating
+                  elements, thermostats, ignition systems, and control panels.
                 </li>
               </ul>
               <div className="ml-[50px] md:ml-0">
@@ -209,52 +206,51 @@ const tv_Page = ({ params }) => {
           </div>
         </div>
         <div className="md:w-full md:mr-[20px] mr-5 w-[300px] ml-[30px]  sm:ml-[40px] h-fit mt-[95px] sm:mt-[40px] mb-[40px] md:h-fit bg-white flex flex-col">
-          <h1 className=" text-xl md:text-2xl"> Smart LED TV Repair</h1>
+          <h1 className=" text-xl md:text-2xl"> Stove/Cooker Repair</h1>
           <div className="w-full flex md:flex-row flex-col ">
             <div className="w-[300px] bh-red-800 ml-[2px] mt-[2px] md:mt-5 md:ml-[5px] flex justify-end items-start">
-              <img className="w-full" src="/images/television_2.jpg" />
+              <img className="w-full" src="/images/stovetech.png" />
             </div>
             <div className="md:w-full text-md text-justify mt-[15px] mx-2">
               <p>
-                {" "}When it comes to smart LED TV repair, our services are
-                expertly tailored to address a wide range of issues that can
-                affect your television. Our team of highly skilled technicians
-                specializes in diagnosing and resolving various problems that
-                may arise. Through thorough inspection and troubleshooting, we
-                identify the root cause of issues such as display abnormalities,
-                audio glitches, or connectivity problems.
+                {" "}Our stove/cooker repair services are designed to provide
+                expert solutions for a wide range of stove/cooker issues.Our
+                highly skilled technicians specialize in diagnosing and fixing
+                various problems. Thorough inspection and troubleshooting are
+                conducted to identify the cause of issues such as inconsistent
+                heating, burner ignition failures, or other malfunctions. We are
+                committed to delivering efficient and reliable repair services
+                to ensure your comfort and safely.With our prompt and reliable
+                service, you can expect transparent pricing and a commitment to
+                customer satisfaction. We strive to provide long-lasting
+                solutions and a hassle-free experience.
               </p>
             </div>
           </div>
           <div className="bg-white w-[300px] md:w-[830px] text-justify h-fit mt-[10px] ml-[8px]">
             <p>
-              {" "}We are fully committed to delivering efficient and reliable
-              repair services, prioritizing your comfort and safety. Whether it
-              involves repairing faulty components, optimizing software
-              settings, or addressing connectivity issues, our skilled
-              technicians will work diligently to restore your smart LED TV to
-              its optimal performance.Our thorough inspection and
-              troubleshooting process ensure that we identify and address the
-              underlying issues, ensuring that your TV operates smoothly and
-              provides you with an immersive viewing experience. You can trust
-              our experienced team to deliver high-quality repair services that
-              meet your expectations.Rest assured that our focus is on providing
-              efficient and reliable repairs, ensuring your comfort and safety
-              as you enjoy your smart LED TV to the fullest.Our technicians
-              possess extensive knowledge and expertise in repairing and
-              replacing faulty components. Whether it's the display panel, audio
-              system, control module, or other vital elements, we have the
-              skills and resources to address these issues efficiently. We use
-              high-quality replacement parts to ensure the durability and
-              longevity of our repairs.Experience peace of mind knowing that
-              your smart LED TV is in the hands of our dedicated professionals.
-              We are passionate about restoring your TV to its optimal
-              functionality and ensuring your satisfaction.
-              <br />
-              <br />
-              If you have any problem regarding any type of home maintenance or
-              home appliances in Dubai and Abu Dhabi, please contact us or call
-              at <br />
+              {" "}Whether you're experiencing inconsistent heating, burner
+              ignition failures, or even gas leaks, our team is here to provide
+              comprehensive stove/cooker repair services. We begin with a
+              thorough inspection and troubleshooting process to pinpoint the
+              root cause of the issue. Our knowledgeable technicians have the
+              expertise to efficiently repair faulty igniters, malfunctioning
+              thermostats, damaged valves, and other components, ensuring the
+              safe and efficient operation of your stove/cooker.We prioritize
+              the safety of your home and family, which is why we also offer gas
+              leak detection and repair services. Our skilled professionals will
+              diligently detect and address any gas leaks, providing you with
+              peace of mind. In addition to repairs, we offer cleaning and
+              maintenance services to optimize the performance of your
+              stove/cooker and prevent future issues.Schedule a service with us
+              today, and our friendly and knowledgeable customer service team
+              will be ready to assist you with any questions or concerns you may
+              have. Trust us to restore your stove/cooker to its optimal
+              functionality, ensuring enjoyable cooking experiences for years to
+              come.<br />
+              <br />If you have any problem regarding any type of home
+              maintenance or home appliances in Dubai and Abu Dhabi, please
+              contact us or call at <br />
               <span className="text-md font-bold">055-6 300 904</span>
             </p>
           </div>
@@ -347,4 +343,4 @@ const tv_Page = ({ params }) => {
   );
 };
 
-export default tv_Page;
+export default StovePage;

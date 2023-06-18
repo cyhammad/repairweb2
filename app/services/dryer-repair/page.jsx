@@ -10,7 +10,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import Service from "../../../components/Service";
 import CallButton from "../../../components/buttons/CallButton";
 
-const oven_Page = ({ params }) => {
+const DryerPage = ({ params }) => {
   const unslugify = slug => {
     return slug.split("-").join(" ");
   };
@@ -18,33 +18,32 @@ const oven_Page = ({ params }) => {
     <main>
       <div
         className="hero min-h-[90vh] "
-        style={{ backgroundImage: "url('/images/oven.jpg')" }}
+        style={{ backgroundImage: "url('/images/dryer.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
             <div className="w-[200px] ml-[30px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Gas Oven Repair <span className="text-primary"> Dubai</span> and{" "}
+                Dryer Repair <span className="text-primary"> Dubai</span> and{" "}
                 <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-                Are you in need of Gas Oven Repair services in Dubai or Abu
-                Dhabi? Look no further than Quick Appliances Repair.
+                Are you in need of Dryer Repair services in Dubai or Abu Dhabi?
+                Look no further than Quick Appliances Repair.
               </p>
               <ul class="list-disc">
                 <li className="text-md ">
-                  {" "}Expert gas oven repair services for a wide range of
-                  brands and models.
+                  {" "}Expert Dryer services for a wide range of brands and
+                  models.
                 </li>
                 <li className="text-md">
                   Skilled technicians with specialized knowledge in diagnosing
-                  and fixing gas oven issues.
+                  and fixing dryer issues.
                 </li>
                 <li className="text-md">
-                  Thorough inspection and troubleshooting to identify the cause
-                  of problems such as inconsistent heating, burner ignition
-                  failures, or gas leaks.
+                  Repair and replacement of faulty components such as heating
+                  elements, thermostats, and control panels.
                 </li>
               </ul>
               <div className="ml-[50px] md:ml-0">
@@ -102,7 +101,7 @@ const oven_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Diswasher Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">Dishwasher Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +164,7 @@ const oven_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Stove /Cooker Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">Stove/ Cooker Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -183,10 +182,10 @@ const oven_Page = ({ params }) => {
               </svg>
             </div>
           </div>
-          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
-            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly  ">
-              <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Gas Oven Repair</p>
+          <div className="md:w-[350px] w-[300px] h-[50px]  mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px]  flex flex-row justify-evenly  ">
+              <a href="#" className="cursor-pointer ">
+                <p className="md:mt-5 mt-3 text-left font-extrabold">Gas Oven Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -206,45 +205,51 @@ const oven_Page = ({ params }) => {
           </div>
         </div>
         <div className="md:w-full md:mr-[20px] mr-5 w-[300px] ml-[30px]  sm:ml-[40px] h-fit mt-[95px] sm:mt-[40px] mb-[40px] md:h-fit bg-white flex flex-col">
-          <h1 className=" text-xl md:text-2xl"> Gas-Oven Repair</h1>
+          <h1 className=" text-xl md:text-2xl"> Dryer Repair</h1>
           <div className="w-full flex md:flex-row flex-col ">
             <div className="w-[300px] bh-red-800 ml-[2px] mt-[2px] md:mt-5 md:ml-[5px] flex justify-end items-start">
-              <img className="w-full" src="/images/stove_3.jpg" />
+              <img className="w-full" src="/images/dryer_3.jpg" />
             </div>
             <div className="md:w-full text-md text-justify mt-[15px] mx-2">
               <p>
-                {" "}Our gas oven repair services are designed to provide expert
-                solutions for a wide range of gas oven issues. We understand the
-                importance of a fully functional and safe gas oven in your
-                kitchen, and our highly skilled technicians specialize in
-                diagnosing and fixing various problems. Thorough inspection and
-                troubleshooting to identify the cause of problems such as
-                inconsistent heating, burner ignition failures, or gas leaks.
+                {" "}Our dryer repair services are expertly designed to address
+                a wide range of dryer issues. Our highly skilled technicians
+                specialize in diagnosing and fixing various problems that may
+                arise with your dryer. Thorough inspection and troubleshooting
+                are conducted to identify the root cause of issues such as
+                inconsistent heating, burner ignition failures, or other
+                malfunctions.We are fully committed to delivering efficient and
+                reliable repair services to ensure your comfort and safety.
               </p>
             </div>
           </div>
           <div className="bg-white w-[300px] md:w-[830px] text-justify h-fit mt-[10px] ml-[8px]">
             <p>
-              {" "}Whether you're experiencing inconsistent heating, burner
-              ignition failures, or even gas leaks, our team will conduct a
+              {" "}When it comes to dryer repair, we understand the importance
+              of a fully functional and efficient appliance in your home. Our
+              comprehensive dryer repair services are designed to address a wide
+              range of issues you may encounter.We start by conducting a
               thorough inspection and troubleshooting process to identify the
-              root cause of the issue. With extensive knowledge and experience,
-              we can efficiently repair faulty igniters, malfunctioning
-              thermostats, damaged valves, and other components to ensure the
-              safe and efficient operation of your gas oven. We also offer gas
-              leak detection and repair services to prioritize the safety of
-              your home and family. Additionally, our cleaning and maintenance
-              services help optimize the performance of your gas oven and
-              prevent future issues. With prompt and reliable service,
-              transparent pricing, and a commitment to customer satisfaction, we
-              strive to provide long-lasting solutions and a hassle-free
-              experience. Schedule a service with us today, and our friendly and
-              knowledgeable customer service team will be ready to assist you
-              with any questions or concerns you may have. Trust us to restore
-              your gas oven to its optimal functionality, ensuring enjoyable
-              cooking experiences for years to come.<br />
-              <br />If you have any problem regarding any type of home
-              maintenance or home appliances in Dubai, please contact us or call
+              root cause of the problem. Our knowledgeable technicians have the
+              expertise to efficiently malfunctioning thermostats, damaged
+              valves, and other components that may be affecting the performance
+              of your dryer. Our priority is to ensure the safe and efficient
+              operation of your appliance. Whether you're dealing with
+              inconsistent heating, burner ignition failures, or even gas leaks,
+              our experienced team is here to help.We also prioritize the safety
+              of your home and family by offering gas leak detection and repair
+              services. Our skilled professionals will diligently detect and
+              address any gas leaks, providing you with peace of mind and
+              ensuring a secure environment.When you schedule a service with us,
+              our friendly and knowledgeable customer service team will be
+              available to assist you with any questions or concerns you may
+              have. Trust us to restore your dryer to its optimal functionality,
+              ensuring enjoyable and hassle-free laundry experiences for years
+              to come.
+              <br />
+              <br />
+              If you have any problem regarding any type of home maintenance or
+              home appliances in Dubai and Abu Dhabi, please contact us or call
               at <br />
               <span className="text-md font-bold">055-6 300 904</span>
             </p>
@@ -338,4 +343,4 @@ const oven_Page = ({ params }) => {
   );
 };
 
-export default oven_Page;
+export default DryerPage;

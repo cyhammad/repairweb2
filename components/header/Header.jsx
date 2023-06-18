@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header className="z-50">
       <Link
-        href="#"
-        className="flex items-center justify-between md:justify-center gap-2 px-3 py-3 bg-info-content text-white text-sm"
+        href="tel:0523722012"
+        className="flex items-center justify-between md:justify-center gap-2 px-3 py-3 bg-info-content text-white text-sm hover:text-base duration-300"
       >
         <span>Hire an expert</span>
         <span className="hidden md:block">:</span>

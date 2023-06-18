@@ -10,40 +10,40 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import Service from "../../../components/Service";
 import CallButton from "../../../components/buttons/CallButton";
 
-const dryer_Page = ({ params }) => {
-  const unslugify = slug => {
-    return slug.split("-").join(" ");
-  };
+const DishwasherPage = ({ params }) => {
   return (
     <main>
       <div
-        className="hero min-h-[90vh] "
-        style={{ backgroundImage: "url('/images/dryer.jpg')" }}
+        className="hero min-h-[90vh] bg-fixed bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/dishwasher.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
             <div className="w-[200px] ml-[30px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Dryer Repair <span className="text-primary"> Dubai</span> and{" "}
-                <span className="text-primary">Abu Dhabi</span>
+                Dishwasher Repair <span className="text-primary">
+                  {" "}Dubai
+                </span>{" "}
+                and <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-                Are you in need of Dryer Repair services in Dubai or Abu Dhabi?
-                Look no further than Quick Appliances Repair.
+                Are you in need of Dishwasher Repair services in Dubai or Abu
+                Dhabi? Look no further than Quick Appliances Repair.
               </p>
               <ul class="list-disc">
                 <li className="text-md ">
-                  {" "}Expert Dryer services for a wide range of brands and
-                  models.
+                  {" "}Expert Dishwasher Repair services for a wide range of
+                  brands and models.
                 </li>
                 <li className="text-md">
-                  Skilled technicians with specialized knowledge in diagnosing
-                  and fixing dryer issues.
+                  Thorough inspection and troubleshooting to identify the root
+                  cause of problems such as poor cleaning, leaks, strange
+                  noises, or failure to start.
                 </li>
                 <li className="text-md">
-                  Repair and replacement of faulty components such as heating
-                  elements, thermostats, and control panels.
+                  Efficient handling of common problems like clogged filters,
+                  damaged seals, or malfunctioning sensors.
                 </li>
               </ul>
               <div className="ml-[50px] md:ml-0">
@@ -67,7 +67,7 @@ const dryer_Page = ({ params }) => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-4 h-4 md:mt-6 mt-4"
+                className="w-4 h-4 md:mt-6 mt-4 "
               >
                 <path
                   strokeLinecap="round"
@@ -205,47 +205,49 @@ const dryer_Page = ({ params }) => {
           </div>
         </div>
         <div className="md:w-full md:mr-[20px] mr-5 w-[300px] ml-[30px]  sm:ml-[40px] h-fit mt-[95px] sm:mt-[40px] mb-[40px] md:h-fit bg-white flex flex-col">
-          <h1 className=" text-xl md:text-2xl"> Dryer Repair</h1>
+          <h1 className=" text-xl md:text-2xl"> Dishwasher Repair</h1>
           <div className="w-full flex md:flex-row flex-col ">
             <div className="w-[300px] bh-red-800 ml-[2px] mt-[2px] md:mt-5 md:ml-[5px] flex justify-end items-start">
-              <img className="w-full" src="/images/dryer_3.jpg" />
+              <img className="w-full" src="/images/dishwasher_1.jpg" />
             </div>
             <div className="md:w-full text-md text-justify mt-[15px] mx-2">
               <p>
-                {" "}Our dryer repair services are expertly designed to address
-                a wide range of dryer issues. Our highly skilled technicians
-                specialize in diagnosing and fixing various problems that may
-                arise with your dryer. Thorough inspection and troubleshooting
-                are conducted to identify the root cause of issues such as
-                inconsistent heating, burner ignition failures, or other
-                malfunctions.We are fully committed to delivering efficient and
-                reliable repair services to ensure your comfort and safety.
+                {" "}Our dishwasher repair services are meticulously designed to
+                tackle a broad spectrum of issues that may impact your
+                appliance. With our team of highly skilled technicians, we
+                specialize in diagnosing and resolving various problems that can
+                arise. Through thorough inspection and troubleshooting, we
+                diligently identify the root causes of issues such as poor
+                cleaning performance, leaks, unusual noises, or failure to
+                start.
               </p>
             </div>
           </div>
           <div className="bg-white w-[300px] md:w-[830px] text-justify h-fit mt-[10px] ml-[8px]">
             <p>
-              {" "}When it comes to dryer repair, we understand the importance
-              of a fully functional and efficient appliance in your home. Our
-              comprehensive dryer repair services are designed to address a wide
-              range of issues you may encounter.We start by conducting a
-              thorough inspection and troubleshooting process to identify the
-              root cause of the problem. Our knowledgeable technicians have the
-              expertise to efficiently malfunctioning thermostats, damaged
-              valves, and other components that may be affecting the performance
-              of your dryer. Our priority is to ensure the safe and efficient
-              operation of your appliance. Whether you're dealing with
-              inconsistent heating, burner ignition failures, or even gas leaks,
-              our experienced team is here to help.We also prioritize the safety
-              of your home and family by offering gas leak detection and repair
-              services. Our skilled professionals will diligently detect and
-              address any gas leaks, providing you with peace of mind and
-              ensuring a secure environment.When you schedule a service with us,
-              our friendly and knowledgeable customer service team will be
-              available to assist you with any questions or concerns you may
-              have. Trust us to restore your dryer to its optimal functionality,
-              ensuring enjoyable and hassle-free laundry experiences for years
-              to come.
+              {" "}Our expertise extends to the repair and replacement of faulty
+              components, including pumps, motors, valves, spray arms, and
+              control panels. We efficiently handle common problems like clogged
+              filters, damaged seals, or malfunctioning sensors, ensuring the
+              optimal functioning of your dishwasher.With our prompt and
+              reliable service, we aim to minimize any inconvenience and
+              downtime you may experience. You can rely on us to provide
+              transparent pricing without any hidden costs, and we use
+              high-quality replacement parts to guarantee long-lasting
+              repairs.Furthermore, we offer cleaning and maintenance services to
+              optimize the performance of your dishwasher while preventing
+              future breakdowns. Our friendly and professional customer service
+              team is always ready to address your questions and concerns,
+              providing you with a satisfactory experience.At the core of our
+              dishwasher repair service is a commitment to customer
+              satisfaction. We strive to deliver effective solutions that
+              restore your dishwasher to its optimal functionality, ensuring
+              efficient and hassle-free dishwashing experiences.At our
+              dishwasher repair service, we are dedicated to providing
+              comprehensive solutions for all your dishwasher issues. Our team
+              of highly skilled technicians possesses extensive knowledge and
+              experience in diagnosing and resolving a wide range of problems
+              that may affect your appliance.
               <br />
               <br />
               If you have any problem regarding any type of home maintenance or
@@ -343,4 +345,4 @@ const dryer_Page = ({ params }) => {
   );
 };
 
-export default dryer_Page;
+export default DishwasherPage;

@@ -10,7 +10,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import Service from "../../../components/Service";
 import CallButton from "../../../components/buttons/CallButton";
 
-const dishwasher_Page = ({ params }) => {
+const RefrigeratorPage = ({ params }) => {
   const unslugify = slug => {
     return slug.split("-").join(" ");
   };
@@ -18,35 +18,36 @@ const dishwasher_Page = ({ params }) => {
     <main>
       <div
         className="hero min-h-[90vh] "
-        style={{ backgroundImage: "url('/images/dishwasher.jpg')" }}
+        style={{ backgroundImage: "url('/images/refri-1.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
             <div className="w-[200px] ml-[30px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Dishwasher Repair <span className="text-primary">
+                Refrigerator Repair <span className="text-primary">
                   {" "}Dubai
                 </span>{" "}
                 and <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-                Are you in need of Dishwasher Repair services in Dubai or Abu
+                Are you in need of Refrigerator Repair services in Dubai or Abu
                 Dhabi? Look no further than Quick Appliances Repair.
               </p>
               <ul class="list-disc">
                 <li className="text-md ">
-                  {" "}Expert Dishwasher Repair services for a wide range of
+                  {" "}Expert Refrigerator Repair services for a wide range of
                   brands and models.
                 </li>
                 <li className="text-md">
                   Thorough inspection and troubleshooting to identify the root
-                  cause of problems such as poor cleaning, leaks, strange
-                  noises, or failure to start.
+                  cause of problems such as inadequate cooling, unusual noises,
+                  leaks, or faulty ice makers.
                 </li>
                 <li className="text-md">
-                  Efficient handling of common problems like clogged filters,
-                  damaged seals, or malfunctioning sensors.
+                  Repair and replacement of faulty components including
+                  compressors, condensers, thermostats, fans, and defrost
+                  systems.
                 </li>
               </ul>
               <div className="ml-[50px] md:ml-0">
@@ -62,7 +63,9 @@ const dishwasher_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Washing Machine Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Washing Machine Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +73,7 @@ const dishwasher_Page = ({ params }) => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-4 h-4 md:mt-6 mt-4 "
+                className="w-4 h-4 md:mt-6 mt-4"
               >
                 <path
                   strokeLinecap="round"
@@ -83,7 +86,9 @@ const dishwasher_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px]  md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px] mt-[10px] hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Refrigerator Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Refrigerator Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +130,9 @@ const dishwasher_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Smart LED TV Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Smart LED TV Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +174,9 @@ const dishwasher_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Stove/ Cooker Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Stove/ Cooker Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +197,9 @@ const dishwasher_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px]  mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px]  flex flex-row justify-evenly  ">
               <a href="#" className="cursor-pointer ">
-                <p className="md:mt-5 mt-3 text-left font-extrabold">Gas Oven Repair</p>
+                <p className="md:mt-5 mt-3 text-left font-extrabold">
+                  Gas Oven Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -208,49 +219,49 @@ const dishwasher_Page = ({ params }) => {
           </div>
         </div>
         <div className="md:w-full md:mr-[20px] mr-5 w-[300px] ml-[30px]  sm:ml-[40px] h-fit mt-[95px] sm:mt-[40px] mb-[40px] md:h-fit bg-white flex flex-col">
-          <h1 className=" text-xl md:text-2xl"> Dishwasher Repair</h1>
+          <h1 className=" text-xl md:text-2xl"> Refrigerator Repair</h1>
           <div className="w-full flex md:flex-row flex-col ">
             <div className="w-[300px] bh-red-800 ml-[2px] mt-[2px] md:mt-5 md:ml-[5px] flex justify-end items-start">
-              <img className="w-full" src="/images/dishwasher_1.jpg" />
+              <img className="w-full" src="/images/refrigerator-hero-1.jpg" />
             </div>
             <div className="md:w-full text-md text-justify mt-[15px] mx-2">
               <p>
-                {" "}Our dishwasher repair services are meticulously designed to
-                tackle a broad spectrum of issues that may impact your
-                appliance. With our team of highly skilled technicians, we
-                specialize in diagnosing and resolving various problems that can
-                arise. Through thorough inspection and troubleshooting, we
-                diligently identify the root causes of issues such as poor
-                cleaning performance, leaks, unusual noises, or failure to
-                start.
+                {" "}Our refrigerator repair services are designed to address a
+                wide range of issues and ensure the optimal performance of your
+                appliance. Our team of skilled technicians specializes in
+                diagnosing and fixing various refrigerator problems, utilizing
+                their expertise to provide effective solutions.When you choose
+                our services.This meticulous approach allows us to identify the
+                root cause of issues such as inadequate cooling, unusual noises,
+                leaks, or faulty ice makers.
               </p>
             </div>
           </div>
           <div className="bg-white w-[300px] md:w-[830px] text-justify h-fit mt-[10px] ml-[8px]">
             <p>
-              {" "}Our expertise extends to the repair and replacement of faulty
-              components, including pumps, motors, valves, spray arms, and
-              control panels. We efficiently handle common problems like clogged
-              filters, damaged seals, or malfunctioning sensors, ensuring the
-              optimal functioning of your dishwasher.With our prompt and
-              reliable service, we aim to minimize any inconvenience and
-              downtime you may experience. You can rely on us to provide
-              transparent pricing without any hidden costs, and we use
-              high-quality replacement parts to guarantee long-lasting
-              repairs.Furthermore, we offer cleaning and maintenance services to
-              optimize the performance of your dishwasher while preventing
-              future breakdowns. Our friendly and professional customer service
-              team is always ready to address your questions and concerns,
-              providing you with a satisfactory experience.At the core of our
-              dishwasher repair service is a commitment to customer
-              satisfaction. We strive to deliver effective solutions that
-              restore your dishwasher to its optimal functionality, ensuring
-              efficient and hassle-free dishwashing experiences.At our
-              dishwasher repair service, we are dedicated to providing
-              comprehensive solutions for all your dishwasher issues. Our team
-              of highly skilled technicians possesses extensive knowledge and
-              experience in diagnosing and resolving a wide range of problems
-              that may affect your appliance.
+              {" "}We are equipped to repair and replace faulty components
+              including compressors, condensers, thermostats, fans, and defrost
+              systems. Whether it involves unclogging vents, fixing
+              malfunctioning seals, or addressing defective temperature
+              controls, our skilled technicians can handle it all.We understand
+              the urgency of refrigerator repairs to prevent food spoilage and
+              inconvenience. That's why we provide prompt and reliable service
+              to minimize downtime. Our goal is to restore your refrigerator's
+              functionality as quickly as possible.In addition to repairs, we
+              offer cleaning and maintenance services to optimize the
+              performance of your refrigerator and prevent future breakdowns.
+              Regular maintenance can extend the lifespan of your appliance and
+              help it run at its best.We pride ourselves on providing
+              transparent pricing with no hidden costs. Our friendly and
+              professional customer service team is available to address any
+              questions or concerns you may have throughout the repair process.
+              Your satisfaction is our priority, and we strive to deliver
+              effective solutions that meet your needs.Trust our experienced
+              technicians to handle your refrigerator repair needs. We are
+              committed to customer satisfaction and delivering reliable and
+              efficient repairs.Schedule a service with us today and let us
+              restore the functionality of your refrigerator, ensuring the
+              freshness and preservation of your food.
               <br />
               <br />
               If you have any problem regarding any type of home maintenance or
@@ -348,4 +359,4 @@ const dishwasher_Page = ({ params }) => {
   );
 };
 
-export default dishwasher_Page;
+export default RefrigeratorPage;

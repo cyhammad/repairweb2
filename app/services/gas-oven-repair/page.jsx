@@ -10,7 +10,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import Service from "../../../components/Service";
 import CallButton from "../../../components/buttons/CallButton";
 
-const refrigerator_Page = ({ params }) => {
+const OvenPage = ({ params }) => {
   const unslugify = slug => {
     return slug.split("-").join(" ");
   };
@@ -18,36 +18,33 @@ const refrigerator_Page = ({ params }) => {
     <main>
       <div
         className="hero min-h-[90vh] "
-        style={{ backgroundImage: "url('/images/refri-1.jpg')" }}
+        style={{ backgroundImage: "url('/images/oven.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
             <div className="w-[200px] ml-[30px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Refrigerator Repair <span className="text-primary">
-                  {" "}Dubai
-                </span>{" "}
-                and <span className="text-primary">Abu Dhabi</span>
+                Gas Oven Repair <span className="text-primary"> Dubai</span> and{" "}
+                <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-                Are you in need of Refrigerator Repair services in Dubai or Abu
+                Are you in need of Gas Oven Repair services in Dubai or Abu
                 Dhabi? Look no further than Quick Appliances Repair.
               </p>
               <ul class="list-disc">
                 <li className="text-md ">
-                  {" "}Expert Refrigerator Repair services for a wide range of
+                  {" "}Expert gas oven repair services for a wide range of
                   brands and models.
                 </li>
                 <li className="text-md">
-                  Thorough inspection and troubleshooting to identify the root
-                  cause of problems such as inadequate cooling, unusual noises,
-                  leaks, or faulty ice makers.
+                  Skilled technicians with specialized knowledge in diagnosing
+                  and fixing gas oven issues.
                 </li>
                 <li className="text-md">
-                  Repair and replacement of faulty components including
-                  compressors, condensers, thermostats, fans, and defrost
-                  systems.
+                  Thorough inspection and troubleshooting to identify the cause
+                  of problems such as inconsistent heating, burner ignition
+                  failures, or gas leaks.
                 </li>
               </ul>
               <div className="ml-[50px] md:ml-0">
@@ -63,9 +60,7 @@ const refrigerator_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">
-                  Washing Machine Repair
-                </p>
+                <p className="md:mt-5 mt-3 font-extrabold">Washing Machine Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,9 +81,7 @@ const refrigerator_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px]  md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px] mt-[10px] hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">
-                  Refrigerator Repair
-                </p>
+                <p className="md:mt-5 mt-3 font-extrabold">Refrigerator Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +102,7 @@ const refrigerator_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Dishwasher Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">Diswasher Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -130,9 +123,7 @@ const refrigerator_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">
-                  Smart LED TV Repair
-                </p>
+                <p className="md:mt-5 mt-3 font-extrabold">Smart LED TV Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -174,9 +165,7 @@ const refrigerator_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">
-                  Stove/ Cooker Repair
-                </p>
+                <p className="md:mt-5 mt-3 font-extrabold">Stove /Cooker Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -194,12 +183,10 @@ const refrigerator_Page = ({ params }) => {
               </svg>
             </div>
           </div>
-          <div className="md:w-[350px] w-[300px] h-[50px]  mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
-            <div className="md:w-[345px] md:h-[30px]  flex flex-row justify-evenly  ">
-              <a href="#" className="cursor-pointer ">
-                <p className="md:mt-5 mt-3 text-left font-extrabold">
-                  Gas Oven Repair
-                </p>
+          <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
+            <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly  ">
+              <a href="#" className="cursor-pointer">
+                <p className="md:mt-5 mt-3 font-extrabold">Gas Oven Repair</p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -219,53 +206,45 @@ const refrigerator_Page = ({ params }) => {
           </div>
         </div>
         <div className="md:w-full md:mr-[20px] mr-5 w-[300px] ml-[30px]  sm:ml-[40px] h-fit mt-[95px] sm:mt-[40px] mb-[40px] md:h-fit bg-white flex flex-col">
-          <h1 className=" text-xl md:text-2xl"> Refrigerator Repair</h1>
+          <h1 className=" text-xl md:text-2xl"> Gas-Oven Repair</h1>
           <div className="w-full flex md:flex-row flex-col ">
             <div className="w-[300px] bh-red-800 ml-[2px] mt-[2px] md:mt-5 md:ml-[5px] flex justify-end items-start">
-              <img className="w-full" src="/images/refrigerator-hero-1.jpg" />
+              <img className="w-full" src="/images/stove_3.jpg" />
             </div>
             <div className="md:w-full text-md text-justify mt-[15px] mx-2">
               <p>
-                {" "}Our refrigerator repair services are designed to address a
-                wide range of issues and ensure the optimal performance of your
-                appliance. Our team of skilled technicians specializes in
-                diagnosing and fixing various refrigerator problems, utilizing
-                their expertise to provide effective solutions.When you choose
-                our services.This meticulous approach allows us to identify the
-                root cause of issues such as inadequate cooling, unusual noises,
-                leaks, or faulty ice makers.
+                {" "}Our gas oven repair services are designed to provide expert
+                solutions for a wide range of gas oven issues. We understand the
+                importance of a fully functional and safe gas oven in your
+                kitchen, and our highly skilled technicians specialize in
+                diagnosing and fixing various problems. Thorough inspection and
+                troubleshooting to identify the cause of problems such as
+                inconsistent heating, burner ignition failures, or gas leaks.
               </p>
             </div>
           </div>
           <div className="bg-white w-[300px] md:w-[830px] text-justify h-fit mt-[10px] ml-[8px]">
             <p>
-              {" "}We are equipped to repair and replace faulty components
-              including compressors, condensers, thermostats, fans, and defrost
-              systems. Whether it involves unclogging vents, fixing
-              malfunctioning seals, or addressing defective temperature
-              controls, our skilled technicians can handle it all.We understand
-              the urgency of refrigerator repairs to prevent food spoilage and
-              inconvenience. That's why we provide prompt and reliable service
-              to minimize downtime. Our goal is to restore your refrigerator's
-              functionality as quickly as possible.In addition to repairs, we
-              offer cleaning and maintenance services to optimize the
-              performance of your refrigerator and prevent future breakdowns.
-              Regular maintenance can extend the lifespan of your appliance and
-              help it run at its best.We pride ourselves on providing
-              transparent pricing with no hidden costs. Our friendly and
-              professional customer service team is available to address any
-              questions or concerns you may have throughout the repair process.
-              Your satisfaction is our priority, and we strive to deliver
-              effective solutions that meet your needs.Trust our experienced
-              technicians to handle your refrigerator repair needs. We are
-              committed to customer satisfaction and delivering reliable and
-              efficient repairs.Schedule a service with us today and let us
-              restore the functionality of your refrigerator, ensuring the
-              freshness and preservation of your food.
-              <br />
-              <br />
-              If you have any problem regarding any type of home maintenance or
-              home appliances in Dubai and Abu Dhabi, please contact us or call
+              {" "}Whether you're experiencing inconsistent heating, burner
+              ignition failures, or even gas leaks, our team will conduct a
+              thorough inspection and troubleshooting process to identify the
+              root cause of the issue. With extensive knowledge and experience,
+              we can efficiently repair faulty igniters, malfunctioning
+              thermostats, damaged valves, and other components to ensure the
+              safe and efficient operation of your gas oven. We also offer gas
+              leak detection and repair services to prioritize the safety of
+              your home and family. Additionally, our cleaning and maintenance
+              services help optimize the performance of your gas oven and
+              prevent future issues. With prompt and reliable service,
+              transparent pricing, and a commitment to customer satisfaction, we
+              strive to provide long-lasting solutions and a hassle-free
+              experience. Schedule a service with us today, and our friendly and
+              knowledgeable customer service team will be ready to assist you
+              with any questions or concerns you may have. Trust us to restore
+              your gas oven to its optimal functionality, ensuring enjoyable
+              cooking experiences for years to come.<br />
+              <br />If you have any problem regarding any type of home
+              maintenance or home appliances in Dubai, please contact us or call
               at <br />
               <span className="text-md font-bold">055-6 300 904</span>
             </p>
@@ -359,4 +338,4 @@ const refrigerator_Page = ({ params }) => {
   );
 };
 
-export default refrigerator_Page;
+export default OvenPage;

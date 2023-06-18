@@ -10,7 +10,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import Service from "../../../components/Service";
 import CallButton from "../../../components/buttons/CallButton";
 
-const stove_Page = ({ params }) => {
+const WashingMachinePage = ({ params }) => {
   const unslugify = slug => {
     return slug.split("-").join(" ");
   };
@@ -18,33 +18,36 @@ const stove_Page = ({ params }) => {
     <main>
       <div
         className="hero min-h-[90vh] "
-        style={{ backgroundImage: "url('/images/stove.jpg')" }}
+        style={{ backgroundImage: "url('/images/washing.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60 object-fill" />
         <div className="hero-content md:w-full text-center md:text-left text-white">
           <div className="w-full ">
             <div className="w-[200px] ml-[30px] md:ml-0 md:w-[650px] ">
               <h1 className="mb-5 text-xl md:text-5xl font-bold">
-                Stove /Cooker Repair{" "}
+                Washing Machine Repair{" "}
                 <span className="text-primary"> Dubai</span> and{" "}
                 <span className="text-primary">Abu Dhabi</span>
               </h1>
               <p className="mb-5 text-lg">
-                Are you in need of Stove /Cooker Repair services in Dubai or Abu
-                Dhabi? Look no further than Quick Appliances Repair.
+                Are you in need of Washing Machine Repair services in Dubai or
+                Abu Dhabi? Look no further than Quick Appliances Repair.
               </p>
               <ul class="list-disc">
                 <li className="text-md ">
-                  {" "}Expert Stove /Cooker services for a wide range of brands
-                  and models.
+                  {" "}Expert Refrigerator Repair services for a wide range of
+                  brands and models. We are expert in repairing of
                 </li>
                 <li className="text-md">
-                  Skilled technicians with specialized knowledge in diagnosing
-                  and fixing gas oven issues.
+                  Fully Automatic Washing Machine and Semi-Automatic Washing
+                  Machines
                 </li>
                 <li className="text-md">
-                  Repair and replacement of faulty components such as heating
-                  elements, thermostats, ignition systems, and control panels.
+                  Top Loading Washing Machines and Front Loading Washing
+                  Machines
+                </li>
+                <li className="text-md">
+                  Compact Washing Machines and Combination Units
                 </li>
               </ul>
               <div className="ml-[50px] md:ml-0">
@@ -60,7 +63,9 @@ const stove_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Washing Machine Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Washing Machine Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +86,9 @@ const stove_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px]  md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px] mt-[10px] hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Refrigerator Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Refrigerator Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +130,9 @@ const stove_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Smart LED TV Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Smart LED TV Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +174,9 @@ const stove_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px] mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px] flex flex-row justify-evenly ">
               <a href="#" className="cursor-pointer">
-                <p className="md:mt-5 mt-3 font-extrabold">Stove/ Cooker Repair</p>
+                <p className="md:mt-5 mt-3 font-extrabold">
+                  Stove/ Cooker Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +197,9 @@ const stove_Page = ({ params }) => {
           <div className="md:w-[350px] w-[300px] h-[50px]  mt-[10px] md:ml-[20px] md:mr-[20px] md:mt-[35px] md:h-[60px]  hover:bg-white bg-primary align-middle">
             <div className="md:w-[345px] md:h-[30px]  flex flex-row justify-evenly  ">
               <a href="#" className="cursor-pointer ">
-                <p className="md:mt-5 mt-3 text-left font-extrabold">Gas Oven Repair</p>
+                <p className="md:mt-5 mt-3 text-left font-extrabold">
+                  Gas Oven Repair
+                </p>
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -206,51 +219,53 @@ const stove_Page = ({ params }) => {
           </div>
         </div>
         <div className="md:w-full md:mr-[20px] mr-5 w-[300px] ml-[30px]  sm:ml-[40px] h-fit mt-[95px] sm:mt-[40px] mb-[40px] md:h-fit bg-white flex flex-col">
-          <h1 className=" text-xl md:text-2xl"> Stove/Cooker Repair</h1>
+          <h1 className=" text-xl md:text-2xl"> Washing Machine Repair</h1>
           <div className="w-full flex md:flex-row flex-col ">
             <div className="w-[300px] bh-red-800 ml-[2px] mt-[2px] md:mt-5 md:ml-[5px] flex justify-end items-start">
-              <img className="w-full" src="/images/stovetech.png" />
+              <img className="w-full" src="/images/dryer_1.png" />
             </div>
             <div className="md:w-full text-md text-justify mt-[15px] mx-2">
               <p>
-                {" "}Our stove/cooker repair services are designed to provide
-                expert solutions for a wide range of stove/cooker issues.Our
-                highly skilled technicians specialize in diagnosing and fixing
-                various problems. Thorough inspection and troubleshooting are
-                conducted to identify the cause of issues such as inconsistent
-                heating, burner ignition failures, or other malfunctions. We are
-                committed to delivering efficient and reliable repair services
-                to ensure your comfort and safely.With our prompt and reliable
-                service, you can expect transparent pricing and a commitment to
-                customer satisfaction. We strive to provide long-lasting
-                solutions and a hassle-free experience.
+                {" "}Our washing machine repair services cater to both
+                residential and commercial customers.we are equipped to tackle
+                any challenge your washing machine may face.When you choose our
+                services, we conduct a thorough inspection and troubleshooting
+                process to identify the root cause of the problem. Whether your
+                washing machine is not spinning, leaking, making unusual noises,
+                or displaying error codes, we leave no stone unturned in our
+                quest for a solution.
               </p>
             </div>
           </div>
           <div className="bg-white w-[300px] md:w-[830px] text-justify h-fit mt-[10px] ml-[8px]">
             <p>
-              {" "}Whether you're experiencing inconsistent heating, burner
-              ignition failures, or even gas leaks, our team is here to provide
-              comprehensive stove/cooker repair services. We begin with a
-              thorough inspection and troubleshooting process to pinpoint the
-              root cause of the issue. Our knowledgeable technicians have the
-              expertise to efficiently repair faulty igniters, malfunctioning
-              thermostats, damaged valves, and other components, ensuring the
-              safe and efficient operation of your stove/cooker.We prioritize
-              the safety of your home and family, which is why we also offer gas
-              leak detection and repair services. Our skilled professionals will
-              diligently detect and address any gas leaks, providing you with
-              peace of mind. In addition to repairs, we offer cleaning and
-              maintenance services to optimize the performance of your
-              stove/cooker and prevent future issues.Schedule a service with us
-              today, and our friendly and knowledgeable customer service team
-              will be ready to assist you with any questions or concerns you may
-              have. Trust us to restore your stove/cooker to its optimal
-              functionality, ensuring enjoyable cooking experiences for years to
-              come.<br />
-              <br />If you have any problem regarding any type of home
-              maintenance or home appliances in Dubai and Abu Dhabi, please
-              contact us or call at <br />
+              {" "}Our technicians are well-versed in repairing and replacing
+              faulty components, including motors, belts, pumps, timers, and
+              control panels. We understand the importance of using high-quality
+              replacement parts to ensure long-lasting repairs that restore your
+              washing machine's optimal functionality.From addressing common
+              issues like clogged filters, malfunctioning valves, or unbalanced
+              loads to providing prompt and reliable service, our aim is to
+              minimize laundry disruptions and inconvenience for our customers.
+              We know how vital a functioning washing machine is to your daily
+              routine, and we strive to deliver efficient repairs that get your
+              appliance back in action swiftly.In addition to repairs, we offer
+              cleaning and maintenance services that help optimize the
+              performance of your washing machine while preventing future
+              breakdowns. Regular maintenance can extend the lifespan of your
+              appliance and ensure it operates at its best.With transparent
+              pricing and no hidden costs, you can trust us to provide upfront
+              and fair pricing for our services. Our friendly and professional
+              customer service team is available to address any questions or
+              concerns you may have throughout the repair process, ensuring your
+              satisfaction from start to finish.We are committed to delivering
+              effective solutions for your washing machine repair needs and
+              prioritizing customer satisfaction.
+              <br />
+              <br />
+              If you have any problem regarding any type of home maintenance or
+              home appliances in Dubai and Abu Dhabi, please contact us or call
+              at <br />
               <span className="text-md font-bold">055-6 300 904</span>
             </p>
           </div>
@@ -343,4 +358,4 @@ const stove_Page = ({ params }) => {
   );
 };
 
-export default stove_Page;
+export default WashingMachinePage;

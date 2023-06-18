@@ -1,13 +1,20 @@
+'use client';
+
 import React from "react";
 import Link from "next/link";
 
-const CallButton = ({dark}) => {
+const CallButton = ({ dark }) => {
   return (
-    <Link href="/contact" className="card-actions mt-5">
-      <button className={`btn ${dark ? "btn-primary" : "btn-white"}`}>
+    <div className="card-actions mt-5">
+      <button
+        className={`btn ${dark ? "btn-primary" : "btn-white"}`}
+        onClick={() => {
+          window.location.href = `tel:123-456-7890`;
+        }}
+      >
         Call Us
       </button>
-    </Link>
+    </div>
   );
 };
 
