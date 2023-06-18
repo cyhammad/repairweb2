@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -23,22 +23,37 @@ const Service = ({ name, imageUrl, description, dark }) => {
       className={`card w-60 sm:w-[16rem] ${
         dark ? "bg-base-100 text-black" : "bg-base-100 text-black"
       } shadow-xl rounded-none`}
-      onClick={() => {
-        router.push(`/services/${slugify(name)}`);
-      }}
     >
-      <figure>
+      <figure
+        onClick={() => {
+          router.push(`/services/${slugify(name)}`);
+        }}
+      >
         <Image
           src={imageUrl}
-          className="w-full"
+          className="w-full hover:scale-105 duration-300 cursor-pointer"
           width={300}
           height={300}
           alt="repair"
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-base">{name}</h2>
-        <p className="text-start text-sm">{description}</p>
+        <h2
+          className="card-title text-base cursor-pointer hover:scale-105 duration-300"
+          onClick={() => {
+            router.push(`/services/${slugify(name)}`);
+          }}
+        >
+          {name}
+        </h2>
+        <p
+          className="text-start text-sm cursor-pointer"
+          onClick={() => {
+            router.push(`/services/${slugify(name)}`);
+          }}
+        >
+          {description}
+        </p>
         <div className="card-actions justify-end">
           <CallButton dark />
         </div>

@@ -1,4 +1,9 @@
 import React from "react";
+import phoneNumber from "../../content/phoneNumber";
+import {
+  PhoneIcon,
+} from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const ContactPage = () => {
   return (
@@ -13,48 +18,33 @@ const ContactPage = () => {
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Name</span>
-              </label>
-              <input
-                type="text"
-                placeholder="name"
-                className="input input-bordered"
-              />
-            </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Email</span>
-              </label>
-              <input
-                type="text"
-                placeholder="email"
-                className="input input-bordered"
-              />
-            </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Service Destination</span>
-              </label>
-              <input
-                type="text"
-                placeholder="Service required in: (City, Province)"
-                className="input input-bordered"
-              />
-            </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Message</span>
-              </label>
-              <textarea
-                className="textarea textarea-bordered"
-                placeholder="Your Message goes here ..."
-                rows={4}
-              ></textarea>
-            </div>
-            <div className="form-control mt-6">
-              <button className="btn btn-primary">Send</button>
+            <div className="flex gap-3 flex-col">
+              <p>Call us on: </p>
+              <a
+                href={`tel:${phoneNumber}`}
+                className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer"
+              >
+                <div className="p-4 bg-primary rounded-full">
+                  <PhoneIcon className="h-6 w-6 text-white" />
+                </div>
+                <div className="text-lg font-medium">{phoneNumber}</div>
+              </a>
+              <p className="mt-10">Reach us on: </p>
+              <div className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer">
+                <a
+                  href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`}
+                  target="_blank"
+                  className="p-[0.9rem] bg-primary rounded-full"
+                >
+                  <Image
+                    src="/whatsapp.svg"
+                    width={30}
+                    height={30}
+                    alt="WhatsApp"
+                  />
+                </a>
+                <div className="text-lg font-medium">Whatsapp</div>
+              </div>
             </div>
           </div>
         </div>

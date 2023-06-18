@@ -8,6 +8,8 @@ import {
 } from "@heroicons/react/24/outline";
 import Service from "../components/Service";
 import CallButton from "../components/buttons/CallButton";
+import phoneNumber from "../content/phoneNumber";
+import ServicesSection from "../components/sections/ServicesSection";
 
 export default function Home() {
   return (
@@ -83,32 +85,38 @@ export default function Home() {
               flawlessly.
             </p>
             <div className="divider"></div>
-            <div className="flex gap-10 flex-col sm:flex-row">
-              <a
-                href="tel:0971523722012"
-                className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer"
-              >
-                <div className="p-4 bg-primary rounded-full">
-                  <PhoneIcon className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-lg font-medium">0523722012</div>
-              </a>
-              <div className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer">
+            <div className="flex flex-col w-full lg:flex-row">
+              <div className="grid flex-grow h-32 card bg-base-100 rounded-box place-items-center">
                 <a
-                  href="//api.whatsapp.com/send?phone=971523722012&text=Hey, I want Home Appliance Repair Service."
-                  target="_blank"
-                  className="p-[0.9rem] bg-primary rounded-full"
+                  href={`tel:${phoneNumber}`}
+                  className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer"
                 >
-                  <Image
-                    src="/whatsapp.svg"
-                    width={30}
-                    height={30}
-                    alt="WhatsApp"
-                  />
+                  <div className="p-4 bg-primary rounded-full">
+                    <PhoneIcon className="h-6 w-6 text-white" />
+                  </div>
+                  <div className="text-lg font-medium">{phoneNumber}</div>
                 </a>
-                <div className="text-lg font-medium">Whatsapp Us</div>
+              </div>
+              <div className="divider lg:divider-horizontal">OR</div>
+              <div className="grid flex-grow h-32 card bg-base-100 rounded-box place-items-center">
+                <div className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer">
+                  <a
+                    href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`}
+                    target="_blank"
+                    className="p-[0.9rem] bg-primary rounded-full"
+                  >
+                    <Image
+                      src="/whatsapp.svg"
+                      width={30}
+                      height={30}
+                      alt="WhatsApp"
+                    />
+                  </a>
+                  <div className="text-lg font-medium">Whatsapp Us</div>
+                </div>
               </div>
             </div>
+            <div className="flex gap-10 flex-col sm:flex-row"></div>
           </div>
         </div>
       </div>
@@ -206,56 +214,7 @@ export default function Home() {
         </div>
       </div>
       {/* SERVICES SECTION */}
-      <div className="hero min-h-screen bg-base-100 text-info-content">
-        <div className="hero-content text-center w-full h-full">
-          <div className="pb-10 flex flex-col items-center">
-            <h1 className="text-4xl font-bold my-12 max-w-lg">
-              We Provide Professional Repair Services
-            </h1>
-            <div className="flex flex-wrap gap-5 items-center justify-center">
-              <Service
-                dark
-                name="Washing Machine Repair"
-                imageUrl="/images/washing-machine-repair.png"
-                description="Delivering top-tier, professional solutions that guarantee the optimal performance of your washing machine."
-              />
-              <Service
-                name="Refrigerator Repair"
-                imageUrl="/images/fridge-repair.png"
-                description="Whether it's a noisy compressor, a torn gasket, or a sealed door issue causing your refrigerator not to freeze properly."
-              />
-              <Service
-                dark
-                name="Stove/Cooker Repair"
-                imageUrl="/images/stovetech.png"
-                description="We offer fast and efficient repairs for all types of stoves and cookers. We only use high quality replacement parts for long lasting."
-              />
-              <Service
-                name="Television Repair"
-                imageUrl="/images/tv-repair.png"
-                description="Our professional TV repair service provides expert diagnostics and precise repairs ensuring optimal functionality."
-              />
-              <Service
-                dark
-                name="Dishwasher Repair"
-                imageUrl="/images/dishwasher.png"
-                description="We resolve common issues such as leaks, poor cleaning and unusual noises to ensure a spotless and efficient cleaning."
-              />
-              <Service
-                dark
-                name="Dryer Repair"
-                imageUrl="/images/dishwasher.png"
-                description="We resolve common issues such as leaks, poor cleaning and unusual noises to ensure a spotless and efficient cleaning."
-              />
-              <Service
-                name="Gas Oven Repair"
-                imageUrl="/images/cooker-repair.png"
-                description="Issues like temperature inconsistencies, ignition problems, gas leaks are resolved by our professionals."
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      <ServicesSection heading={"We Provide Professional Repair Services"} />
       {/* HERO SECTION 4 */}
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse">

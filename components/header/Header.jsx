@@ -1,19 +1,20 @@
 import React from "react";
 import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import phoneNumber from "../../content/phoneNumber";
 
 const Header = () => {
   return (
     <header className="z-50">
       <Link
-        href="tel:0523722012"
+        href={`tel:${phoneNumber}`}
         className="flex items-center justify-between md:justify-center gap-2 px-3 py-3 bg-info-content text-white text-sm hover:text-base duration-300"
       >
         <span>Hire an expert</span>
         <span className="hidden md:block">:</span>
         <div className="flex items-center">
           <PhoneIcon className="h-4 w-4 mr-1" />
-          0523722012
+          {phoneNumber}
         </div>
       </Link>
       <div className="bg-primary flex justify-center text-black font-raleway z-50">
@@ -47,25 +48,35 @@ const Header = () => {
                   <summary>Services</summary>
                   <ul className="p-2 z-50">
                     <li>
-                      <Link href="/services/washing-machine">Washing Machine Repair</Link>
+                      <Link href="/services/washing-machine-repair">
+                        Washing Machine Repair
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/refrigerator">Refrigerator Repair</Link>
+                      <Link href="/services/refrigerator-repair">
+                        Refrigerator Repair
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/dishwasher">Dishwasher Repair</Link>
+                      <Link href="/services/dishwasher-repair">
+                        Dishwasher Repair
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/television">TV Repair</Link>
+                      <Link href="/services/television-repair">TV Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services/dryer">Dryer Repair</Link>
+                      <Link href="/services/dryer-repair">Dryer Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services/stove-cooker">Stove / Cooker Repair</Link>
+                      <Link href="/services/stovecooker-repair">
+                        Stove / Cooker Repair
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/gas-oven">Gas Oven Repair</Link>
+                      <Link href="/services/gas-oven-repair">
+                        Gas Oven Repair
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -74,11 +85,17 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <Link href="/" className="btn btn-ghost normal-case sm:text-lg hidden">
+            <Link
+              href="/"
+              className="btn btn-ghost normal-case sm:text-lg hidden"
+            >
               <WrenchScrewdriverIcon className="h-6 w-6 text-black" />
               Quick Appliances Repairs
             </Link>
-            <Link href="/" className="btn btn-ghost normal-case sm:text-lg px-1">
+            <Link
+              href="/"
+              className="btn btn-ghost normal-case sm:text-lg px-1"
+            >
               <WrenchScrewdriverIcon className="h-6 w-6 text-black" />
               Quick Appliances Repairs
             </Link>
@@ -96,25 +113,35 @@ const Header = () => {
                   <summary>Services</summary>
                   <ul className="p-2">
                     <li>
-                      <Link href="/services/washing-machine">Washing Machine Repair</Link>
+                      <Link href="/services/washing-machine-repair">
+                        Washing Machine Repair
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/refrigerator">Refrigerator Repair</Link>
+                      <Link href="/services/refrigerator-repair">
+                        Refrigerator Repair
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/dishwasher">Dishwasher Repair</Link>
+                      <Link href="/services/dishwasher-repair">
+                        Dishwasher Repair
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/television">TV Repair</Link>
+                      <Link href="/services/television-repair">TV Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services/dryer">Dryer Repair</Link>
+                      <Link href="/services/dryer-repair">Dryer Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services/stove-cooker">Stove / Cooker Repair</Link>
+                      <Link href="/services/stovecooker-repair">
+                        Stove / Cooker Repair
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/gas-oven">Gas Oven Repair</Link>
+                      <Link href="/services/gas-oven-repair">
+                        Gas Oven Repair
+                      </Link>
                     </li>
                   </ul>
                 </details>

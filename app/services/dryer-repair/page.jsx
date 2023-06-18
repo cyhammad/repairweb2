@@ -298,7 +298,7 @@ const DryerPage = ({ params }) => {
         <div className="divider bg-base-200" />
         <div className="grid h-20 card  bg-primary text-xl rounded place-items-center text-center sm:text-2xl mt-3 font-bold ">
           Contact Us For Best Service!{" "}
-          <span className="font-normal  text-2xl">052828829</span>
+          <span className="font-normal  text-2xl">{phoneNumber}</span>
         </div>
       </div>
       <div className="w-full h-[250px] ">
