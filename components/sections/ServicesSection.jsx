@@ -13,40 +13,40 @@ const ServicesSection = ({heading}) => {
             <Service
               dark
               name="Washing Machine Repair"
-              imageUrl="/images/washing-machine-repair.png"
+              imageUrl="/images/washingm-service.jpg"
               description="Delivering top-tier, professional solutions that guarantee the optimal performance of your washing machine."
             />
             <Service
               name="Refrigerator Repair"
-              imageUrl="/images/fridge-repair.png"
+              imageUrl="/images/fridge-service.jpg"
               description="Whether it's a noisy compressor, a torn gasket, or a sealed door issue causing your refrigerator not to freeze properly."
             />
             <Service
               dark
               name="Stove/Cooker Repair"
-              imageUrl="/images/stovetech.png"
+              imageUrl="/images/stove-service.jpg"
               description="We offer fast and efficient repairs for all types of stoves and cookers. We only use high quality replacement parts for long lasting."
             />
             <Service
               name="Television Repair"
-              imageUrl="/images/tv-repair.png"
+              imageUrl="/images/tv-service.jpg"
               description="Our professional TV repair service provides expert diagnostics and precise repairs ensuring optimal functionality."
             />
             <Service
               dark
               name="Dishwasher Repair"
-              imageUrl="/images/dishwasher.png"
+              imageUrl="/images/dishwasher-service.jpg"
               description="We resolve common issues such as leaks, poor cleaning and unusual noises to ensure a spotless and efficient cleaning."
             />
             <Service
               dark
               name="Dryer Repair"
-              imageUrl="/images/dishwasher.png"
+              imageUrl="/images/dryer-service.jpg"
               description="We resolve common issues such as leaks, poor cleaning and unusual noises to ensure a spotless and efficient cleaning."
             />
             <Service
               name="Gas Oven Repair"
-              imageUrl="/images/cooker-repair.png"
+              imageUrl="/images/oven-service.jpg"
               description="Issues like temperature inconsistencies, ignition problems, gas leaks are resolved by our professionals."
             />
           </div>
