@@ -1,13 +1,11 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import CallButton from "../../../components/buttons/CallButton";
-import BrandsSection from "../../../components/sections/BrandsSection";
+import CallOrWhatsappButton from "../../../components/buttons/CallOrWhatsappButton";
 
-const WashingMachinePage = ({ params }) => {
-  const unslugify = (slug) => {
-    return slug.split("-").join(" ");
-  };
+const WashingMachinePage = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-base-100">
@@ -50,8 +48,9 @@ const WashingMachinePage = ({ params }) => {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-base-100 bg-black bg-opacity-60 md:p-10">
           <div className="max-w-md md:max-w-3xl lg:max-w-5xl">
-            <h1 className="mb-5 text-2xl md:text-5xl font-bold">
-              Why Choose Quick Appliances Repairs?
+            <h1 className="mb-5 text-2xl md:text-3xl font-bold">
+              Why Choose Quick Appliances Repairs For Your Washing Machine
+              Repairs?
             </h1>
             <ul className="list-disc list-inside space-y-3">
               <li>
@@ -119,7 +118,7 @@ const WashingMachinePage = ({ params }) => {
               machine repair needs!
             </p>
             <div className="flex justify-center">
-              <CallButton dark />
+              <CallOrWhatsappButton />
             </div>
           </div>
         </div>
