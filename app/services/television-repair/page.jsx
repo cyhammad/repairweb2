@@ -11,7 +11,7 @@ const TvPage = () => {
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            src="/images/television_4.jpg"
+            src="/images/tv/1.jpg"
             className=" rounded-lg shadow-2xl"
             height={500}
             width={500}
@@ -41,7 +41,7 @@ const TvPage = () => {
       {/* Why Choose Us Section */}
       <div
         className="hero min-h-screen bg-fixed"
-        style={{ backgroundImage: "url('/images/television_1.jpg')" }}
+        style={{ backgroundImage: "url('/images/tv/2.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-base-100 bg-black bg-opacity-60 md:p-10">

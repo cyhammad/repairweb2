@@ -11,7 +11,7 @@ const DishwasherPage = () => {
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            src="/images/dishwasher_4.png"
+            src="/images/dishwasher/2.png"
             className=" rounded-lg shadow-2xl"
             height={500}
             width={500}
@@ -41,7 +41,7 @@ const DishwasherPage = () => {
       {/* Why Choose Us Section */}
       <div
         className="hero min-h-screen bg-fixed"
-        style={{ backgroundImage: "url('/images/dishwasher_2.jpg')" }}
+        style={{ backgroundImage: "url('/images/dishwasher/1.jpeg')" }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-base-100 bg-black bg-opacity-60 md:p-10">

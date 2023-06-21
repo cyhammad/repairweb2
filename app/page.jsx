@@ -18,7 +18,7 @@ export default function Home() {
       {/* HERO SECTION 1 */}
       <div
         className="hero min-h-[90vh] bg-fixed"
-        style={{ backgroundImage: "url('/images/slider/img-1.jpg')" }}
+        style={{ backgroundImage: "url('/images/mainbanner.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content md:w-full text-center md:text-left text-white">
@@ -42,25 +42,25 @@ export default function Home() {
           <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
             <div className="max-w-xs flex justify-end items-end">
               <img
-                src="/images/tv-repair.png"
+                src="/images/tv/1.jpg"
                 className="max-w-[5.5rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[8.5rem] xl:max-w-[14rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-start items-end">
               <img
-                src="/images/washing-machine-repair.png"
+                src="/images/washing/1.jpg"
                 className="max-w-[6.5rem] sm:max-w-[9rem] md:max-w-[13rem] lg:max-w-[11rem] xl:max-w-[18rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-end items-start">
               <img
-                src="/images/cooker-repair.png"
+                src="/images/stove/1.jpg"
                 className="max-w-[4rem] sm:max-w-[5.5rem] md:max-w-[7rem] lg:max-w-[6rem] xl:max-w-[10rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-start items-start">
               <img
-                src="/images/fridge-repair.png"
+                src="/images/fridge/1.jpg"
                 className="max-w-[5rem] sm:max-w-[7rem] md:max-w-[9.5rem] lg:max-w-[7.5rem] xl:max-w-[13rem] shadow-2xl"
               />
             </div>
@@ -192,25 +192,25 @@ export default function Home() {
           <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
             <div className="max-w-xs flex justify-end items-end">
               <img
-                src="/images/kitchen.png"
+                src="/images/oven/1.jpg"
                 className="max-w-[5.5rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[8.5rem] xl:max-w-[14rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-start items-end">
               <img
-                src="/images/trustytech.png"
+                src="/images/stove/2.jpg"
                 className="max-w-[6.5rem] sm:max-w-[9rem] md:max-w-[13rem] lg:max-w-[11rem] xl:max-w-[18rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-end items-start">
               <img
-                src="/images/stovetech.png"
+                src="/images/dryer/2.jpeg"
                 className="max-w-[4rem] sm:max-w-[5.5rem] md:max-w-[7rem] lg:max-w-[6rem] xl:max-w-[10rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-start items-start">
               <img
-                src="/images/tools.png"
+                src="/images/tv/2.jpg"
                 className="max-w-[5rem] sm:max-w-[7rem] md:max-w-[9.5rem] lg:max-w-[7.5rem] xl:max-w-[13rem] shadow-2xl"
               />
             </div>

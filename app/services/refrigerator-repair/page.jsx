@@ -11,10 +11,10 @@ const RefrigeratorPage = () => {
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            src="/images/refri-1.jpg"
+            src="/images/fridge/1.jpg"
             className=" rounded-lg shadow-2xl"
             height={500}
-            width={500}
+            width={400}
           />
           <div className="md:mr-20">
             <h1 className="text-3xl md:text-5xl font-bold">
@@ -41,7 +41,7 @@ const RefrigeratorPage = () => {
       {/* Why Choose Us Section */}
       <div
         className="hero min-h-screen bg-fixed"
-        style={{ backgroundImage: "url('/images/refri-4.jpg')" }}
+        style={{ backgroundImage: "url('/images/fridge/2.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-base-100 bg-black bg-opacity-60 md:p-10">

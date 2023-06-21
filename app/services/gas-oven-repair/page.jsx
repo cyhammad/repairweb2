@@ -11,7 +11,7 @@ const GasOvenPage = () => {
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            src="/images/oven.jpg"
+            src="/images/oven/1.jpg"
             className=" rounded-lg shadow-2xl"
             height={500}
             width={500}
@@ -41,7 +41,7 @@ const GasOvenPage = () => {
       {/* Why Choose Us Section */}
       <div
         className="hero min-h-screen bg-fixed"
-        style={{ backgroundImage: "url('/images/oven_2.jpg')" }}
+        style={{ backgroundImage: "url('/images/oven/2.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-base-100 bg-black bg-opacity-60 md:p-10">

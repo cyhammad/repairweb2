@@ -100,7 +100,7 @@ const Header = () => {
               Quick Appliances Repairs
             </Link>
           </div>
-          <div className="navbar-end hidden lg:flex">
+          <div className="navbar-end hidden lg:flex z-50">
             <ul className="menu menu-horizontal px-1">
               <li>
                 <Link href="/">Home</Link>

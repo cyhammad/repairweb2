@@ -11,7 +11,7 @@ const DryerRepair = () => {
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            src="/images/dryer.jpg"
+            src="/images/dryer/1.jpeg"
             className=" rounded-lg shadow-2xl"
             height={500}
             width={500}
@@ -40,7 +40,7 @@ const DryerRepair = () => {
       {/* Why Choose Us Section */}
       <div
         className="hero min-h-screen bg-fixed"
-        style={{ backgroundImage: "url('/images/dryer_2.jpg')" }}
+        style={{ backgroundImage: "url('/images/dryer/2.jpeg')" }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-base-100 bg-black bg-opacity-60 md:p-10">
