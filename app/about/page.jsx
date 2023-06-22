@@ -4,7 +4,7 @@ import CallButton from "../../components/buttons/CallButton";
 const AboutPage = () => {
   return (
     <div
-      className="hero min-h-screen bg-fixed bg-center bg-cover"
+      className="hero min-h-screen bg-fixed"
       style={{ backgroundImage: "url(/images/aboutus.jpg);" }}
     >
       <div className="hero-overlay bg-opacity-60"></div>

@@ -49,7 +49,7 @@ const Header = () => {
                 </li>
                 <li>
                   <summary>Services</summary>
-                  <ul className="p-2 z-50">
+                  <ul className="p-2 z-50 focus:!bg-base-100 hover:!bg-base-100">
                     <li>
                       <Link href="/services/washing-machine-repair">
                         Washing Machine Repair
