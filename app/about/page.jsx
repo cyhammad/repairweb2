@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <div
       className="hero min-h-screen bg-fixed"
-      style={{ backgroundImage: "url(/images/aboutus.jpg);" }}
+      style={{ backgroundImage: "url('/images/aboutus.jpg');" }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-base-100 bg-blend-darken bg-black bg-opacity-60">
