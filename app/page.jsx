@@ -19,20 +19,27 @@ export default function Home() {
     <main>
       {/* HERO SECTION 1 */}
       <Head>
-        <Script
-          id="google-analytics"
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11230930704"
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', 'AW-11230930704');
-          `,
-          }}
-        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11230930704" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11230930704');
+        `}
+        </Script>
+        {/* 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11230930704"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11230930704');
+        </script>
+        */}
       </Head>
       <div
         className="hero min-h-[90vh] bg-fixed"
