@@ -21,7 +21,7 @@ const Header = () => {
         <div className="navbar max-w-7xl">
           <div className="navbar-start">
             <div className="dropdown m-0">
-              <label tabIndex={0} className="btn btn-ghost px-2 lg:hidden">
+              <label tabIndex={0} className="btn btn-ghost px-3 lg:hidden bg-red-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
