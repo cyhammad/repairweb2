@@ -17,14 +17,14 @@ const Header = () => {
           {phoneNumber}
         </div>
       </Link>
-      <div className="bg-primary flex justify-center text-black font-raleway z-50">
+      <div className="bg-primary flex justify-center py-1 sm:py-0 text-black font-raleway z-50">
         <div className="navbar max-w-7xl">
           <div className="navbar-start">
             <div className="dropdown m-0">
-              <label tabIndex={0} className="btn btn-ghost px-3 lg:hidden bg-red-200">
+              <label tabIndex={0} className="btn btn-ghost px-3 lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

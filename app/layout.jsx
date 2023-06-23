@@ -1,3 +1,5 @@
+"use client";
+
 import Header from "../components/header/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -17,23 +19,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        {/* Google tag (gtag.js) */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11230930704"
-        ></Script>
-        <Script>
-          {`
-            window.dataLayer = window.dataLayer || []; function gtag()
-            {dataLayer.push(arguments)}
-            gtag('js', new Date()); gtag('config', 'AW-11230930704');
-          `}
-        </Script>
-      </Head>
       <body className={inter.className}>
+        <Head>
+          <Script
+            id="google-analytics"
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-11230930704"
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'AW-11230930704');
+          `,
+            }}
+          />
+        </Head>
         <Header />
         {children}
         <FixedCallButtons />
