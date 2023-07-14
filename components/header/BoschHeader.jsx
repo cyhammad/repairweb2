@@ -27,19 +27,20 @@ const BoschHeader = () => {
   const handleScroll = () => {
     const position = window.scrollY;
     setScrollPosition(position);
-    let classes = document.getElementById("header").classList;
-    if (position > 60) {
-      console.log("CLASSES", document.getElementById("header").classList);
-      classes.remove("bg-transparent");
-      classes.remove("py-5");
-      classes.add("bg-white");
-      classes.add("shadow-md");
-    }
-    if (position < 60) {
-      classes.add("bg-transparent");
-      classes.add("py-5");
-      classes.remove("bg-white");
-      classes.remove("shadow-md");
+    let classes = document.getElementById("header")?.classList;
+    if (classes){
+      if (position > 60) {
+        classes.remove("bg-transparent");
+        classes.remove("py-5");
+        classes.add("bg-white");
+        classes.add("shadow-md");
+      }
+      if (position < 60) {
+        classes.add("bg-transparent");
+        classes.add("py-5");
+        classes.remove("bg-white");
+        classes.remove("shadow-md");
+      }
     }
   };
 

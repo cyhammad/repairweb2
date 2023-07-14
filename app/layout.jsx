@@ -11,18 +11,12 @@ import { usePathname } from "next/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Quick Appliances Repair",
-  description:
-    "Quick Appliances Repair is an appliance repair company in Dubai and Abu Dhabi. We repair all major appliances including fridges, stoves, washers, dryers, dishwashers, and more. We offer same-day service and 24/7 repair service. Call us today to book your appointment.",
-};
-
 export default function RootLayout({ children }) {
   const pathname = usePathname();
   console.log("Pathname", pathname);
   if (pathname.startsWith("/companies")) {
     return (
-      <html lang="en" className="scroll-smooth">
+      <html lang="en" className="scroll-smooth" style={{scrollBehavior: "smooth"}}>
         <body className={inter.className}>
           <Head>
             <Script
@@ -39,6 +33,7 @@ export default function RootLayout({ children }) {
           `,
               }}
             />
+            <title>Quick Appliance Repair | Home Appliance Repair Service</title>
           </Head>
           {children}
           <FixedCallButtons />
