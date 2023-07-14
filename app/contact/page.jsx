@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="text-center lg:text-left ml-10">
+        <div className="text-center lg:text-left md:ml-10">
           <h1 className="text-5xl font-bold">Contact Us!</h1>
           <p className="py-6">
             For all your appliance repair needs, don't hesitate to contact us
