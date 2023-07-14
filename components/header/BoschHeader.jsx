@@ -84,63 +84,63 @@ const BoschHeader = () => {
               {showMenu && (
                 <ul className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box z-50">
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/companies/bosch">Home</Link>
                   </li>
                   <li>
-                    <Link href="/about">About Us</Link>
+                    <Link href="/companies/bosch">About Us</Link>
                   </li>
                   <li>
                     <summary>Services</summary>
                     <ul className="p-2 z-50 focus:!bg-base-100 hover:!bg-base-100">
                       <li>
-                        <Link href="/services/washing-machine-repair">
+                        <Link href="/companies/bosch#boschservices">
                           Washing Machine Repair
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services/refrigerator-repair">
+                        <Link href="/companies/bosch#boschservices">
                           Refrigerator Repair
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services/dishwasher-repair">
+                        <Link href="/companies/bosch#boschservices">
                           Dishwasher Repair
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services/television-repair">
+                        <Link href="/companies/bosch#boschservices">
                           TV Repair
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services/dryer-repair">Dryer Repair</Link>
+                        <Link href="/companies/bosch#boschservices">Dryer Repair</Link>
                       </li>
                       <li>
-                        <Link href="/services/stovecooker-repair">
+                        <Link href="/companies/bosch#boschservices">
                           Stove / Cooker Repair
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services/gas-oven-repair">
+                        <Link href="/companies/bosch#boschservices">
                           Gas Oven Repair
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/companies/bosch">Contact Us</Link>
                   </li>
                 </ul>
               )}
             </div>
             <Link
-              href="/"
+              href="/companies/bosch"
               className="btn btn-ghost normal-case sm:text-lg hidden"
             >
               <Image src="/bosch.svg" width={200} height={100} />
             </Link>
             <Link
-              href="/"
+              href="/companies/bosch"
               className="btn btn-ghost normal-case sm:text-lg px-1"
             >
               <Image src="/bosch.svg" width={200} height={100} />
@@ -149,13 +149,13 @@ const BoschHeader = () => {
           <div className="navbar-end hidden lg:flex z-50 text-info-content font-extrabold">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/companies/bosch">Home</Link>
               </li>
               <li>
-                <Link href="/">About Us</Link>
+                <Link href="/companies/bosch">About Us</Link>
               </li>
               <li>
-                <Link href="/">Services</Link>
+                <Link href="/companies/bosch#boschservices">Services</Link>
               </li>
               <li>
                 <button

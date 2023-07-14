@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
 
-const Footer = ({ color }) => {
+const Footer = ({ color, company }) => {
   return (
     <footer className="footer flex justify-center p-10 bg-info-content text-base-200">
       <div className="footer w-full max-w-7xl gap-y-10">

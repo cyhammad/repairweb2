@@ -6,7 +6,7 @@ import Link from "next/link";
 import CallButton from "./buttons/CallButton";
 import { useRouter } from "next/navigation";
 
-const Service = ({ name, imageUrl, description, dark, callButtonColor="default" }) => {
+const Service = ({ name, imageUrl, description, dark, callButtonColor="default", disableLink }) => {
   const router = useRouter();
   const slugify = (text) => {
     return text
@@ -26,7 +26,9 @@ const Service = ({ name, imageUrl, description, dark, callButtonColor="default" 
     >
       <figure
         onClick={() => {
-          router.push(`/services/${slugify(name)}`);
+          if (!disableLink) {
+            router.push(`/services/${slugify(name)}`);
+          }
         }}
       >
         <Image
@@ -41,7 +43,9 @@ const Service = ({ name, imageUrl, description, dark, callButtonColor="default" 
         <h2
           className="card-title text-base cursor-pointer hover:scale-105 duration-300"
           onClick={() => {
-            router.push(`/services/${slugify(name)}`);
+            if (!disableLink) {
+              router.push(`/services/${slugify(name)}`);
+            }
           }}
         >
           {name}
@@ -49,7 +53,9 @@ const Service = ({ name, imageUrl, description, dark, callButtonColor="default" 
         <p
           className="text-start text-sm cursor-pointer"
           onClick={() => {
-            router.push(`/services/${slugify(name)}`);
+            if (!disableLink) {
+              router.push(`/services/${slugify(name)}`);
+            }
           }}
         >
           {description}

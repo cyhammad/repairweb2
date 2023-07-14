@@ -50,7 +50,7 @@ const BoschPage = () => {
         </div>
       </div>
       {/* SECOND SECTION */}
-      <ServicesSection heading="Our Services" callButtonColor="[#219ACD]" />
+      <ServicesSection heading="Our Services" callButtonColor="[#219ACD]" id="boschservices" disableLinks  />
       {/* Footer */}
       <Footer color="#219ACD" />
     </div>
