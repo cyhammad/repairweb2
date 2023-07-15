@@ -1,9 +1,18 @@
+"use client";
+
 import React from "react";
 import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import phoneNumber from "../../content/phoneNumber";
+import { usePathname, useRouter } from "next/navigation";
 
 const Header = () => {
+  const pathname = usePathname();
+  const router = useRouter();
+  
+  if (pathname.startsWith("/companies")) {
+    return null;
+  }
   return (
     <header className="z-50">
       <Link
