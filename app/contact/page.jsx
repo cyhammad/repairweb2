@@ -1,11 +1,21 @@
 import React from "react";
 import phoneNumber from "../../content/phoneNumber";
-import {
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
+import { PhoneIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 const ContactPage = () => {
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-11202272766/sxVbCLOniLwYEP671N0p",
+      event_callback: callback,
+    });
+    return false;
+  }
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">

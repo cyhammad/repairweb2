@@ -1,12 +1,6 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import {
-  PhoneIcon,
-  WrenchScrewdriverIcon,
-  ChevronUpIcon,
-  ChevronDownIcon,
-} from "@heroicons/react/24/solid";
 import Link from "next/link";
 import phoneNumber from "../../content/phoneNumber";
 import Image from "next/image";
