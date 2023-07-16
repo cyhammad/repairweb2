@@ -237,7 +237,9 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 ">
+                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "  onClick={() => {
+          window.location.href = `tel:${phoneNumber}`
+        }}>
                     Call Us
                   </button>
                 </div>
@@ -271,7 +273,9 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 ">
+                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "   onClick={() => {
+          window.location.href = `tel:${phoneNumber}`
+        }}>
                     Call Us
                   </button>
                 </div>
@@ -305,7 +309,9 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 ">
+                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "   onClick={() => {
+          window.location.href = `tel:${phoneNumber}`
+        }}>
                     Call Us
                   </button>
                 </div>
@@ -339,7 +345,9 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 ">
+                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "   onClick={() => {
+          window.location.href = `tel:${phoneNumber}`
+        }}>
                     Call Us
                   </button>
                 </div>
@@ -373,7 +381,9 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 ">
+                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "  onClick={() => {
+          window.location.href = `tel:${phoneNumber}`
+        }}>
                     Call Us
                   </button>
                 </div>
@@ -407,7 +417,9 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 ">
+                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "   onClick={() => {
+          window.location.href = `tel:${phoneNumber}`
+        }}>
                     Call Us
                   </button>
                 </div>
@@ -441,7 +453,9 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 ">
+                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "  onClick={() => {
+          window.location.href = `tel:${phoneNumber}`
+        }}>
                     Call Us
                   </button>
                 </div>
