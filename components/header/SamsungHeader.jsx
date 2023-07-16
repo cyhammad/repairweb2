@@ -40,33 +40,33 @@ const SamsungHeader = () => {
                   <summary>Services</summary>
                   <ul className="p-2 z-50 focus:!bg-base-100 hover:!bg-base-100">
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/washing-machine-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#washing">
                         Washing Machine Repair
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white"href="/services/refrigerator-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white"href="#refrigerator">
                         Refrigerator Repair
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/dishwasher-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#dishwasher">
                         Dishwasher Repair
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white"  href="/services/television-repair">TV Repair</Link>
+                      <Link className="hover:bg-neutral-focus hover:text-white"  href="#tv">TV Repair</Link>
                     </li>
                     <li>
                       <Link href="/services/dryer-repair">Dryer Repair</Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/stovecooker-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#stove">
                         Stove / Cooker Repair
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/gas-oven-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#oven">
                         Gas Oven Repair
                       </Link>
                     </li>
@@ -81,7 +81,7 @@ const SamsungHeader = () => {
               href="/companies/samsung"
               className="sm:text-lg px-1"
             >
-              <Image src="/Samsung.svg" width={200} height={20}/>
+              <Image className="mb-3 " src="/Samsung.svg" width={200} height={20}/>
             </Link>
           </div>
           <div className="navbar-end hidden lg:flex z-50">
@@ -97,33 +97,33 @@ const SamsungHeader = () => {
                   <summary className="hover:bg-neutral-focus hover:text-white">Services</summary>
                   <ul className="p-2">
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/washing-machine-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#washing">
                         Washing Machine Repair
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/refrigerator-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#refrigerator">
                         Refrigerator Repair
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/dishwasher-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#dishwasher">
                         Dishwasher Repair
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white"  href="/services/television-repair">TV Repair</Link>
+                      <Link className="hover:bg-neutral-focus hover:text-white"  href="#tv">TV Repair</Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/dryer-repair">Dryer Repair</Link>
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#dryer">Dryer Repair</Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/stovecooker-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#stove">
                         Stove / Cooker Repair
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:bg-neutral-focus hover:text-white" href="/services/gas-oven-repair">
+                      <Link className="hover:bg-neutral-focus hover:text-white" href="#oven">
                         Gas Oven Repair
                       </Link>
                     </li>

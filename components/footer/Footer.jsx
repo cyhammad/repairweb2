@@ -1,8 +1,15 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
-
+import { usePathname, useRouter } from "next/navigation";
 const Footer = ({ color, company }) => {
+  const pathname = usePathname();
+  const router = useRouter();
+  
+  if (pathname.startsWith("/companies")) {
+    return null;
+  }
   return (
     <footer className="footer flex justify-center p-10 bg-info-content text-base-200">
       <div className="footer w-full max-w-7xl gap-y-10">

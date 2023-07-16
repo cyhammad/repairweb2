@@ -65,9 +65,9 @@ const SamsungPage = () => {
         </div>
       </div>
 
-      <div className="w-full h-[800px] md:h-[350px]  flex flex-col md:flex-row justify-evenly items-center">
-        <div className="w-full md:w-[300px] h-[300px]">
-          <div className="w-full drop-shadow-xl h-[250px] bg-white border-[1px] border-grey flex flex-col justify-center items-center text-center">
+      <div className="w-auto mx-2 mt-3 md:mt-0 md:mx-0 md:w-full h-[800px] md:h-[350px]  flex flex-col md:flex-row justify-evenly items-center ">
+        <div className="w-full    md:w-[300px] h-[300px]">
+          <div className="w-full  drop-shadow-xl h-[250px] bg-white border-[1px] border-grey flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -85,7 +85,7 @@ const SamsungPage = () => {
 
             <h1 className="text-xl font-extrabold">Reasonable Price</h1>
 
-            <h1>
+            <h1 className="p-1 md:p-0">
               We do offer a reasonable price for repair & service of Bosch
               Appliances.
             </h1>
@@ -111,7 +111,7 @@ const SamsungPage = () => {
 
             <h1 className="text-xl font-extrabold">Customer Satisfaction</h1>
 
-            <h1>
+            <h1 className="p-1 md:p-0">
               We maintain a professional workflow for excellent customer
               relationships.
             </h1>
@@ -136,7 +136,7 @@ const SamsungPage = () => {
 
             <h1 className="text-xl font-extrabold">24*7 Services</h1>
 
-            <h1>
+            <h1 className="p-1 md:p-0">
               We are available 24*7, Call us for get repair any Bosch
               Appliances.
             </h1>
@@ -208,7 +208,7 @@ const SamsungPage = () => {
       </div>
 
       {/* services */}
-      <div className="w-full h-auto flex justify-center">
+      <div id="washing" className="w-full h-auto flex justify-center">
         <div className="w-full mx-5 md:mx-5 h-auto flex flex-col justify-center items-center">
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
@@ -245,7 +245,7 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div id="refrigerator" className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -279,7 +279,7 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div id="stove" className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -313,7 +313,7 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div id="tv" className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -347,7 +347,7 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div id="dishwasher" className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -381,7 +381,7 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div className="mt-5 mb-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div id="dryer" className="mt-5 mb-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -415,7 +415,7 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div className="mt-5 mb-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div id="oven" className="mt-5 mb-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
