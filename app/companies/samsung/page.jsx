@@ -86,7 +86,7 @@ const SamsungPage = () => {
             <h1 className="text-xl font-extrabold">Reasonable Price</h1>
 
             <h1 className="p-1 md:p-0">
-              We do offer a reasonable price for repair & service of Bosch
+              We do offer a reasonable price for repair & service of Samsung
               Appliances.
             </h1>
           </div>
@@ -137,7 +137,7 @@ const SamsungPage = () => {
             <h1 className="text-xl font-extrabold">24*7 Services</h1>
 
             <h1 className="p-1 md:p-0">
-              We are available 24*7, Call us for get repair any Bosch
+              We are available 24*7, Call us for get repair any Samsung
               Appliances.
             </h1>
           </div>
