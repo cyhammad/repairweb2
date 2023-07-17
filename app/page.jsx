@@ -40,7 +40,7 @@ export default function Home() {
           <div className="w-full">
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold">
-                A technician you can trust
+                Best Appliance Repair Service in Dubai & Abu Dhabi
               </h1>
               <p className="mb-5">
                 When it comes to repairing your home appliances, you need a
@@ -97,8 +97,8 @@ export default function Home() {
             <p className="py-6 max-w-xl">
               With our extensive knowledge, expertise, and commitment to
               customer satisfaction. We are dedicated to providing you with the
-              highest quality repairs and ensuring your appliances work
-              flawlessly.
+              highest quality repairs for Samsung, LG, Bosch and Siemens
+              Appliances.
             </p>
             <div className="divider"></div>
             <CallOrWhatsappButton />
@@ -127,7 +127,7 @@ export default function Home() {
                 </svg>
               </div>
               <div className="stat-title">More than</div>
-              <div className="stat-value">10</div>
+              <div className="stat-value">50+</div>
               <div className="stat-desc">years of field experience</div>
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function Home() {
                 </svg>
               </div>
               <div className="stat-title">Around</div>
-              <div className="stat-value">1800</div>
+              <div className="stat-value">18000+</div>
               <div className="stat-desc">clients satisfied by service</div>
             </div>
           </div>
@@ -171,8 +171,8 @@ export default function Home() {
                 </svg>
               </div>
               <div className="stat-title">More than</div>
-              <div className="stat-value">7</div>
-              <div className="stat-desc">provided by our techs</div>
+              <div className="stat-value">70+</div>
+              <div className="stat-desc">services provided</div>
             </div>
           </div>
           <div className="stats shadow w-full max-w-[280px] md:w-[250px]">
@@ -193,15 +193,14 @@ export default function Home() {
                 </svg>
               </div>
               <div className="stat-title">More than</div>
-              <div className="stat-value">50</div>
+              <div className="stat-value">800+</div>
               <div className="stat-desc">technicians available</div>
             </div>
           </div>
         </div>
       </div>
-      {/* SERVICES SECTION */}
-      <ServicesSection heading={"We Provide Professional Repair Services"} />
-      {/* HERO SECTION 4 */}
+      {/* Hero Section 3 */}
+
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse">
           <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
@@ -287,6 +286,118 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* HERO SECTION 4 */}
+      <div className="hero min-h-screen bg-base-100">
+        <div className="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 className="text-5xl font-bold">Samsung Service Center</h1>
+            <p className="py-6">
+              We provide Samsung Service Center in Dubai and Abu Dhabi. The best
+              Samsung Service Center in Dubai and Abu Dhabi. We provide
+              following services:
+            </p>
+            <ul>
+              <li>Samsung Service Center</li>
+              <li>Samsung Repair Center</li>
+              <li>Samsung Service Center Dubai</li>
+              <li>Samsung Service Center Abu Dhabi</li>
+              <li>Samsung Repair Center Dubai</li>
+              <li>Samsung Repair Center Abu Dhabi</li>
+              <li>Samsung Washing Machine Repair</li>
+              <li>Samsung Dishwasher Repair</li>
+              <li>Samsung Refrigerator Repair</li>
+              <li>Samsung TV repair</li>
+              <li>Samsung Dryer repair</li>
+              <li>Samsung Stove repair</li>
+              <li>Samsung Cooker repair</li>
+              <li>Samsung Oven repair</li>
+            </ul>
+            <CallButton />
+          </div>
+          <div>
+            <h1 className="text-5xl font-bold">LG Service Center</h1>
+            <p className="py-6">
+              We provide LG Service Center in Dubai and Abu Dhabi. The best LG
+              Service Center in Dubai and Abu Dhabi. We provide following
+              services:
+            </p>
+            <ul>
+              <li>LG Service Center</li>
+              <li>LG Repair Center</li>
+              <li>LG Service Center Dubai</li>
+              <li>LG Service Center Abu Dhabi</li>
+              <li>LG Repair Center Dubai</li>
+              <li>LG Repair Center Abu Dhabi</li>
+              <li>LG Washing Machine Repair</li>
+              <li>LG Dishwasher Repair</li>
+              <li>LG Refrigerator Repair</li>
+              <li>LG TV repair</li>
+              <li>LG Dryer repair</li>
+              <li>LG Stove repair</li>
+              <li>LG Cooker repair</li>
+              <li>LG Oven repair</li>
+            </ul>
+            <CallButton />
+          </div>
+        </div>
+      </div>
+      <div className="hero min-h-screen bg-base-100">
+        <div className="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 className="text-5xl font-bold">Bosch Service Center</h1>
+            <p className="py-6">
+              We provide Bosch Service Center in Dubai and Abu Dhabi. The best
+              Bosch Service Center in Dubai and Abu Dhabi. We provide following
+              services:
+            </p>
+            <ul>
+              <li>Bosch Service Center</li>
+              <li>Bosch Repair Center</li>
+              <li>Bosch Service Center Dubai</li>
+              <li>Bosch Service Center Abu Dhabi</li>
+              <li>Bosch Repair Center Dubai</li>
+              <li>Bosch Repair Center Abu Dhabi</li>
+              <li>Bosch Washing Machine Repair</li>
+              <li>Bosch Dishwasher Repair</li>
+              <li>Bosch Refrigerator Repair</li>
+              <li>Bosch TV repair</li>
+              <li>Bosch Dryer repair</li>
+              <li>Bosch Stove repair</li>
+              <li>Bosch Cooker repair</li>
+              <li>Bosch Oven repair</li>
+            </ul>
+            <CallButton />
+          </div>
+          <div>
+            <h1 className="text-5xl font-bold">Siemens Service Center</h1>
+            <p className="py-6">
+              We provide Siemens Service Center in Dubai and Abu Dhabi. The best
+              Siemens Service Center in Dubai and Abu Dhabi. We provide
+              following services:
+            </p>
+            <ul>
+              <li>Siemens Service Center</li>
+              <li>Siemens Repair Center</li>
+              <li>Siemens Service Center Dubai</li>
+              <li>Siemens Service Center Abu Dhabi</li>
+              <li>Siemens Repair Center Dubai</li>
+              <li>Siemens Repair Center Abu Dhabi</li>
+              <li>Siemens Washing Machine Repair</li>
+              <li>Siemens Dishwasher Repair</li>
+              <li>Siemens Refrigerator Repair</li>
+              <li>Siemens TV repair</li>
+              <li>Siemens Dryer repair</li>
+              <li>Siemens Stove repair</li>
+              <li>Siemens Cooker repair</li>
+              <li>Siemens Oven repair</li>
+            </ul>
+            <CallButton />
+          </div>
+        </div>
+      </div>
+
+      {/* SERVICES SECTION */}
+      <ServicesSection heading={"We Provide Professional Repair Services"} />
     </main>
   );
 }
