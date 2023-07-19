@@ -4,7 +4,7 @@ function Lg_Carousel() {
   return (
     <div>
       
-      <div className="w-full h-[500px] md:h-[300px]  ">
+      <div className="w-full h-full md:h-[300px]  ">
         <div className="carousel w-full h-full md:h-[300px]">
           <div
             id="slide1"
