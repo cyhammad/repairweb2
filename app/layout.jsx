@@ -8,7 +8,7 @@ import FixedCallButtons from "../components/buttons/FixedCallButtons";
 import { GTM_ID } from "../lib/gtm";
 import { Suspense } from "react";
 import Script from "next/script";
-import {NavigationEvents} from "../components/navigation-events";
+import { NavigationEvents } from "../components/navigation-events";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
@@ -31,6 +31,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* <!--  ClickCease.com tracking--> */}
+      <Script
+        type="text/javascript"
+        async
+        dangerouslySetInnerHTML={{
+          __html: `
+          var script = document.createElement('script'); script.async = true;
+          script.type = 'text/javascript'; var target =
+          'https://www.clickcease.com/monitor/stat.js'; script.src = target;var
+          elem = document.head;elem.appendChild(script);
+          `,
+        }}
+      />
       {/* Google Tag Manager - Global base code */}
       <Script
         id="gtag-base"
@@ -53,6 +66,11 @@ export default function RootLayout({ children }) {
             width="0"
             style={{ display: "none", visibility: "hidden" }}
           />
+          {/* <!--  ClickCease.com tracking--> */}
+          <a href="https://www.clickcease.com" rel="nofollow">
+            <img src="https://monitor.clickcease.com" alt="ClickCease" />
+          </a>
+          {/* <!--  ClickCease.com tracking--> */}
         </noscript>
         <Header />
         {children}
