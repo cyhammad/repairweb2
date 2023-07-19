@@ -4,13 +4,13 @@ import SamsungHeader from "../../../components/header/SamsungHeader";
 import ServicesSection from "../../../components/sections/ServicesSection";
 import Footer from "../../../components/footer/samsungFooter";
 import Image from "next/image";
-import CallOrWhatsappButton from "../../../components/buttons/Samsung_call_Wahtaspp.jsx";
 import phoneNumber from "../../../content/phoneNumber";
 import {
   CheckBadgeIcon,
   WrenchScrewdriverIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import CallOrWhatsappButton from "../../../components/buttons/CallOrWhatsappButton";
 
 const SamsungPage = () => {
   return (

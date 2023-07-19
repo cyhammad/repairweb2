@@ -6,6 +6,7 @@ import CallOrWhatsappButton from "../../../components/buttons/CallOrWhatsappButt
 import phoneNumber from "../../../content/phoneNumber";
 import ServicesSection from "../../../components/sections/ServicesSection";
 import Footer from "../../../components/footer/Footer";
+import Image from "next/image";
 
 const BoschPage = () => {
   return (
@@ -13,20 +14,26 @@ const BoschPage = () => {
       <BoschHeader />
       {/* MAIN SECTION */}
       <div className="hero min-h-screen bg-[url(/images/backgrounds/bosch-bg.jpg)] bg-fixed">
-        <div className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10" style={{zIndex: 0}}>
-          <img
-            src="/images/kitchen.jpg"
+        <div
+          className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10"
+          style={{ zIndex: 0 }}
+        >
+          <Image
+            src="/images/fridge/2.jpg"
             className="max-w-xs md:max-w-xl shadow-2xl"
+            height={300}
+            width={300}
           />
           <div>
             <h1 className="text-5xl font-bold font-raleway text-info-content leading-tight">
               Bosch Appliances Service & Repair Center
             </h1>
             <p className="py-6 text-lg font-raleway">
-              Quick Appliances Repairs is an authorised Bosch Service Centre in Dubai and Abu Dhabi.
-              Trust our well-trained technicians to deliver professional &
-              reliable Bosch repairs, backed by our authorization from the brand
-              itself, ensuring your appliances are in capable hands.
+              Quick Appliances Repairs is an authorised Bosch Service Centre in
+              Dubai and Abu Dhabi. Trust our well-trained technicians to deliver
+              professional & reliable Bosch repairs, backed by our authorization
+              from the brand itself, ensuring your appliances are in capable
+              hands.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
@@ -50,7 +57,12 @@ const BoschPage = () => {
         </div>
       </div>
       {/* SECOND SECTION */}
-      <ServicesSection heading="Our Services" callButtonColor="[#219ACD]" id="boschservices" disableLinks  />
+      <ServicesSection
+        heading="Our Services"
+        callButtonColor="[#219ACD]"
+        id="boschservices"
+        disableLinks
+      />
       {/* Footer */}
       <Footer color="#219ACD" />
     </div>

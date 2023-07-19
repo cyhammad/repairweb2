@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
 
 
-const samsungFooter = ({ color, company }) => {
+const SamsungFooter = ({ color, company }) => {
  
   return (
     <footer className="footer flex justify-center p-10 bg-neutral-focus text-white">
@@ -67,4 +67,4 @@ const samsungFooter = ({ color, company }) => {
   );
 };
 
-export default samsungFooter;
+export default SamsungFooter;
