@@ -17,7 +17,7 @@ const SamsungPage = () => {
     <div>
       <div>
         <SamsungHeader />
-
+        {/* MAIN SECTION */}
         <div
           className="hero min-h-screen"
           style={{ backgroundImage: "url('/images/samsung.jpg')" }}
