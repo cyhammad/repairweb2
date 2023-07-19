@@ -205,7 +205,7 @@ function Lg_Carousel() {
             className="carousel-item relative w-full "
             style={{ backgroundImage: "url('/images/lg.jpg')" }}
           >
-            <div className="hero-overlay absolute bg-opacity-60" />
+            <div className="hero-overlay absolute bg-opacity-70" />
             <div className="hero-content relative text-center md:text-left text-white">
               <div>
                 <h1 className="md:text-5xl text-3xl font-bold font-raleway text-white leading-tight">
