@@ -5,7 +5,7 @@ import BoschHeader from "../../../components/header/BoschHeader";
 import CallOrWhatsappButton from "../../../components/buttons/CallOrWhatsappButton";
 import phoneNumber from "../../../content/phoneNumber";
 import ServicesSection from "../../../components/sections/ServicesSection";
-import Footer from "../../../components/footer/Footer";
+import Footer from "../../../components/footer/samsungFooter";
 import Image from "next/image";
 
 const BoschPage = () => {
