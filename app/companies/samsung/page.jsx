@@ -4,20 +4,20 @@ import SamsungHeader from "../../../components/header/SamsungHeader";
 import ServicesSection from "../../../components/sections/ServicesSection";
 import Footer from "../../../components/footer/samsungFooter";
 import Image from "next/image";
-import CallOrWhatsappButton from "../../../components/buttons/SamsungCallWhatsapp";
 import phoneNumber from "../../../content/phoneNumber";
 import {
   CheckBadgeIcon,
   WrenchScrewdriverIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import CallOrWhatsappButton from "../../../components/buttons/CallOrWhatsappButton";
 
 const SamsungPage = () => {
   return (
     <div>
       <div>
         <SamsungHeader />
-
+        {/* MAIN SECTION */}
         <div
           className="hero min-h-screen"
           style={{ backgroundImage: "url('/images/samsung.jpg')" }}

@@ -7,7 +7,7 @@ import phoneNumber from "../../content/phoneNumber";
 import { usePathname } from "next/navigation";
 import { GTM_ID } from "../../lib/gtm";
 
-const Samsung_call_Whatsapp = () => {
+const SamsungCallWhatsapp = () => {
   const pathname = usePathname();
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -53,4 +53,4 @@ const Samsung_call_Whatsapp = () => {
   );
 };
 
-export default Samsung_call_Whatsapp;
+export default SamsungCallWhatsapp;
