@@ -32,6 +32,7 @@ const CallButton = ({ color = "default" }) => {
         onClick={() => {
           window.location.href = `tel:${phoneNumber}`;
           gtag_report_conversion(pathname);
+          CG.conversion("Call button pressed.");
         }}
       >
         Call Us

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -27,7 +27,10 @@ const SamsungCallWhatsapp = () => {
         <a
           href={`tel:${phoneNumber}`}
           className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer"
-          onClick={() => gtag_report_conversion(pathname)}
+          onClick={() => {
+            gtag_report_conversion(pathname);
+            CG.conversion("Call button pressed.");
+          }}
         >
           <div className="p-4 bg-neutral-focus rounded-full">
             <PhoneIcon className="h-6 w-6 text-white" />
@@ -42,7 +45,10 @@ const SamsungCallWhatsapp = () => {
             href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`}
             target="_blank"
             className="p-[0.9rem] bg-neutral-focus rounded-full"
-            onClick={() => gtag_report_conversion(pathname)}
+            onClick={() => {
+              gtag_report_conversion(pathname);
+              CG.conversion("Call button pressed.");
+            }}
           >
             <Image src="/whatsapp.svg" width={30} height={30} alt="WhatsApp" />
           </a>

@@ -31,6 +31,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* ClickGuard Tracking */}
+      <Script
+        defer
+        type="application/javascript"
+        src="https://tracker.clickguard.com/s/accX2N66iys4d/astOjZQIDYItA"
+      />
       {/* <!--  ClickCease.com tracking--> */}
       <Script
         type="text/javascript"

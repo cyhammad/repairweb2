@@ -26,7 +26,10 @@ const FixedCallButtons = () => {
       <a
         href={`tel:${phoneNumber}`}
         className="btn btn-circle btn-lg bg-blue-400 border-none hover:bg-blue-500"
-        onClick={() => gtag_report_conversion(pathname)}
+        onClick={() => {
+          gtag_report_conversion(pathname);
+          CG.conversion("Call button pressed.");
+        }}
       >
         <PhoneIcon className="h-8 w-8 text-white" />
       </a>
@@ -34,7 +37,10 @@ const FixedCallButtons = () => {
         href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`}
         target="_blank"
         className="btn btn-circle btn-lg bg-green-500 border-none hover:bg-green-600"
-        onClick={() => gtag_report_conversion(pathname)}
+        onClick={() => {
+          gtag_report_conversion(pathname);
+          CG.conversion("Call button pressed.");
+        }}
       >
         <Image src="/whatsapp.svg" width={45} height={45} alt="WhatsApp" />
       </a>

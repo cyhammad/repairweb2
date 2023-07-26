@@ -25,7 +25,10 @@ const CallOrWhatsappButton = () => {
         <a
           href={`tel:${phoneNumber}`}
           className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer"
-          onClick={() => gtag_report_conversion(pathname)}
+          onClick={() => {
+            gtag_report_conversion(pathname);
+            CG.conversion("Call button pressed.");
+          }}
         >
           <div className="p-4 bg-primary rounded-full">
             <PhoneIcon className="h-6 w-6 text-white" />
@@ -40,7 +43,10 @@ const CallOrWhatsappButton = () => {
             href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`}
             target="_blank"
             className="p-[0.9rem] bg-primary rounded-full"
-            onClick={() => gtag_report_conversion(pathname)}
+            onClick={() => {
+              gtag_report_conversion(pathname);
+              CG.conversion("Call button pressed.");
+            }}
           >
             <Image src="/whatsapp.svg" width={30} height={30} alt="WhatsApp" />
           </a>
