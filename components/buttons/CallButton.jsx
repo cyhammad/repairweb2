@@ -28,7 +28,7 @@ const CallButton = ({ color = "default" }) => {
           color === "default"
             ? "bg-primary hover:bg-primary-focus"
             : "bg-" + color
-        } text-white rounded duration-150 shadow-md`}
+        } text-black rounded duration-150 shadow-md`}
         onClick={() => {
           window.location.href = `tel:${phoneNumber}`;
           gtag_report_conversion(pathname);
