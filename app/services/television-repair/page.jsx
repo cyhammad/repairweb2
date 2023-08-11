@@ -26,7 +26,7 @@ const TvPage = () => {
               Are you in need of Television Repair services in Dubai or Abu
               Dhabi? Look no further than{" "}
               <span className="text-secondary font-bold text-lg">
-                Quick Appliances Repair
+                UAE Repair Expert
               </span>
               . Is your television acting up? Don't worry! Quick Appliances
               Repairs is here to provide you with reliable and efficient
@@ -47,7 +47,7 @@ const TvPage = () => {
         <div className="hero-content text-center text-base-100 bg-black bg-opacity-60 md:p-10">
           <div className="max-w-md md:max-w-3xl lg:max-w-5xl">
             <h1 className="mb-5 text-2xl md:text-3xl font-bold">
-              Why Choose Quick Appliances Repairs For Your TV Repairs?
+              Why Choose UAE Repair Expert For Your TV Repairs?
             </h1>
             <ul className="list-disc list-inside space-y-3">
               <li>
@@ -66,7 +66,7 @@ const TvPage = () => {
                 promptly.
               </li>
               <li>
-                Genuine Parts and Quality Repairs: At Quick Appliances Repairs,
+                Genuine Parts and Quality Repairs: At UAE Repair Expert,
                 we believe in using only genuine and high-quality parts for all
                 our repairs. We source our parts directly from the manufacturers
                 to ensure optimal performance and reliability for your Samsung,
@@ -104,16 +104,16 @@ const TvPage = () => {
         <div className="hero-content text-center">
           <div className="max-w-lg">
             <h1 className="text-4xl font-bold">
-              Contact Quick Appliances Repair Today!
+              Contact UAE Repair Expert Today!
             </h1>
             <p className="py-6">
               Don't let a malfunctioning TV ruin your entertainment experience.
-              Trust Quick Appliances Repairs to bring your Samsung, Bosch,
+              Trust UAE Repair Expert to bring your Samsung, Bosch,
               Siemens, or LG TV back to life. Schedule an appointment with us
               today by calling our hotline or filling out the contact form on
               our website.
               <br />
-              <br /> With Quick Appliances Repairs, you can expect professional
+              <br /> With UAE Repair Expert, you can expect professional
               and reliable TV repair services that exceed your expectations. We
               are your go-to partner for all your television repair needs!
             </p>

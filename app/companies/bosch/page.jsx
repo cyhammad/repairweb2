@@ -7,6 +7,7 @@ import phoneNumber from "../../../content/phoneNumber";
 import ServicesSection from "../../../components/sections/ServicesSection";
 import Footer from "../../../components/footer/samsungFooter";
 import Image from "next/image";
+import CallButton from "../../../components/buttons/CallButton";
 
 const BoschPage = () => {
   return (
@@ -29,8 +30,8 @@ const BoschPage = () => {
               Bosch Appliances Service & Repair Center
             </h1>
             <p className="py-6 text-lg font-raleway">
-              Quick Appliances Repairs is an authorised Bosch Service Centre in
-              Dubai and Abu Dhabi. Trust our well-trained technicians to deliver
+              UAE Repair Expert is an authorised Bosch Service Centre in Dubai
+              and Abu Dhabi. Trust our well-trained technicians to deliver
               professional & reliable Bosch repairs, backed by our authorization
               from the brand itself, ensuring your appliances are in capable
               hands.
@@ -63,8 +64,35 @@ const BoschPage = () => {
         id="boschservices"
         disableLinks
       />
-      {/* Footer */}
-      <Footer color="#219ACD" />
+      <div className="hero min-h-screen bg-base-100">
+        <div className="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 className="text-5xl font-bold">Bosch Service Center</h1>
+            <p className="py-6">
+              We provide Bosch Service Center in Dubai and Abu Dhabi. The best Bosch
+              Service Center in Dubai and Abu Dhabi. We provide following
+              services:
+            </p>
+            <ul>
+              <li>Bosch Service Center</li>
+              <li>Bosch Repair Center</li>
+              <li>Bosch Service Center Dubai</li>
+              <li>Bosch Service Center Abu Dhabi</li>
+              <li>Bosch Repair Center Dubai</li>
+              <li>Bosch Repair Center Abu Dhabi</li>
+              <li>Bosch Washing Machine Repair</li>
+              <li>Bosch Dishwasher Repair</li>
+              <li>Bosch Refrigerator Repair</li>
+              <li>Bosch TV repair</li>
+              <li>Bosch Dryer repair</li>
+              <li>Bosch Stove repair</li>
+              <li>Bosch Cooker repair</li>
+              <li>Bosch Oven repair</li>
+            </ul>
+            <CallButton />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

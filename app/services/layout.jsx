@@ -46,7 +46,7 @@ const ServiceLayout = ({ children }) => {
       </div>
       {children}
       <BrandsSection />
-      <ServicesSection heading="All Quick Appliance Repair Services" />
+      <ServicesSection heading="All UAE Repair Expert Services" />
     </div>
   );
 };

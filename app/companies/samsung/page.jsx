@@ -11,6 +11,7 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 import CallOrWhatsappButton from "../../../components/buttons/CallOrWhatsappButton";
+import CallButton from "../../../components/buttons/CallButton";
 
 const SamsungPage = () => {
   return (
@@ -29,7 +30,7 @@ const SamsungPage = () => {
                 Samsung Appliances Service & Repair Center
               </h1>
               <p className="py-6 text-lg font-raleway">
-                Quick Appliances Repairs is a Samsung Service Centre in Dubai
+                UAE Repair Expert is a Samsung Service Centre in Dubai
                 and Abu Dhabi. Trust our well-trained technicians to deliver
                 professional & reliable Samsung repairs ensuring your appliances
                 are in capable hands.
@@ -175,7 +176,7 @@ const SamsungPage = () => {
           </div>
           <div>
             <h1 className="text-5xl font-bold max-w-xl">
-              Welcome To Quick Appliances Repair Samsung Service Center
+              Welcome To UAE Repair Expert Samsung Service Center
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
@@ -464,9 +465,35 @@ const SamsungPage = () => {
           </div>
         </div>
       </div>
-      {/* Footer */}
-
-      <Footer color="#219ACD" />
+      <div className="hero min-h-screen bg-base-100">
+        <div className="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 className="text-5xl font-bold">Samsung Service Center</h1>
+            <p className="py-6">
+              We provide Samsung Service Center in Dubai and Abu Dhabi. The best Samsung
+              Service Center in Dubai and Abu Dhabi. We provide following
+              services:
+            </p>
+            <ul>
+              <li>Samsung Service Center</li>
+              <li>Samsung Repair Center</li>
+              <li>Samsung Service Center Dubai</li>
+              <li>Samsung Service Center Abu Dhabi</li>
+              <li>Samsung Repair Center Dubai</li>
+              <li>Samsung Repair Center Abu Dhabi</li>
+              <li>Samsung Washing Machine Repair</li>
+              <li>Samsung Dishwasher Repair</li>
+              <li>Samsung Refrigerator Repair</li>
+              <li>Samsung TV repair</li>
+              <li>Samsung Dryer repair</li>
+              <li>Samsung Stove repair</li>
+              <li>Samsung Cooker repair</li>
+              <li>Samsung Oven repair</li>
+            </ul>
+            <CallButton />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

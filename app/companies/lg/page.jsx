@@ -8,12 +8,13 @@ import Lg_Call_or_Whatsapp from "../../../components/buttons/Lg_Call_or_Whatsapp
 import phoneNumber from "../../../content/phoneNumber";
 import Lg_Carousel from "./Lg_Carousel";
 import Lg_Services from "./lg_services";
-import Lg_Footer from "../../../components/footer/Lg_Footer"
+import Lg_Footer from "../../../components/footer/Lg_Footer";
 import {
   CheckBadgeIcon,
   WrenchScrewdriverIcon,
-  PhoneIcon
+  PhoneIcon,
 } from "@heroicons/react/24/outline";
+import CallButton from "../../../components/buttons/CallButton";
 
 const LgPage = () => {
   return (
@@ -32,10 +33,10 @@ const LgPage = () => {
                 LG Appliances Service & Repair Center
               </h1>
               <p className="py-6 text-lg font-raleway">
-                Quick Appliances Repairs is a LG Service Centre in Dubai and Abu
-                Dhabi. Trust our well-trained technicians to deliver
-                professional & reliable LG repairs ensuring your appliances are
-                in capable hands.
+                UAE Repair Expert is a LG Service Centre in Dubai and Abu Dhabi.
+                Trust our well-trained technicians to deliver professional &
+                reliable LG repairs ensuring your appliances are in capable
+                hands.
               </p>
               <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -179,7 +180,7 @@ const LgPage = () => {
           </div>
           <div>
             <h1 className="text-5xl text-base-content font-bold max-w-xl">
-              Welcome To Quick Appliances Repair LG Service Center
+              Welcome To UAE Repair Expert LG Service Center
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
@@ -210,7 +211,35 @@ const LgPage = () => {
         </div>
       </div>
       <Lg_Services />
-      <Lg_Footer/>
+      <div className="hero min-h-screen bg-base-100">
+        <div className="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 className="text-5xl font-bold">LG Service Center</h1>
+            <p className="py-6">
+              We provide LG Service Center in Dubai and Abu Dhabi. The best LG
+              Service Center in Dubai and Abu Dhabi. We provide following
+              services:
+            </p>
+            <ul>
+              <li>LG Service Center</li>
+              <li>LG Repair Center</li>
+              <li>LG Service Center Dubai</li>
+              <li>LG Service Center Abu Dhabi</li>
+              <li>LG Repair Center Dubai</li>
+              <li>LG Repair Center Abu Dhabi</li>
+              <li>LG Washing Machine Repair</li>
+              <li>LG Dishwasher Repair</li>
+              <li>LG Refrigerator Repair</li>
+              <li>LG TV repair</li>
+              <li>LG Dryer repair</li>
+              <li>LG Stove repair</li>
+              <li>LG Cooker repair</li>
+              <li>LG Oven repair</li>
+            </ul>
+            <CallButton />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

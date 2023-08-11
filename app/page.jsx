@@ -8,7 +8,7 @@ import {
 import CallButton from "../components/buttons/CallButton";
 import ServicesSection from "../components/sections/ServicesSection";
 import CallOrWhatsappButton from "../components/buttons/CallOrWhatsappButton";
-import phoneNumber from ".././content/phoneNumber.js"
+import phoneNumber from ".././content/phoneNumber.js";
 
 export default function Home() {
   return (
@@ -20,17 +20,17 @@ export default function Home() {
           style={{ backgroundImage: "url('/images/bg-2.jpg')" }}
         >
           <div className="hero-overlay bg-opacity-50"></div>
-          
+
           <div className="p-5">
             <h1 className="md:text-5xl text-4xl font-extrabold font-raleway text-white leading-tight">
               UAE Repair Expert Appliances Service & Repair Center
             </h1>
             <p className="py-6 md:text-lg text-md font-medium text-white font-raleway">
-               UAE Repair Expert Appliances Repairs is an authorised Bosch Service Centre in
-              Dubai and Abu Dhabi. Trust our well-trained technicians to deliver
-              professional & reliable Bosch repairs, backed by our authorization
-              from the brand itself, ensuring your appliances are in capable
-              hands.
+              UAE Repair Expert Appliances Repairs is an authorised Bosch
+              Service Centre in Dubai and Abu Dhabi. Trust our well-trained
+              technicians to deliver professional & reliable Bosch repairs,
+              backed by our authorization from the brand itself, ensuring your
+              appliances are in capable hands.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
@@ -108,113 +108,114 @@ export default function Home() {
           </div>
         </div>
 
-    
         <div className="w-full h-[30px] bg-white" />
-      <div className="w-full h-[100px] bg-white flex justify-center flex-col items-center">
-        <div className="w-full h-[80px] bg-white md:h-full  md:mt-0 flex flex-col text-center align-middle">
-          <h1 className="md:text-4xl text-3xl text-secondary-focus font-extrabold shadow-2xl">Our Salient Distinctions</h1>
-        </div>
+        <div className="w-full h-[100px] bg-white flex justify-center flex-col items-center">
+          <div className="w-full h-[80px] bg-white md:h-full  md:mt-0 flex flex-col text-center align-middle">
+            <h1 className="md:text-4xl text-3xl text-secondary-focus font-extrabold shadow-2xl">
+              Our Salient Distinctions
+            </h1>
+          </div>
         </div>
         <div className="w-full h-[30px] bg-white" />
 
-{/* features */}
-<div className="w-full h-auto bg-white md:h-[450px]  flex justify-center ">
-        <div className="w-full h-auto md:h-full px-5   ">
-          <div className="full h-auto md:h-full  bg-white flex items-center justify-evenly flex-col md:flex-row ">
-            <div
-              className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
-              style={{backgroundImage: "url('/images/dryer/service.jpg')"}}
-            >
-              <div className="w-full  h-[150px] flex flex-col items-center mt-4  ">
-                <div className="text-center">
-                  <h1 className="text-black p-3 text-2xl font-bold">
-                    Certified Technicians you can Trust
-                  </h1>
-                </div>
-                <div>
-                  <button
-                    className="btn btn-md sm:btn-md md:btn-md lg:btn-md hover:scale-110 duration-300  outline-none border-spacing-0 rounded-full mt-4 hover:bg-white hover:text-black bg-black text-white "
-                    onClick={() => {
-                      window.location.href = `tel:${phoneNumber}`;
-                    }}
-                  >
-                    Call US Now
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
-              style={{backgroundImage: "url('/images/stove/1.jpg')"}}
-            >
-              <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
-                <div className="text-center">
-                  <h1 className="text-black p-3 text-2xl font-bold">
-                    Get All OF Your Appliances Repaired
-                  </h1>
-                </div>
-                <div>
-                  <button
-                    className="btn btn-md sm:btn-md md:btn-md lg:btn-md hover:scale-110 duration-300  outline-none border-spacing-0 rounded-full mt-4 hover:bg-white hover:text-black bg-black text-white "
-                    onClick={() => {
-                      window.location.href = `tel:${phoneNumber}`;
-                    }}
-                  >
-                    Call US Now
-                  </button>
+        {/* features */}
+        <div className="w-full h-auto bg-white md:h-[450px]  flex justify-center ">
+          <div className="w-full h-auto md:h-full px-5   ">
+            <div className="full h-auto md:h-full  bg-white flex items-center justify-evenly flex-col md:flex-row ">
+              <div
+                className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
+                style={{ backgroundImage: "url('/images/dryer/service.jpg')" }}
+              >
+                <div className="w-full  h-[150px] flex flex-col items-center mt-4  ">
+                  <div className="text-center">
+                    <h1 className="text-black p-3 text-2xl font-bold">
+                      Certified Technicians you can Trust
+                    </h1>
+                  </div>
+                  <div>
+                    <button
+                      className="btn btn-md sm:btn-md md:btn-md lg:btn-md hover:scale-110 duration-300  outline-none border-spacing-0 rounded-full mt-4 hover:bg-white hover:text-black bg-black text-white "
+                      onClick={() => {
+                        window.location.href = `tel:${phoneNumber}`;
+                      }}
+                    >
+                      Call US Now
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
+              <div
+                className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
+                style={{ backgroundImage: "url('/images/stove/1.jpg')" }}
+              >
+                <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
+                  <div className="text-center">
+                    <h1 className="text-black p-3 text-2xl font-bold">
+                      Get All OF Your Appliances Repaired
+                    </h1>
+                  </div>
+                  <div>
+                    <button
+                      className="btn btn-md sm:btn-md md:btn-md lg:btn-md hover:scale-110 duration-300  outline-none border-spacing-0 rounded-full mt-4 hover:bg-white hover:text-black bg-black text-white "
+                      onClick={() => {
+                        window.location.href = `tel:${phoneNumber}`;
+                      }}
+                    >
+                      Call US Now
+                    </button>
+                  </div>
+                </div>
+              </div>
 
-            <div
-              className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
-              style={{backgroundImage: "url('/images/fridge/1.jpg')"}}
-            >
-              <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
-                <div className="text-center">
-                  <h1 className="text-black p-3 text-2xl font-bold">
-                    Trusted and Preferred By Customers
-                  </h1>
-                </div>
-                <div>
-                  <button
-                    className="btn btn-md sm:btn-md md:btn-md lg:btn-md hover:scale-110 duration-300  outline-none border-spacing-0 rounded-full mt-4 hover:bg-white hover:text-black bg-black text-white "
-                    onClick={() => {
-                      window.location.href = `tel:${phoneNumber}`;
-                    }}
-                  >
-                    Call US Now
-                  </button>
+              <div
+                className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
+                style={{ backgroundImage: "url('/images/fridge/1.jpg')" }}
+              >
+                <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
+                  <div className="text-center">
+                    <h1 className="text-black p-3 text-2xl font-bold">
+                      Trusted and Preferred By Customers
+                    </h1>
+                  </div>
+                  <div>
+                    <button
+                      className="btn btn-md sm:btn-md md:btn-md lg:btn-md hover:scale-110 duration-300  outline-none border-spacing-0 rounded-full mt-4 hover:bg-white hover:text-black bg-black text-white "
+                      onClick={() => {
+                        window.location.href = `tel:${phoneNumber}`;
+                      }}
+                    >
+                      Call US Now
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
-              style={{backgroundImage: "url('/images/tv/service.jpg')"}}
-            >
-              <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
-                <div className="text-center">
-                  <h1 className="text-black p-3 text-2xl font-bold">
-                    Get Your Appliances Serviced At Same Day
-                  </h1>
-                </div>
-                <div>
-                  <button
-                    className="btn btn-md sm:btn-md md:btn-md lg:btn-md hover:scale-110 duration-300  outline-none border-spacing-0 rounded-full mt-4 hover:bg-white hover:text-black bg-black text-white "
-                    onClick={() => {
-                      window.location.href = `tel:${phoneNumber}`;
-                    }}
-                  >
-                    Call US Now
-                  </button>
+              <div
+                className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
+                style={{ backgroundImage: "url('/images/tv/service.jpg')" }}
+              >
+                <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
+                  <div className="text-center">
+                    <h1 className="text-black p-3 text-2xl font-bold">
+                      Get Your Appliances Serviced At Same Day
+                    </h1>
+                  </div>
+                  <div>
+                    <button
+                      className="btn btn-md sm:btn-md md:btn-md lg:btn-md hover:scale-110 duration-300  outline-none border-spacing-0 rounded-full mt-4 hover:bg-white hover:text-black bg-black text-white "
+                      onClick={() => {
+                        window.location.href = `tel:${phoneNumber}`;
+                      }}
+                    >
+                      Call US Now
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="w-full h-[50px] bg-white" />
+        <div className="w-full h-[50px] bg-white" />
         {/* STATS */}
         <div className="hero bg-secondary-focus">
           <div className="flex flex-wrap px-2 md:px-10 justify-center lg:justify-between items-center py-5 w-full max-w-6xl gap-1">
@@ -398,31 +399,42 @@ export default function Home() {
           </div>
         </div>
         <div className=" w-full bg-black h-auto md:h-[500px] ">
-        <div className="hero min-h-screen bg-[#fafafa]">
-          <div className="hero-content  flex-col lg:flex-row-reverse">
-            <img
-              src="/images/tv/section-bg.jpg"
-              className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
-            />
-            <div>
-              <h1 className="text-3xl mt-3 md:mt-0 md:text-5xl font-bold text-base-content">
-                Enter the world of solutions!
-              </h1>
-              <p className="py-6 text-black">
-                UAE Repair Expert Center Dubai is dedicated to providing high-quality service and repairs of All Home and kitchen appliances. We provide repair services for all kinds of Home and kitchen appliances, including fridges, cooking ranges, dishwashers, microwaves, and more. Our experienced technicians are available 24/7 to provide fast and efficient repairs for both residential and commercial customers. With our reliable service center in Dubai and Abu Dhabi, you can rest assured that your appliance will be fixed quickly and efficiently with the highest quality parts available. We guarantee a fast response time for any repair requests and aim to ensure complete customer
-              </p>
-              <button
-                className="btn btn-info-content bg-black text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
-                onClick={() => {
-                  window.location.href = `tel:${phoneNumber}`;
-                }}
-              >
-                Call Now
-              </button>
+          <div className="hero min-h-screen bg-[#fafafa]">
+            <div className="hero-content  flex-col lg:flex-row-reverse">
+              <img
+                src="/images/tv/section-bg.jpg"
+                className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
+              />
+              <div>
+                <h1 className="text-3xl mt-3 md:mt-0 md:text-5xl font-bold text-base-content">
+                  Enter the world of solutions!
+                </h1>
+                <p className="py-6 text-black">
+                  UAE Repair Expert Center Dubai is dedicated to providing
+                  high-quality service and repairs of All Home and kitchen
+                  appliances. We provide repair services for all kinds of Home
+                  and kitchen appliances, including fridges, cooking ranges,
+                  dishwashers, microwaves, and more. Our experienced technicians
+                  are available 24/7 to provide fast and efficient repairs for
+                  both residential and commercial customers. With our reliable
+                  service center in Dubai and Abu Dhabi, you can rest assured
+                  that your appliance will be fixed quickly and efficiently with
+                  the highest quality parts available. We guarantee a fast
+                  response time for any repair requests and aim to ensure
+                  complete customer
+                </p>
+                <button
+                  className="btn btn-info-content bg-black text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
+                  onClick={() => {
+                    window.location.href = `tel:${phoneNumber}`;
+                  }}
+                >
+                  Call Now
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
         {/* HERO SECTION 4 */}
         <div className="hero min-h-screen bg-base-100">
           <div className="hero-content flex-col lg:flex-row">
@@ -533,15 +545,17 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full h-[30px] bg-white" />
-      <div className="w-full h-[100px] bg-white flex justify-center flex-col items-center">
-        <div className="w-full h-[80px] bg-white md:h-full  md:mt-0 flex flex-col text-center align-middle">
-          <h1 className="md:text-4xl text-3xl text-secondary-focus font-extrabold shadow-2xl">Our Services</h1>
-        </div>
+        <div className="w-full h-[100px] bg-white flex justify-center flex-col items-center">
+          <div className="w-full h-[80px] bg-white md:h-full  md:mt-0 flex flex-col text-center align-middle">
+            <h1 className="md:text-4xl text-3xl text-secondary-focus font-extrabold shadow-2xl">
+              Our Services
+            </h1>
+          </div>
         </div>
         <div className="w-full h-[30px] bg-white" />
 
         {/* SERVICES SECTION */}
-        <ServicesSection  />
+        <ServicesSection />
       </main>
     </>
   );
