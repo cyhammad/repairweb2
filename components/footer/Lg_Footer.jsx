@@ -17,7 +17,7 @@ const Lg_Footer = ({ color, company }) => {
             }`}
           >
             <WrenchScrewdriverIcon className=" sm:w-12 sm:h-12 h-5 w-5 " />
-            <span className="">Quick Appliances Repair</span>
+            <span className="">UAE Repair Expert</span>
           </div>
           <p className="max-w-lg">
             a company specializing in appliance repair and maintenance services

@@ -19,7 +19,7 @@ function Lg_Carousel() {
                 </h1>
                 <div className="w-full px-16 h-full">
                   <p className="py-6  text-lg font-raleway">
-                    "Quick Appliances Repairs, your trusted LG Service Centre in
+                    "UAE Repair Expert, your trusted LG Service Centre in
                     Dubai and Abu Dhabi. Our well-trained technicians deliver
                     professional and reliable LG repairs,you can rest assured
                     that your washing machine will be expertly repaired."
@@ -50,7 +50,7 @@ function Lg_Carousel() {
                 </h1>
                 <div className="w-full px-16 h-full">
                   <p className="py-6  text-lg font-raleway">
-                    Welcome to Quick Appliances Repairs, your trusted LG Service
+                    Welcome to UAE Repair Expert, your trusted LG Service
                     Centre in Dubai and Abu Dhabi. Our team of well-trained
                     technicians is dedicated to delivering professional and
                     reliable LG repairs. Say goodbye to refrigerator worries and
@@ -83,7 +83,7 @@ function Lg_Carousel() {
                 </h1>
                 <div className="w-full px-16 h-full">
                   <p className="py-6  text-lg font-raleway">
-                    "Welcome to Quick Appliances Repairs, your trusted LG
+                    "Welcome to UAE Repair Expert, your trusted LG
                     Service Centre in Dubai and Abu Dhabi. With our expertise,
                     you can rest assured that your dryer will be expertly
                     repaired, ensuring it functions efficiently and provides you
@@ -115,7 +115,7 @@ function Lg_Carousel() {
                 </h1>
                 <div className="w-full px-16 h-full">
                   <p className="py-6  text-lg font-raleway">
-                    "Welcome to Quick Appliances Repairs, your trusted LG
+                    "Welcome to UAE Repair Expert, your trusted LG
                     Service Centre in Dubai and Abu Dhabi. Our team of
                     well-trained technicians is dedicated to delivering
                     professional and reliable LG repairs. Say goodbye to stove
@@ -148,7 +148,7 @@ function Lg_Carousel() {
                 </h1>
                 <div className="w-full px-16 h-full">
                   <p className="py-6  text-lg font-raleway">
-                    "Welcome to Quick Appliances Repairs, your trusted LG
+                    "Welcome to UAE Repair Expert, your trusted LG
                     Service Centre in Dubai and Abu Dhabi. Professional and
                     reliable LG repairs. Say goodbye to TV worries and trust us
                     to take care of your entertainment appliance with the utmost
@@ -180,7 +180,7 @@ function Lg_Carousel() {
                 </h1>
                 <div className="w-full px-16 h-full">
                   <p className="py-6  text-lg font-raleway">
-                    "Welcome to Quick Appliances Repairs, your trusted LG
+                    "Welcome to UAE Repair Expert, your trusted LG
                     Service Centre in Dubai and Abu Dhabi.Our team of
                     well-trained technicians is dedicated to delivering
                     professional and reliable LG repairs. Say goodbye to oven
@@ -213,7 +213,7 @@ function Lg_Carousel() {
                 </h1>
                 <div className="w-full px-16 h-full">
                   <p className="py-6  text-lg font-raleway">
-                    "Welcome to Quick Appliances Repairs, your trusted LG
+                    "Welcome to UAE Repair Expert, your trusted LG
                     Service Centre in Dubai and Abu Dhabi. Our team of
                     well-trained technicians is dedicated to delivering
                     professional and reliable LG repairs. Say goodbye to

@@ -1,2 +1,2 @@
-const phoneNumber = "+971565420073";
+const phoneNumber = "0552818112";
 export default phoneNumber;

@@ -12,9 +12,9 @@ import { NavigationEvents } from "../components/navigation-events";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
-  title: "Quick Appliance Repair | Home Appliance Repair Service",
+  title: "UAE Repair Expert | Home Appliance Repair Service",
   description:
-    "Quick Appliances Repairs is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg and Siemens appliances.",
+    "UAE Repair Expert is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg and Siemens appliances.",
   keywords: [
     "Bosch Service Center",
     "Lg Service Center",

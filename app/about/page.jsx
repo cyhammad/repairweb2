@@ -11,7 +11,7 @@ const AboutPage = () => {
         <div className="max-w-xl">
           <h1 className="mb-5 text-5xl font-bold">About Us</h1>
           <p className="mb-5">
-            Welcome to <b>Quick Appliance Repair!</b> <br />
+            Welcome to <b>UAE Repair Expert!</b> <br />
             <br />
             We understand the frustration that comes with a malfunctioning
             appliance. Whether it's a broken refrigerator, a faulty dishwasher,
