@@ -1,74 +1,64 @@
-"use client";
 import React from "react";
 import Link from "next/link";
-import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
-import { usePathname, useRouter } from "next/navigation";
-const Footer = ({ color, company }) => {
-  const pathname = usePathname();
-  const router = useRouter();
-  
-  if (pathname.startsWith("/companies")) {
-    return null;
-  }
+import Image from "next/image";
+
+const Footer = () => {
   return (
-    <footer className="footer flex justify-center p-10 bg-info-content text-base-200">
-      <div className="footer w-full max-w-7xl gap-y-10">
-        <Link href="/">
-          <div
-            className={`flex items-center gap-x-2 text-lg hover:scale-110 duration-300 ${
-              color
-                ? "text-[" + color + "]"
-                : "text-primary-focus hover:text-primary"
-            }`}
-          >
-            <WrenchScrewdriverIcon className=" sm:w-12 sm:h-12 h-5 w-5 " />
-            <span className="">Quick Appliances Repair</span>
-          </div>
-          <p className="max-w-lg">
-            a company specializing in appliance repair and maintenance services
+    <footer className="footer p-12 bg-base-content text-white">
+    <div>
+    <Link
+              href="/companies/bosch"
+              className="btn btn-ghost h-[80px] ml-[-20px] md:ml-0 rounded-xl normal-case sm:text-lg px-1"
+            >
+              <Image src="/logo2.svg" className="overflow-hidden  mt-1 md:mt-0" width={200} height={200} />
+              <span className="ml-[-125px]   mt-[-100px] md:ml-[-120px] md:mt-[-100px]  font-bold text-lg md:text-2xl">UAE REPAIR EXPERT</span>
+            </Link>
+            <p className="max-w-lg ">
+            A company specializing in appliance repair and maintenance services
             in Dubai and Abu Dhabi. Our team consists of highly skilled and
             experienced technicians dedicated to providing professional and
             reliable service.
           </p>
-        </Link>
-        <div>
-          <span className="footer-title">Services</span>
+    </div> 
+  
+    <div>
+    <span className="footer-title">Services</span>
           <Link
-            href="/services/washing-machine-repair"
+            href="#"
             className="link link-hover"
           >
             Washing Machine Repair
           </Link>
           <Link
-            href="/services/refrigerator-repair"
+            href="#"
             className="link link-hover"
           >
             Refrigerator Repair
           </Link>
-          <Link href="/services/stovecooker-repair" className="link link-hover">
+          <Link href="#" className="link link-hover">
             Stove / Cooker Repair
           </Link>
-          <Link href="/services/television-repair" className="link link-hover">
+          <Link href="#" className="link link-hover">
             Television Repair
           </Link>
-          <Link href="/services/dishwasher-repair" className="link link-hover">
+          <Link href="#" className="link link-hover">
             Dishwasher Repair
           </Link>
-          <Link href="/services/dryer-repair" className="link link-hover">
+          <Link href="#" className="link link-hover">
             Dryer Repair
           </Link>
-          <Link href="/services/gas-oven-repair" className="link link-hover">
+          <Link href="#" className="link link-hover">
             Gas Oven Repair
           </Link>
-        </div>
-        <div>
-          <span className="footer-title">Legal</span>
+    </div> 
+    <div>
+    <span className="footer-title">Legal</span>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
-        </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
+  
   );
 };
 

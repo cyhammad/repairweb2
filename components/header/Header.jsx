@@ -5,6 +5,7 @@ import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import phoneNumber from "../../content/phoneNumber";
 import { usePathname, useRouter } from "next/navigation";
+import Image from "next/image";
 
 const Header = () => {
   const pathname = usePathname();
@@ -51,107 +52,101 @@ const Header = () => {
                 className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box z-50"
               >
                 <li>
-                  <Link href="/">Home</Link>
+                  <Link className="font-bold" href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/about">About Us</Link>
+                  <Link  className="font-bold" href="/about">About Us</Link>
                 </li>
                 <li>
                   <summary>Services</summary>
                   <ul className="p-2 z-50 focus:!bg-base-100 hover:!bg-base-100">
                     <li>
-                      <Link href="/services/washing-machine-repair">
+                      <Link  className="font-bold" href="/services/washing-machine-repair">
                         Washing Machine Repair
                       </Link>
                     </li>
                     <li>
-                      <Link href="/services/refrigerator-repair">
+                      <Link  className="font-bold" href="/services/refrigerator-repair">
                         Refrigerator Repair
                       </Link>
                     </li>
                     <li>
-                      <Link href="/services/dishwasher-repair">
+                      <Link  className="font-bold" href="/services/dishwasher-repair">
                         Dishwasher Repair
                       </Link>
                     </li>
                     <li>
-                      <Link href="/services/television-repair">TV Repair</Link>
+                      <Link  className="font-bold" href="/services/television-repair">TV Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services/dryer-repair">Dryer Repair</Link>
+                      <Link  className="font-bold" href="/services/dryer-repair">Dryer Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services/stovecooker-repair">
+                      <Link  className="font-bold" href="/services/stovecooker-repair">
                         Stove / Cooker Repair
                       </Link>
                     </li>
                     <li>
-                      <Link href="/services/gas-oven-repair">
+                      <Link  className="font-bold" href="/services/gas-oven-repair">
                         Gas Oven Repair
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href="/contact">Contact Us</Link>
+                  <Link  className="font-bold" href="/contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
             <Link
-              href="/"
-              className="btn btn-ghost normal-case sm:text-lg hidden"
+              href="/companies/bosch"
+              className="btn btn-ghost  h-[90px] mt-3 rounded-xl normal-case sm:text-lg px-1"
             >
-              <WrenchScrewdriverIcon className="h-6 w-6 text-black" />
-              Quick Appliances Repairs
+              <Image src="/logo.svg" className="overflow-hidden mt-[-20px]  md:mt-[-0.5px]" width={200} height={200} />
+              <span className="ml-[-120px] mt-[-120px] md:ml-[-120px] md:mt-[-110px]  font-extrabold text-xl md:text-2xl">UAE REPAIR EXPERT</span>
             </Link>
-            <Link
-              href="/"
-              className="btn btn-ghost normal-case sm:text-lg px-1"
-            >
-              <WrenchScrewdriverIcon className="h-6 w-6 text-black" />
-              Quick Appliances Repairs
-            </Link>
+            
           </div>
-          <div className="navbar-end hidden lg:flex z-50">
+          <div className="navbar-end hidden md:mt-3 mt-0 lg:flex z-50">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <Link href="/">Home</Link>
+                <Link  className="font-bold" href="/">Home</Link>
               </li>
               <li>
-                <Link href="/about">About Us</Link>
+                <Link  className="font-bold" href="/about">About Us</Link>
               </li>
-              <li tabIndex={0}>
-                <details>
-                  <summary>Services</summary>
+              <li className="font-bold"   tabIndex={0}>
+                <details >
+                  <summary><p >Services</p></summary>
                   <ul className="p-2">
                     <li>
-                      <Link href="/services/washing-machine-repair">
+                      <Link  className="font-bold" href="/services/washing-machine-repair">
                         Washing Machine Repair
                       </Link>
                     </li>
                     <li>
-                      <Link href="/services/refrigerator-repair">
+                      <Link  className="font-bold" href="/services/refrigerator-repair">
                         Refrigerator Repair
                       </Link>
                     </li>
                     <li>
-                      <Link href="/services/dishwasher-repair">
+                      <Link  className="font-bold" href="/services/dishwasher-repair">
                         Dishwasher Repair
                       </Link>
                     </li>
                     <li>
-                      <Link href="/services/television-repair">TV Repair</Link>
+                      <Link  className="font-bold" href="/services/television-repair">TV Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services/dryer-repair">Dryer Repair</Link>
+                      <Link  className="font-bold" href="/services/dryer-repair">Dryer Repair</Link>
                     </li>
                     <li>
-                      <Link href="/services/stovecooker-repair">
+                      <Link  className="font-bold" href="/services/stovecooker-repair">
                         Stove / Cooker Repair
                       </Link>
                     </li>
                     <li>
-                      <Link href="/services/gas-oven-repair">
+                      <Link  className="font-bold" href="/services/gas-oven-repair">
                         Gas Oven Repair
                       </Link>
                     </li>
@@ -159,7 +154,7 @@ const Header = () => {
                 </details>
               </li>
               <li>
-                <Link href="/contact">Contact Us</Link>
+                <Link  className="font-bold" href="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

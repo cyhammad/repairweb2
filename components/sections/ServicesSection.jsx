@@ -3,10 +3,10 @@ import Service from "../Service";
 
 const ServicesSection = ({ heading, callButtonColor, disableLinks, id }) => {
   return (
-    <div className="hero min-h-screen bg-base-100 text-info-content" id={id}>
+    <div className="hero min-h-screen bg-white text-info-content" id={id}>
       <div className="hero-content text-center w-full h-full">
         <div className="pb-10 flex flex-col items-center">
-          <h1 className="text-4xl font-bold my-14 max-w-lg">{heading}</h1>
+          <h1 className="text-4xl font-bold  max-w-lg">{heading}</h1>
           <div className="flex flex-wrap gap-5 items-center justify-center">
             <Service
               callButtonColor={callButtonColor}

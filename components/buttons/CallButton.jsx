@@ -26,9 +26,9 @@ const CallButton = ({ color = "default" }) => {
       <button
         className={`px-3 py-2 ${
           color === "default"
-            ? "bg-primary hover:bg-primary-focus"
+            ? "btn btn-info-content bg-black text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
             : "bg-" + color
-        } text-black rounded duration-150 shadow-md`}
+        } text-black rounded-xl mt-3 duration-150 shadow-md`}
         onClick={() => {
           window.location.href = `tel:${phoneNumber}`;
           gtag_report_conversion(pathname);
