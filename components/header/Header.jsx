@@ -99,7 +99,7 @@ const Header = () => {
               </ul>
             </div>
             <Link
-              href="/companies/bosch"
+              href="/"
               className="btn btn-ghost  h-[90px] mt-3 rounded-xl normal-case sm:text-lg px-1"
             >
               <Image src="/logo.svg" className="overflow-hidden mt-[-10px]  md:mt-[-0.5px]" width={200} height={200} />
