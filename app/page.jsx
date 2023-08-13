@@ -123,7 +123,7 @@ export default function Home() {
           <div className="w-full h-auto md:h-full px-5   ">
             <div className="full h-auto md:h-full  bg-white flex items-center justify-evenly flex-col md:flex-row ">
               <div
-                className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
+                className="md:w-[300px] w-[280px] h-[430px] mt-3 md:mt-0  rounded-2xl "
                 style={{ backgroundImage: "url('/images/dryer/service.jpg')" }}
               >
                 <div className="w-full  h-[150px] flex flex-col items-center mt-4  ">
@@ -145,7 +145,7 @@ export default function Home() {
                 </div>
               </div>
               <div
-                className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
+                className="md:w-[300px] w-[280px] h-[430px] mt-3 md:mt-0  rounded-2xl "
                 style={{ backgroundImage: "url('/images/stove/1.jpg')" }}
               >
                 <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
@@ -168,7 +168,7 @@ export default function Home() {
               </div>
 
               <div
-                className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
+                className="md:w-[300px] w-[280px] h-[430px] mt-3 md:mt-0  rounded-2xl "
                 style={{ backgroundImage: "url('/images/fridge/1.jpg')" }}
               >
                 <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
@@ -190,7 +190,7 @@ export default function Home() {
                 </div>
               </div>
               <div
-                className="md:w-[300px] w-[340px] h-[430px] mt-3 md:mt-0  rounded-2xl "
+                className="md:w-[300px] w-[280px] h-[430px] mt-3 md:mt-0  rounded-2xl "
                 style={{ backgroundImage: "url('/images/tv/service.jpg')" }}
               >
                 <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
