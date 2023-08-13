@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="footer p-12 bg-base-content text-white">
+    <footer className="footer p-5 md:p-12 bg-base-content text-white">
     <div>
     <Link
               href="/companies/bosch"
-              className="btn btn-ghost h-[80px] ml-[-20px] md:ml-0 rounded-xl normal-case sm:text-lg px-1"
+              className="btn btn-ghost h-[80px] ml-[-10px] md:ml-0 rounded-xl normal-case sm:text-lg px-1"
             >
-              <Image src="/logo2.svg" className="overflow-hidden  mt-1 md:mt-0" width={200} height={200} />
-              <span className="ml-[-125px]   mt-[-100px] md:ml-[-120px] md:mt-[-100px]  font-bold text-lg md:text-2xl">UAE REPAIR EXPERT</span>
+              <Image src="/logo2.svg" className="overflow-hidden ml-[-10px] md:ml-0 mt-1 md:mt-0" width={200} height={200} />
+              <span className="ml-[-125px]   mt-[-100px] md:ml-[-120px] md:mt-[-100px]  font-bold text-sm md:text-2xl">UAE REPAIR EXPERT</span>
             </Link>
             <p className="max-w-lg ">
             A company specializing in appliance repair and maintenance services
@@ -21,8 +21,8 @@ const Footer = () => {
           </p>
     </div> 
   
-    <div>
-    <span className="footer-title">Services</span>
+    <div >
+    <span className="footer-title ">Services</span>
           <Link
             href="#"
             className="link link-hover"
