@@ -73,9 +73,9 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           />
           {/* <!--  ClickCease.com tracking--> */}
-          {/* <a href="https://www.clickcease.com" rel="nofollow">
+          <a href="https://www.clickcease.com" rel="nofollow">
             <img src="https://monitor.clickcease.com" alt="ClickCease" />
-          </a> */}
+          </a>
           {/* <!--  ClickCease.com tracking--> */}
         </noscript>
         <Header />
