@@ -6,8 +6,8 @@ import Footer from "../../../components/footer/samsungFooter";
 import Image from "next/image";
 import Lg_Call_or_Whatsapp from "../../../components/buttons/Lg_Call_or_Whatsapp";
 import phoneNumber from "../../../content/phoneNumber";
-import Lg_Carousel from "./Lg_Carousel";
-import Lg_Services from "./lg_services";
+import Lg_Carousel from "../lg/Lg_Carousel";
+import Lg_Services from "../lg/lg_services";
 import Lg_Footer from "../../../components/footer/Lg_Footer";
 import {
   CheckBadgeIcon,
@@ -29,19 +29,14 @@ const LgPage = () => {
           <div className="hero-content text-center md:text-left text-white">
             <div>
               <h1 className="text-5xl font-bold font-raleway text-white leading-tight">
-                UAE Repair Expert LG Appliances Service Center a Best
+                UAE Repair Expert LG Appliances Service Center a Best Tv / LED
                 Repair Company in Dubai and Abu Dhabi.
               </h1>
               <p className="py-6 text-lg font-raleway">
-                UAE Repair Expert is a reliable LG service center in
-                Dubai and Abu Dhabi, you can rest assured that your appliance
-                will be fixed quickly and efficiently with the highest quality
-                parts available. At UAE Repair Expert , we stand as your
-                trusted partner, providing top-tier solutions to meet your every
-                repair need.Our experienced technicians are available 24/7 to
-                provide fast and efficient repairs for both residential and
-                commercial customers. Check out the exceptional qualities of all
-                your appliances.
+                We offer the best in Dubai and Abu Dhabi, Affordable,
+                Professional LG Tv / LED Repair Dubai. We offer our services
+                24/7. We are experts for LG Tv / LED Repair service in Duba and
+                Abu Dhabi.
               </p>
               <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -179,14 +174,16 @@ const LgPage = () => {
             </div>
             <div className="max-w-xs flex justify-start items-start">
               <img
-                src="/images/fridge/1.jpg"
+                src="/images/Tv / LED/1.jpg"
                 className="max-w-[5rem] sm:max-w-[7rem] md:max-w-[9.5rem] lg:max-w-[7.5rem] xl:max-w-[13rem] shadow-2xl"
               />
             </div>
           </div>
           <div>
-            <h1 className="text-4xl text-base-content font-bold max-w-xl">
-              Welcome To Quick Appliances Repair LG Service Center
+            <h1 className="text-3xl font-bold max-w-xl">
+              UAE Repair Expert in Dubai and Abu Dhabi knowing all the quality,
+              reliability, and functionality standers provide you the best LG Tv
+              / LED Repair Service.
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
@@ -199,31 +196,37 @@ const LgPage = () => {
               </div>
             </div>
             <p className="py-6 max-w-xl">
+              <h1 className="text-lg font-bold max-w-xl">
+                UAE Repair Expert in Dubai & Abu Dhabi offers guaranteed LG Tv /
+                LED repair. Our company is a quality conscious company, so we
+                always provide guaranteed services. As our customers trust us so
+                we never like to lose our trust.
+              </h1>
               LG Appliances are renowned for their resource-efficient operation,
               consuming less water, energy, and detergent. Therefore, you can
               always rely on LG Customer Care as the ultimate destination for
               repairing your home appliances. Simply get in touch with us via a
               call or WhatsApp to schedule an appointment. Our service center is
               equipped to deliver top-quality repair and maintenance services
-              for the entire range of LG appliances, including LG washing
-              machines, dishwashers, fridges, dryers, and all other electrical
-              home appliances. Our commitment is to have a technician arrive and
-              repair your machine on the same day. At the LG Service Center
-              Dubai, our goal is to provide our customers with the finest repair
-              and maintenance services. Our professionals possess the expertise
-              to repair all models of LG washing machines, equipped with
-              cutting-edge tools for maintenance and repair tasks. If anything
-              goes awry with your LG home appliance, bring it to us, and one of
-              our specialists will promptly rectify the issue. We also offer
-              preventative maintenance solutions that can extend the lifespan of
-              your LG appliances. Our customer support operates round the clock,
-              ensuring that you can reach out to us at any time. LG Service
-              Center Dubai takes pride in delivering exceptional repair services
-              for LG home appliances, right at your doorstep. We guarantee a
-              satisfactory experience for every customer, and we remain
-              committed to our promise of round-the-clock support. For all your
-              LG home appliance repair needs, LG Service Center Dubai is the
-              ultimate destination."
+              for the entire range of LG appliances, washing machines,
+              dishwashers, fridges, dryers, and all other electrical home
+              appliances and all other electrical home appliances. Our
+              commitment is to have a technician arrive and repair your machine
+              on the same day. At the LG Service Center Dubai, our goal is to
+              provide our customers with the finest repair and maintenance
+              services. Our professionals possess the expertise to repair all
+              models of LG Tv / LEDs, equipped with cutting-edge tools for
+              maintenance and repair tasks. If anything goes awry with your LG
+              home appliance, bring it to us, and one of our specialists will
+              promptly rectify the issue. We also offer preventative maintenance
+              solutions that can extend the lifespan of your LG appliances. Our
+              customer support operates round the clock, ensuring that you can
+              reach out to us at any time. LG Service Center Dubai takes pride
+              in delivering exceptional repair services for LG home appliances,
+              right at your doorstep. We guarantee a satisfactory experience for
+              every customer, and we remain committed to our promise of
+              round-the-clock support. For all your LG home appliance repair
+              needs, LG Service Center Dubai is the ultimate destination."
             </p>
             <div className="divider" />
             <Lg_Call_or_Whatsapp />
@@ -236,7 +239,7 @@ const LgPage = () => {
         <div className="hero min-h-screen bg-[#fafafa]">
           <div className="hero-content  flex-col lg:flex-row-reverse">
             <img
-              src="/images/fridge/2.jpg"
+              src="/images/tv/2.jpg"
               className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
             />
             <div>
@@ -246,19 +249,19 @@ const LgPage = () => {
               <p className="py-6 text-black">
                 So, if you are looking for professional LG Repair Technicians in
                 Dubai and Abu Dhabi, then contact us today.We provide repair
-                services for all kinds of LG kitchen appliances, including
-                washing machines,dishwashers,dryers,Fridges, cooking ranges,
-                dishwashers, microwaves, and more. We have years of success in
-                this industry We offer excellent customer service We have many
-                satisfied customers Offer comprehensive Appliance repair
-                insurance We do deal anywhere in Dubai and Abu Dhabi plan to
-                save a couple of dirhams We are the timely service provider We
-                do deal delivery, installation, repair, and maintenance for All
-                LG appliances We use high-quality, genuine, and original spare
-                parts We have well-trained technicians Our professionals used to
-                latest repair tools for the best diagnosis At 24/7 Customer
-                Care, we are committed to providing our clients with the highest
-                quality of service.
+                services for all kinds of LG kitchen appliances, washing
+                machines, dishwashers, fridges, dryers, and all other electrical
+                home appliances We have years of success in this industry We
+                offer excellent customer service We have many satisfied
+                customers Offer comprehensive Appliance repair insurance We do
+                deal anywhere in Dubai and Abu Dhabi plan to save a couple of
+                dirhams We are the timely service provider We do deal delivery,
+                installation, repair, and maintenance for All LG appliances We
+                use high-quality, genuine, and original spare parts We have
+                well-trained technicians Our professionals used to latest repair
+                tools for the best diagnosis At 24/7 Customer Care, we are
+                committed to providing our clients with the highest quality of
+                service.
               </p>
               <button
                 className="btn btn-info-content bg-[#be123c] text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
@@ -298,8 +301,8 @@ const LgPage = () => {
                 get in touch with us via a call or WhatsApp to schedule an
                 appointment. Our service center is equipped to deliver
                 top-quality repair and maintenance services for the entire range
-                of LG appliances, including LG washing machines, dishwashers,
-                fridges, dryers, and all other electrical home appliances."
+                of LG appliances, washing machines, dishwashers, fridges,
+                dryers, and all other electrical home appliances"
               </p>
               <button
                 className="btn btn-info-content bg-[#be123c] text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
@@ -314,132 +317,49 @@ const LgPage = () => {
         </div>
       </div>
 
-      <div className="hero min-h-screen bg-base-100">
-        <div className="hero-content flex-col lg:flex-row">
-          <div>
-            <h1 className="text-4xl font-bold">LG Service Center Abu Dhabi</h1>
-            <p className="py-6">
-              We provide LG Service Center in Abu Dhabi.The best LG Service
-              Center in Abu Dhabi.We provide following services:
-            </p>
-            <p>
-              "Washing Machine Repair: In the UAE, count on us for dependable
-              and efficient washing machine repair services. Our expert
-              technicians will have your appliance running smoothly. Dishwasher
-              Repair: Restore your dishes' sparkle with our trusted dishwasher
-              repair service in the UAE.LG Service Center Dubai: We are
-              dedicated to providing high-quality service and repairs for LG
-              kitchen appliances. Our services cover a wide range of LG kitchen
-              appliances, including fridges, cooking ranges, dishwashers,
-              microwaves, and more. We have a proven track record of success,
-              excellent customer service, and many satisfied customers. We offer
-              comprehensive appliance repair insurance, a warranty plan to save
-              you money, and timely service delivery, installation, repair, and
-              maintenance for all major appliance brands. We use high-quality,
-              genuine, and original spare parts and employ well-trained
-              technicians equipped with the latest repair tools for accurate
-              diagnosis. 24/7 Customer Care: We are committed to providing our
-              clients with top-notch service. We understand that each repair job
-              is unique, and we offer personalized solutions to meet your
-              specific needs. Our goal is to ensure your appliances are repaired
-              efficiently and effectively, allowing you to resume your daily
-              routine without disruptions. You can trust our well-trained
-              technicians to deliver professional and reliable LG repairs,
-              making sure your appliances are in capable hands. LG Service
-              Center in Abu Dhabi: Our LG Service Team is here for you no matter
-              what, no matter when. Whether you need help with your LG service
-              center, we've got you covered. LG washing machines are known for
-              using less water, energy, and detergent, so you can rely on LG
-              Customer Care as the best place to fix your home appliances.{" "}
-              <span className="text-lg font-bold">
-                Simply call us or send a WhatsApp message to book your
-                appointment. At our service center, we provide high-quality
-                repair and maintenance services for all your LG appliances,
-                including washing machines, dishwashers, fridges, dryers, and
-                all electrical home appliances.
-              </span>{" "}
-              We aim to fix your machine the same day. LG Service Center Dubai:
-              We strive to provide our customers with the best repair and
-              maintenance services. Our professionals are skilled at repairing
-              all models of LG washing machines and have access to cutting-edge
-              equipment for maintaining and repairing LG appliances. If
-              something goes wrong with your LG home appliance, bring it to us,
-              and one of our specialists will fix it promptly. We also offer
-              preventative maintenance options to extend the lifespan of your LG
-              appliances. 24/7 Customer Support: Our customer support is
-              available around the clock. LG Service Center Dubai is your go-to
-              location for all your LG home appliance repair needs. We promise
-              every customer will receive excellent service. No Extra Charges:
-              We don't charge extra. We provide reliable and quick repair
-              services."
-            </p>
-            <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
-              <button
-                className="px-5 py-4 bg-[#be123c] text-white hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
-                onClick={() => {
-                  window.location.href = `tel:${phoneNumber}`;
-                }}
-              >
-                {phoneNumber}
-              </button>
-              <button
-                className="px-5 py-4 bg-[#be123c] text-white hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
-                onClick={() => {
-                  window.location.href = `//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`;
-                }}
-              >
-                Whatsapp Now
-              </button>
-            </div>
-          </div>
-          <div>
-            <h1 className="text-4xl mt-2 font-bold">LG Service Center Dubai</h1>
-            <p className="py-6">
-              We provide LG Service Center in Dubai. The best LG Service Center
-              in Dubai. We provide following services:
-            </p>
-            <p>
-              Our skilled technicians ensure a quick and hassle-free fix.
-              Refrigerator Repair: Keep your cool with our professional fridge
-              repair service in the UAE. Our experienced technicians ensure your
-              refrigerator runs smoothly, preserving your food at the ideal
-              temperature. Dryer Repair: Don't let damp laundry dampen your
-              spirits. Trust our reliable clothes dryer repair service in the
-              UAE to restore efficient drying power. Cooking Range Repair: Get
-              your home appliances back on track with our comprehensive repair
-              services in the UAE. From cooking ranges to coffee makers and
-              everything in between, our skilled technicians deliver reliable
-              and efficient solutions to keep your household running smoothly.
-              Dishwasher Repair: Our expert technicians can repair LG Appliances
-              technicians in Dubai and Abu Dhabi, contact us today. Our
-              experienced home appliance technicians will come to repair your LG
-              Appliances.We repair all types of home appliances at your doorstep
-              with quick service.
-            </p>
-            <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
-              <button
-                className="px-5 py-4 bg-[#be123c] text-white hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
-                onClick={() => {
-                  window.location.href = `tel:${phoneNumber}`;
-                }}
-              >
-                {phoneNumber}
-              </button>
-              <button
-                className="px-5 py-4 bg-[#be123c] text-white hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
-                onClick={() => {
-                  window.location.href = `//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`;
-                }}
-              >
-                Whatsapp Now
-              </button>
+      {/* services */}
+      <div id="washing" className="w-full h-auto mb-10 flex justify-center">
+        <div className="w-full mx-5 md:mx-5 h-auto flex flex-col justify-center items-center">
+          <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+            <div className="card lg:card-side bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  className="w-full md:w-[400px] h-full"
+                  src="/images/tv/2.jpg"
+                  alt="Album"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title  hover:scale-110 duration-300 hover:cursor-pointer">
+                  Tv / LED Repair
+                </h2>
+                <div className="sm:w-[200px] md:w-[400px] h-auto">
+                  <p>
+                    Delivering top-tier, professional solutions that guarantee
+                    the optimal performance of your Tv / LED. Our LG Tv / LED
+                    Repair Service is your reliable partner for all your LG Tv /
+                    LED repair needs. We understand the importance of a fully
+                    functional Tv / LED in your daily life, which is why our
+                    team of experienced technicians is dedicated to providing
+                    prompt, efficient, and professional repair solutions.
+                  </p>
+                </div>
+
+                <div className="card-actions justify-end">
+                  <button
+                    className="btn bg-[#be123c] text-white mt-3 hover:scale-110 duration-300 "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
+                    Call Us
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <Lg_Services />
-     
     </div>
   );
 };

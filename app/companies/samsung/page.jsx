@@ -8,10 +8,9 @@ import phoneNumber from "../../../content/phoneNumber";
 import {
   CheckBadgeIcon,
   WrenchScrewdriverIcon,
-  PhoneIcon,
+  PhoneIcon
 } from "@heroicons/react/24/outline";
 import CallOrWhatsappButton from "../../../components/buttons/CallOrWhatsappButton";
-import CallButton from "../../../components/buttons/CallButton";
 
 const SamsungPage = () => {
   return (
@@ -26,14 +25,25 @@ const SamsungPage = () => {
           <div className="hero-overlay bg-opacity-60" />
           <div className="hero-content text-center md:text-left text-white">
             <div>
-              <h1 className="text-5xl font-bold font-raleway text-white leading-tight">
-                Samsung Appliances Service & Repair Center
+              <h1 className="text-4xl  font-raleway text-white leading-tight">
+                <span className="text-primary-focus font-bold">
+                  UAE Repair Expert
+                </span>{" "}
+                <span>
+                  Samsung Appliances Service Center a Best Repair Company in
+                  Dubai and Abu Dhabi.
+                </span>
               </h1>
               <p className="py-6 text-lg font-raleway">
-                UAE Repair Expert is a Samsung Service Centre in Dubai
-                and Abu Dhabi. Trust our well-trained technicians to deliver
-                professional & reliable Samsung repairs ensuring your appliances
-                are in capable hands.
+                UAE Repair Expert is a reliable Samsung service center in
+                Dubai and Abu Dhabi, you can rest assured that your appliance
+                will be fixed quickly and efficiently with the highest quality
+                parts available. At UAE Repair Expert , we stand as your
+                trusted partner, providing top-tier solutions to meet your every
+                repair need.Our experienced technicians are available 24/7 to
+                provide fast and efficient repairs for both residential and
+                commercial customers. Check out the exceptional qualities of all
+                your appliances.
               </p>
               <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -53,6 +63,49 @@ const SamsungPage = () => {
                   Whatsapp Now
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className=" w-full bg-black h-auto   ">
+        <div className="hero min-h-screen bg-[#fafafa] bg-[url(/images/mainbanner.jpg)] bg-fixed">
+          <div className="hero-overlay bg-black bg-opacity-70" />
+          <div className="hero-content  flex-col lg:flex-row-reverse ">
+            <img
+              src="/images/samsung.jpg"
+              className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
+            />
+            <div>
+              <h1 className="text-3xl mt-3 md:mt-0 md:text-5xl font-bold text-white">
+                "Samsung Appliances REPAIR IN DUBAI AND ABU DHABI"
+              </h1>
+              <p className="py-12 text-md px-4 font-semibold text-white">
+                "We recognize the uniqueness of every repair task, which is why
+                we offer tailor-made solutions designed to meet the specific
+                requirements of our clients.{" "}
+                <span className="text-lg text-primary-focus font-extrabold">
+                  {" "}
+                  Our primary objective is to ensure the efficient and effective
+                  repair of our clients' appliances, allowing them to seamlessly
+                  resume their daily routines without interruptions
+                </span>
+                .Therefore, you can always rely on Samsung Customer Care as the
+                ultimate destination for repairing your home appliances. Simply
+                get in touch with us via a call or WhatsApp to schedule an
+                appointment. Our service center is equipped to deliver
+                top-quality repair and maintenance services for the entire range
+                of Samsung appliances, including Samsung washing machines,
+                dishwashers, fridges, dryers, and all other electrical home
+                appliances."
+              </p>
+              <button
+                className="btn btn-info-content bg-black text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
+                onClick={() => {
+                  window.location.href = `tel:${phoneNumber}`;
+                }}
+              >
+                Call Now
+              </button>
             </div>
           </div>
         </div>
@@ -175,9 +228,12 @@ const SamsungPage = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-5xl font-bold max-w-xl">
-              Welcome To UAE Repair Expert Samsung Service Center
+            <h1 className="text-3xl font-bold max-w-xl">
+              UAE Repair Expert in Dubai and Abu Dhabi knowing all the
+              quality, reliability, and functionality standers provide you the
+              best Samsung Washing Machine Repair Service.
             </h1>
+
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
                 <WrenchScrewdriverIcon className="h-10 w-10 text-neutral-focus hover:scale-110 duration-300" />
@@ -189,17 +245,32 @@ const SamsungPage = () => {
               </div>
             </div>
             <p className="py-6 max-w-xl">
-              Samsung Service Center Dubai is dedicated to providing
-              high-quality service and repairs of Samsung kitchen appliances. We
-              provide repair services for all kinds of Samsung kitchen
-              appliances, including fridges, cooking ranges, dishwashers,
-              microwaves, and more. Our experienced technicians are available
-              24/7 to provide fast and efficient repairs for both residential
-              and commercial customers. With our reliable Samsung service center
-              in Dubai, you can rest assured that your appliance will be fixed
-              quickly and efficiently with the highest quality parts available.
-              We guarantee a fast response time for any repair requests and aim
-              to ensure complete customer
+              SSamsung Appliances are renowned for their resource-efficient
+              operation, consuming less water, energy, and detergent. Therefore,
+              you can always rely on Samsung Customer Care as the ultimate
+              destination for repairing your home appliances. Simply get in
+              touch with us via a call or WhatsApp to schedule an appointment.
+              Our service center is equipped to deliver top-quality repair and
+              maintenance services for the entire range of Samsung appliances,
+              including Samsung washing machines, dishwashers, fridges, dryers,
+              and all other electrical home appliances. Our commitment is to
+              have a technician arrive and repair your machine on the same day.
+              At the Samsung Service Center Dubai, our goal is to provide our
+              customers with the finest repair and maintenance services. Our
+              professionals possess the expertise to repair all models of
+              Samsung washing machines, equipped with cutting-edge tools for
+              maintenance and repair tasks. If anything goes awry with your
+              Samsung home appliance, bring it to us, and one of our specialists
+              will promptly rectify the issue. We also offer preventative
+              maintenance solutions that can extend the lifespan of your Samsung
+              appliances. Our customer support operates round the clock,
+              ensuring that you can reach out to us at any time. Samsung Service
+              Center Dubai takes pride in delivering exceptional repair services
+              for Samsung home appliances, right at your doorstep. We guarantee
+              a satisfactory experience for every customer, and we remain
+              committed to our promise of round-the-clock support. For all your
+              Samsung home appliance repair needs, Samsung Service Center Dubai
+              is the ultimate destination."
             </p>
             <div className="divider" />
             <CallOrWhatsappButton />
@@ -207,6 +278,171 @@ const SamsungPage = () => {
           </div>
         </div>
       </div>
+      <div className=" w-full bg-black h-auto md:h-[500px] ">
+        <div className="hero min-h-screen bg-[#fafafa]">
+          <div className="hero-content  flex-col lg:flex-row-reverse">
+            <img
+              src="/images/fridge/2.jpg"
+              className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
+            />
+            <div>
+              <h1 className="text-3xl mt-3 md:mt-0 md:text-5xl font-bold text-base-content">
+                We Provide Repairing Servies In Areas OF Dubai and Abu Dhabi!
+              </h1>
+              <p className="py-6 text-black">
+                So, if you are looking for professional Samsung Repair
+                Technicians in Dubai and Abu Dhabi, then contact us today.We
+                provide repair services for all kinds of Samsung kitchen
+                appliances, including washing
+                machines,dishwashers,dryers,Fridges, cooking ranges,
+                dishwashers, microwaves, and more. We have years of success in
+                this industry We offer excellent customer service We have many
+                satisfied customers Offer comprehensive Appliance repair
+                insurance We do deal anywhere in Dubai and Abu Dhabi plan to
+                save a couple of dirhams We are the timely service provider We
+                do deal delivery, installation, repair, and maintenance for All
+                Samsung appliances We use high-quality, genuine, and original
+                spare parts We have well-trained technicians Our professionals
+                used to latest repair tools for the best diagnosis At 24/7
+                Customer Care, we are committed to providing our clients with
+                the highest quality of service.
+              </p>
+              <button
+                className="btn btn-info-content bg-black text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
+                onClick={() => {
+                  window.location.href = `tel:${phoneNumber}`;
+                }}
+              >
+                Call Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="hero min-h-screen bg-base-100">
+        <div className="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 className="text-4xl font-bold">
+              Samsung Service Center Abu Dhabi
+            </h1>
+            <p className="py-6">
+              We provide Samsung Service Center in Abu Dhabi.The best Samsung
+              Service Center in Abu Dhabi.We provide following services:
+            </p>
+            <p>
+              "Washing Machine Repair: In the UAE, count on us for dependable
+              and efficient washing machine repair services. Our expert
+              technicians will have your appliance running smoothly. Dishwasher
+              Repair: Restore your dishes' sparkle with our trusted dishwasher
+              repair service in the UAE.Samsung Service Center Dubai: We are
+              dedicated to providing high-quality service and repairs for Samsung
+              kitchen appliances. Our services cover a wide range of Samsung
+              kitchen appliances, including fridges, cooking ranges,
+              dishwashers, microwaves, and more. We have a proven track record
+              of success, excellent customer service, and many satisfied
+              customers. We offer comprehensive appliance repair insurance, a
+              warranty plan to save you money, and timely service delivery,
+              installation, repair, and maintenance for all major appliance
+              brands. We use high-quality, genuine, and original spare parts and
+              employ well-trained technicians equipped with the latest repair
+              tools for accurate diagnosis. 24/7 Customer Care: We are committed
+              to providing our clients with top-notch service. We understand
+              that each repair job is unique, and we offer personalized
+              solutions to meet your specific needs. Our goal is to ensure your
+              appliances are repaired efficiently and effectively, allowing you
+              to resume your daily routine without disruptions. You can trust
+              our well-trained technicians to deliver professional and reliable
+              Samsung repairs, making sure your appliances are in capable hands.
+              Samsung Service Center in Abu Dhabi: Our Samsung Service Team is here
+              for you no matter what, no matter when. Whether you need help with
+              your Samsung service center, we've got you covered. Samsung washing
+              machines are known for using less water, energy, and detergent, so
+              you can rely on Samsung Customer Care as the best place to fix your
+              home appliances. <span className="text-lg font-bold">Simply call us or send a WhatsApp message to book
+              your appointment. At our service center, we provide high-quality
+              repair and maintenance services for all your Samsung appliances,
+              including washing machines, dishwashers, fridges, dryers, and all
+              electrical home appliances.</span> We aim to fix your machine the same
+              day. Samsung Service Center Dubai: We strive to provide our
+              customers with the best repair and maintenance services. Our
+              professionals are skilled at repairing all models of Samsung washing
+              machines and have access to cutting-edge equipment for maintaining
+              and repairing Samsung appliances. If something goes wrong with your
+              Samsung home appliance, bring it to us, and one of our specialists
+              will fix it promptly. We also offer preventative maintenance
+              options to extend the lifespan of your Samsung appliances. 24/7
+              Customer Support: Our customer support is available around the
+              clock. Samsung Service Center Dubai is your go-to location for all
+              your Samsung home appliance repair needs. We promise every customer
+              will receive excellent service. No Extra Charges: We don't charge
+              extra. We provide reliable and quick repair services."
+            </p>
+            <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
+              <button
+                className="px-5 py-4 bg-black text-white hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
+                onClick={() => {
+                  window.location.href = `tel:${phoneNumber}`;
+                }}
+              >
+                {phoneNumber}
+              </button>
+              <button
+                className="px-5 py-4 bg-black text-white hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
+                onClick={() => {
+                  window.location.href = `//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`;
+                }}
+              >
+                Whatsapp Now
+              </button>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-4xl mt-2 font-bold">
+              Samsung Service Center Dubai
+            </h1>
+            <p className="py-6">
+              We provide Samsung Service Center in Dubai. The best Samsung Service
+              Center in Dubai. We provide following services:
+            </p>
+            <p>Our skilled technicians ensure a quick
+              and hassle-free fix. Refrigerator Repair: Keep your cool with our
+              professional fridge repair service in the UAE. Our experienced
+              technicians ensure your refrigerator runs smoothly, preserving
+              your food at the ideal temperature. Dryer Repair: Don't let
+              damp laundry dampen your spirits. Trust our reliable clothes dryer
+              repair service in the UAE to restore efficient drying power.
+              Cooking Range Repair: Get your home appliances back on track with
+              our comprehensive repair services in the UAE. From cooking ranges
+              to coffee makers and everything in between, our skilled
+              technicians deliver reliable and efficient solutions to keep your
+              household running smoothly. Dishwasher Repair: Our expert
+              technicians can repair Samsung Appliances technicians in Dubai and Abu Dhabi,
+              contact us today. Our experienced home appliance technicians will
+              come to repair your Samsung Appliances.We repair all types of home appliances at your
+              doorstep with quick service.</p>
+            <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
+              <button
+                className="px-5 py-4 bg-black text-white hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
+                onClick={() => {
+                  window.location.href = `tel:${phoneNumber}`;
+                }}
+              >
+                {phoneNumber}
+              </button>
+              <button
+                className="px-5 py-4 bg-black text-white hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
+                onClick={() => {
+                  window.location.href = `//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`;
+                }}
+              >
+                Whatsapp Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
       {/* services */}
       <div id="washing" className="w-full h-auto flex justify-center">
@@ -220,7 +456,7 @@ const SamsungPage = () => {
                   alt="Album"
                 />
               </figure>
-              <div className="card-body"> 
+              <div className="card-body">
                 <h2 className="card-title  hover:scale-110 duration-300 hover:cursor-pointer">
                   Washing Machine Repair
                 </h2>
@@ -238,9 +474,12 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "  onClick={() => {
-          window.location.href = `tel:${phoneNumber}`
-        }}>
+                  <button
+                    className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
                     Call Us
                   </button>
                 </div>
@@ -248,7 +487,10 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div id="refrigerator" className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div
+            id="refrigerator"
+            className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl"
+          >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -274,9 +516,12 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "   onClick={() => {
-          window.location.href = `tel:${phoneNumber}`
-        }}>
+                  <button
+                    className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
                     Call Us
                   </button>
                 </div>
@@ -284,7 +529,10 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div id="stove" className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div
+            id="stove"
+            className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl"
+          >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -310,9 +558,12 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "   onClick={() => {
-          window.location.href = `tel:${phoneNumber}`
-        }}>
+                  <button
+                    className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
                     Call Us
                   </button>
                 </div>
@@ -320,7 +571,10 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div id="tv" className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div
+            id="tv"
+            className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl"
+          >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -346,9 +600,12 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "   onClick={() => {
-          window.location.href = `tel:${phoneNumber}`
-        }}>
+                  <button
+                    className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
                     Call Us
                   </button>
                 </div>
@@ -356,7 +613,10 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div id="dishwasher" className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div
+            id="dishwasher"
+            className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl"
+          >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -382,9 +642,12 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "  onClick={() => {
-          window.location.href = `tel:${phoneNumber}`
-        }}>
+                  <button
+                    className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
                     Call Us
                   </button>
                 </div>
@@ -392,7 +655,10 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div id="dryer" className="mt-5 mb-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div
+            id="dryer"
+            className="mt-5 mb-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl"
+          >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -418,9 +684,12 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "   onClick={() => {
-          window.location.href = `tel:${phoneNumber}`
-        }}>
+                  <button
+                    className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
                     Call Us
                   </button>
                 </div>
@@ -428,7 +697,10 @@ const SamsungPage = () => {
             </div>
           </div>
 
-          <div id="oven" className="mt-5 mb-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+          <div
+            id="oven"
+            className="mt-5 mb-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl"
+          >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -454,9 +726,12 @@ const SamsungPage = () => {
                 </div>
 
                 <div className="card-actions justify-end">
-                  <button className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "  onClick={() => {
-          window.location.href = `tel:${phoneNumber}`
-        }}>
+                  <button
+                    className="btn btn-neutral text-white mt-3 hover:scale-110 duration-300 "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
                     Call Us
                   </button>
                 </div>
@@ -465,35 +740,9 @@ const SamsungPage = () => {
           </div>
         </div>
       </div>
-      <div className="hero min-h-screen bg-base-100">
-        <div className="hero-content flex-col lg:flex-row">
-          <div>
-            <h1 className="text-5xl font-bold">Samsung Service Center</h1>
-            <p className="py-6">
-              We provide Samsung Service Center in Dubai and Abu Dhabi. The best Samsung
-              Service Center in Dubai and Abu Dhabi. We provide following
-              services:
-            </p>
-            <ul>
-              <li>Samsung Service Center</li>
-              <li>Samsung Repair Center</li>
-              <li>Samsung Service Center Dubai</li>
-              <li>Samsung Service Center Abu Dhabi</li>
-              <li>Samsung Repair Center Dubai</li>
-              <li>Samsung Repair Center Abu Dhabi</li>
-              <li>Samsung Washing Machine Repair</li>
-              <li>Samsung Dishwasher Repair</li>
-              <li>Samsung Refrigerator Repair</li>
-              <li>Samsung TV repair</li>
-              <li>Samsung Dryer repair</li>
-              <li>Samsung Stove repair</li>
-              <li>Samsung Cooker repair</li>
-              <li>Samsung Oven repair</li>
-            </ul>
-            <CallButton />
-          </div>
-        </div>
-      </div>
+      {/* Footer */}
+
+      
     </div>
   );
 };
