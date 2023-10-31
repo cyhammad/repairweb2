@@ -9,8 +9,7 @@ function Lg_Services() {
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  className="w-full md:w-[400px] h-full"
+                <img loading="lazy"                  className="w-full md:w-[400px] h-full"
                   src="/images/washing/2.webp"
                   alt="Album"
                 />
@@ -52,8 +51,7 @@ function Lg_Services() {
           >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  className="w-full md:w-[400px] h-full"
+                <img loading="lazy"                  className="w-full md:w-[400px] h-full"
                   src="/images/fridge/3.webp"
                   alt="Album"
                 />
@@ -94,8 +92,7 @@ function Lg_Services() {
           >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  className="w-full md:w-[400px] h-full"
+                <img loading="lazy"                  className="w-full md:w-[400px] h-full"
                   src="/images/stove/2.webp"
                   alt="Album"
                 />
@@ -136,8 +133,7 @@ function Lg_Services() {
           >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  className="w-full md:w-[400px] h-full"
+                <img loading="lazy"                  className="w-full md:w-[400px] h-full"
                   src="/images/tv/2.jpg"
                   alt="Album"
                 />
@@ -178,8 +174,7 @@ function Lg_Services() {
           >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  className="w-full md:w-[400px] h-full"
+                <img loading="lazy"                  className="w-full md:w-[400px] h-full"
                   src="/images/dishwasher/2.png"
                   alt="Album"
                 />
@@ -220,8 +215,7 @@ function Lg_Services() {
           >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  className="w-full md:w-[400px] h-full"
+                <img loading="lazy"                  className="w-full md:w-[400px] h-full"
                   src="/images/dryer/1.jpeg"
                   alt="Album"
                 />
@@ -262,8 +256,7 @@ function Lg_Services() {
           >
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure>
-                <img
-                  className="w-full md:w-[400px] h-full"
+                <img loading="lazy"                  className="w-full md:w-[400px] h-full"
                   src="/images/oven/1.jpg"
                   alt="Album"
                 />
