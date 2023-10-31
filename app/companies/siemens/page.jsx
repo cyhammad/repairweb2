@@ -31,7 +31,7 @@ const SiemensPage = () => {
               Siemens Appliances Service & Repair Center
             </h1>
             <p className="py-6 text-lg font-raleway">
-              Quick Appliances Repairs is a Siemens Service Centre in Dubai and
+              UAE REPAIR EXPERT is a Siemens Service Centre in Dubai and
               Abu Dhabi. Trust our well-trained technicians to deliver
               professional & reliable Siemens repairs ensuring your appliances are
               in capable hands.Siemens Dishwasher Repair, Dryer,Washing
@@ -138,7 +138,7 @@ const SiemensPage = () => {
                 We Provide Repairing Servies In Areas OF Dubai and Abu Dhabi!
               </h1>
               <p className="py-6 text-black">
-                Quick Appliances Repairs Center Dubai is dedicated to providing
+                UAE REPAIR EXPERT Center Dubai is dedicated to providing
                 high-quality service and repairs of All Home and kitchen
                 appliances. We provide repair services for all kinds of Home and
                 kitchen appliances, including fridges, cooking ranges,
