@@ -23,7 +23,7 @@ const LgPage = () => {
 
         <div
           className="hero min-h-screen"
-          style={{ backgroundImage: "url('/images/lg.jpg')" }}
+          style={{ backgroundImage: "url('/images/lg.webp')" }}
         >
           <div className="hero-overlay bg-opacity-50" />
           <div className="hero-content text-center md:text-left text-white">

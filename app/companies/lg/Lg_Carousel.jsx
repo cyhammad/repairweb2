@@ -9,7 +9,7 @@ function Lg_Carousel() {
           <div
             id="slide1"
             className="carousel-item relative w-full "
-            style={{ backgroundImage: "url('/images/lg.jpg')" }}
+            style={{ backgroundImage: "url('/images/lg.webp')" }}
           >
             <div className="hero-overlay absolute bg-opacity-70" />
             <div className="hero-content relative text-center md:text-left text-white">
@@ -40,7 +40,7 @@ function Lg_Carousel() {
           <div
             id="slide2"
             className="carousel-item relative w-full "
-            style={{ backgroundImage: "url('/images/lg.jpg')" }}
+            style={{ backgroundImage: "url('/images/lg.webp')" }}
           >
             <div className="hero-overlay absolute bg-opacity-70" />
             <div className="hero-content relative text-center md:text-left text-white">
@@ -73,7 +73,7 @@ function Lg_Carousel() {
           <div
             id="slide3"
             className="carousel-item relative w-full "
-            style={{ backgroundImage: "url('/images/lg.jpg')" }}
+            style={{ backgroundImage: "url('/images/lg.webp')" }}
           >
             <div className="hero-overlay absolute bg-opacity-70" />
             <div className="hero-content relative text-center md:text-left text-white">
@@ -105,7 +105,7 @@ function Lg_Carousel() {
           <div
             id="slide4"
             className="carousel-item relative w-full "
-            style={{ backgroundImage: "url('/images/lg.jpg')" }}
+            style={{ backgroundImage: "url('/images/lg.webp')" }}
           >
             <div className="hero-overlay absolute bg-opacity-70" />
             <div className="hero-content relative text-center md:text-left text-white">
@@ -138,7 +138,7 @@ function Lg_Carousel() {
           <div
             id="slide5"
             className="carousel-item relative w-full "
-            style={{ backgroundImage: "url('/images/lg.jpg')" }}
+            style={{ backgroundImage: "url('/images/lg.webp')" }}
           >
             <div className="hero-overlay absolute bg-opacity-70" />
             <div className="hero-content relative text-center md:text-left text-white">
@@ -170,7 +170,7 @@ function Lg_Carousel() {
           <div
             id="slide6"
             className="carousel-item relative w-full "
-            style={{ backgroundImage: "url('/images/lg.jpg')" }}
+            style={{ backgroundImage: "url('/images/lg.webp')" }}
           >
             <div className="hero-overlay absolute bg-opacity-70" />
             <div className="hero-content relative text-center md:text-left text-white">
@@ -203,7 +203,7 @@ function Lg_Carousel() {
           <div
             id="slide7"
             className="carousel-item relative w-full "
-            style={{ backgroundImage: "url('/images/lg.jpg')" }}
+            style={{ backgroundImage: "url('/images/lg.webp')" }}
           >
             <div className="hero-overlay absolute bg-opacity-70" />
             <div className="hero-content relative text-center md:text-left text-white">
