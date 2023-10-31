@@ -156,25 +156,25 @@ const LgPage = () => {
           <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-5">
             <div className="max-w-xs flex justify-end items-end">
               <img
-                src="/images/tv/1.jpg"
+                src="/images/tv/1.webp"
                 className="max-w-[5.5rem] sm:max-w-[8rem] md:max-w-[10rem] lg:max-w-[8.5rem] xl:max-w-[14rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-start items-end">
               <img
-                src="/images/washing/1.jpg"
+                src="/images/washing/1.webp"
                 className="max-w-[6.5rem] sm:max-w-[9rem] md:max-w-[13rem] lg:max-w-[11rem] xl:max-w-[18rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-end items-start">
               <img
-                src="/images/stove/1.jpg"
+                src="/images/stove/1.webp"
                 className="max-w-[4rem] sm:max-w-[5.5rem] md:max-w-[7rem] lg:max-w-[6rem] xl:max-w-[10rem] shadow-2xl"
               />
             </div>
             <div className="max-w-xs flex justify-start items-start">
               <img
-                src="/images/fridge/1.jpg"
+                src="/images/fridge/1.webp"
                 className="max-w-[5rem] sm:max-w-[7rem] md:max-w-[9.5rem] lg:max-w-[7.5rem] xl:max-w-[13rem] shadow-2xl"
               />
             </div>
@@ -239,7 +239,7 @@ const LgPage = () => {
         <div className="hero min-h-screen bg-[#fafafa]">
           <div className="hero-content  flex-col lg:flex-row-reverse">
             <img
-              src="/images/washing/1.jpg"
+              src="/images/washing/1.webp"
               className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
             />
             <div>
@@ -276,7 +276,7 @@ const LgPage = () => {
         </div>
       </div>
       <div className=" w-full bg-black h-auto mt-12 ">
-        <div className="hero min-h-screen bg-[#fafafa] bg-[url(/images/mainbanner.jpg)] bg-fixed">
+        <div className="hero min-h-screen bg-[#fafafa] bg-[url(/images/mainbanner.webp)] bg-fixed">
           <div className="hero-overlay bg-black bg-opacity-70" />
           <div className="hero-content  flex-col lg:flex-row-reverse ">
             <img
@@ -326,7 +326,7 @@ const LgPage = () => {
               <figure>
                 <img
                   className="w-full md:w-[400px] h-full"
-                  src="/images/washing/2.jpg"
+                  src="/images/washing/2.webp"
                   alt="Album"
                 />
               </figure>

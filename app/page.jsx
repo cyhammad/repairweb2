@@ -70,7 +70,7 @@ export default function Home() {
               </div>
               <div className="max-w-xs flex justify-end items-start">
                 <img
-                  src="/images/stove/1.jpg"
+                  src="/images/stove/1.webp"
                   className="max-w-[4rem] sm:max-w-[5.5rem] md:max-w-[7rem] lg:max-w-[6rem] xl:max-w-[10rem] shadow-2xl"
                 />
               </div>
@@ -146,7 +146,7 @@ export default function Home() {
               </div>
               <div
                 className="md:w-[300px] w-[280px] h-[430px] mt-3 md:mt-0  rounded-2xl "
-                style={{ backgroundImage: "url('/images/stove/1.jpg')" }}
+                style={{ backgroundImage: "url('/images/stove/1.webp')" }}
               >
                 <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
                   <div className="text-center">
@@ -169,7 +169,7 @@ export default function Home() {
 
               <div
                 className="md:w-[300px] w-[280px] h-[430px] mt-3 md:mt-0  rounded-2xl "
-                style={{ backgroundImage: "url('/images/fridge/1.jpg')" }}
+                style={{ backgroundImage: "url('/images/fridge/1.webp')" }}
               >
                 <div className="w-full h-[150px] flex flex-col items-center mt-4  ">
                   <div className="text-center">
@@ -324,7 +324,7 @@ export default function Home() {
               </div>
               <div className="max-w-xs flex justify-start items-end">
                 <img
-                  src="/images/stove/2.jpg"
+                  src="/images/stove/2.webp"
                   className="max-w-[6.5rem] sm:max-w-[9rem] md:max-w-[13rem] lg:max-w-[11rem] xl:max-w-[18rem] shadow-2xl"
                 />
               </div>

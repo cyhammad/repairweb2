@@ -11,7 +11,7 @@ const TvPage = () => {
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            src="/images/tv/1.jpg"
+            src="/images/tv/1.webp"
             className=" rounded-lg shadow-2xl"
             height={500}
             width={500}

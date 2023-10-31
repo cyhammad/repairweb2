@@ -11,7 +11,7 @@ function Lg_Services() {
               <figure>
                 <img
                   className="w-full md:w-[400px] h-full"
-                  src="/images/washing/2.jpg"
+                  src="/images/washing/2.webp"
                   alt="Album"
                 />
               </figure>
@@ -54,7 +54,7 @@ function Lg_Services() {
               <figure>
                 <img
                   className="w-full md:w-[400px] h-full"
-                  src="/images/fridge/3.jpg"
+                  src="/images/fridge/3.webp"
                   alt="Album"
                 />
               </figure>
@@ -96,7 +96,7 @@ function Lg_Services() {
               <figure>
                 <img
                   className="w-full md:w-[400px] h-full"
-                  src="/images/stove/2.jpg"
+                  src="/images/stove/2.webp"
                   alt="Album"
                 />
               </figure>

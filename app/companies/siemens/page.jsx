@@ -17,7 +17,7 @@ const SiemensPage = () => {
       <div className="hero min-h-screen bg-[url(/images/backgrounds/Siemens-bg.jpg)] bg-fixed">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10" style={{zIndex: 0}}>
           <Image
-            src="/images/fridge/2.jpg"
+            src="/images/fridge/2.webp"
             className="max-w-xs md:max-w-xl shadow-2xl"
             height={300}
             width={300}
